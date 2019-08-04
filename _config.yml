@@ -378,3 +378,6 @@ head_scripts:
     is_module: true
   - path: https://unpkg.com/@google-web-components/google-chart@3.0.0/google-chart.js?module
     is_module: true
+
+footer_scripts:
+  - assets/js/kaaro_custom.js
