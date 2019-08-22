@@ -23,7 +23,9 @@ chunks:
 
 Allow us to _materialize_ your next great idea.
 
-We are a team of high synergy Engineers and Design Thinkers based at banks of Yamuna River in India.
+Based in Noida, India, We at endeavour to build and sustain the standards in this modern world with our proficient skills and undying commitment to deliver the top-notch services and products.
+
+Our team of highly skilled engineers and design thinkers, with everyone being ready to become a friend to your project and you personally 😆.
 [More about us](/core)
 
 
