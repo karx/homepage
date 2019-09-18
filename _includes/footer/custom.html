@@ -1,3 +1,54 @@
+{% if site.logo contains "://" %}
+  {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% else %}
+  {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% endif %}
 <!-- start custom footer snippets -->
-
+<div class="section section-footer">
+  <div class="wrapper">
+    <div class="row-2">
+      <div class="col-2 lg-3 md-4"><a href="{{ '/' | relative_url }}" data-ix="logo" class="footer-logo-2 w-nav-brand"><img src="{{ logo_path | relative_url }}" width="104" alt=""></a>
+        <p class="ondark">Embracing digital transformation.</p>
+      </div>
+      <div class="col-2 lg-2 sm-6">
+        <div class="footer-links-container">
+          <h5 class="footer-heading"><a href="#" class="no-underline">Our Work</a></h5><a href="#" class="footer-link ondark">Portfolio</a><a href="blog.html" class="footer-link ondark">Contact us</a><a href="#" class="footer-link ondark">Careers</a></div>
+      </div>
+      <div class="col-2 lg-2 sm-6">
+        <div class="footer-links-container">
+          <h5 class="footer-heading"><a href="#" class="no-underline">Company</a></h5><a href="#" class="footer-link ondark">About Us</a><a href="#" class="footer-link ondark">Our Team</a><a href="#" class="footer-link ondark">Blog</a><a href="#" class="footer-link ondark">FAQs</a></div>
+      </div>
+      <div class="col-2 lg-2 sm-6">
+        <div class="footer-links-container">
+          <h5 class="footer-heading"><a href="#" class="no-underline">Business</a></h5><a href="#" class="footer-link ondark">Clients</a><a href="#" class="footer-link ondark">Team</a><a href="#" class="footer-link ondark">Offices</a><a href="#" class="footer-link ondark">Careers</a></div>
+      </div>
+      <div class="col-2 lg-3 sm-6 xs-12">
+        <div class="footer-links-container">
+          <h5 class="footer-heading"><a href="#" class="no-underline">Let&#x27;s Meet</a></h5>
+          <p class="footer-paragraph">+91 8437166272</p>
+          <p class="footer-paragraph">info@akriya.co.in</p>
+          <p class="footer-paragraph">Akriya Technologies<br>91SpringBoard, Sector-1, Noida</p>
+        </div>
+        <div class="negative-margin">
+          <a target="_blank" href="#" class="social-media-link w-inline-block">
+            <div class="fa-icon ondark"></div>
+          </a><a target="_blank" href="#" class="footer-link w-inline-block"></a><a target="_blank" href="#" class="footer-link w-inline-block"></a><a target="_blank" href="#" class="footer-link w-inline-block"></a><a target="_blank" href="#" class="footer-link w-inline-block"></a><a target="_blank" href="#" class="footer-link w-inline-block"></a>
+          <a target="_blank" href="#" class="social-media-link w-inline-block">
+            <div class="fa-icon ondark"></div>
+          </a>
+          <a target="_blank" href="#" class="social-media-link w-inline-block">
+            <div class="fa-icon ondark"></div>
+          </a>
+          <a target="_blank" href="#" class="social-media-link w-inline-block">
+            <div class="fa-icon ondark"></div>
+          </a>
+          <a target="_blank" href="#" class="social-media-link w-inline-block">
+            <div class="fa-icon ondark"></div>
+          </a>
+        </div>
+      </div>
+      <div class="col-2 lg-2 md-4"></div>
+    </div>
+  </div>
+</div>
 <!-- end custom footer snippets -->
