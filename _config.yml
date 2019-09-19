@@ -224,6 +224,10 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
+  expertise:
+    output: true
+    permalink: /:collection/:path
+    layout: single
 
 # Sass/SCSS
 sass:
@@ -339,6 +343,20 @@ defaults:
       share: false
       related: false
       toc: false
+
+  #expertise
+  - scope:
+      path: ""
+      type: expertise
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      toc: false
+
 
 
 # Theme Settings

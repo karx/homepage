@@ -1115,27 +1115,31 @@ BUTTON
   -webkit-box-flex: 0;
   -webkit-flex: 0 250px;
   -ms-flex: 0 250px;
-  flex: 0 250px;
+  flex: 400px 200px;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.13);
   text-align: center;
 }
 
-.award-cards.margin-bottom.movedown50 {
+.award-cards.margin-bottom.movedown1 {
   position: relative;
   top: 50px;
 }
 
-.award-cards.margin-bottom.movedown100 {
+.award-cards.margin-bottom.movedown2 {
   position: relative;
   top: 100px;
   bottom: 0px;
 }
 
-.award-cards.movedown150 {
+.award-cards.movedown3 {
   position: relative;
   top: 150px;
+}
+.award-cards.movedown4 {
+  position: relative;
+  top: 200px;
 }
 
 .award-image {

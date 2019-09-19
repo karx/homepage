@@ -1138,6 +1138,11 @@ BUTTON
   top: 150px;
 }
 
+.award-cards.movedown200 {
+  position: relative;
+  top: 200px;
+}
+
 .award-image {
   max-width: 110px;
   padding: 21px;

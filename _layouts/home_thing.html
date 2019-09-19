@@ -79,18 +79,16 @@ layout: default
         <h3 class="section-heading left-aligned no-margin-top">Awards &amp; Recognition</h3>
       </div>
       <div class="col awards-cols margin-bottom">
-        <div class="award-cards margin-bottom"><img src="/assets/images_theme/harper-white.svg" alt="" class="award-image margin-bottom">
-          <div class="award-title">Harper Awards</div>
-          <p class="margin-bottom">One of the best Marketing Agency in the planet of 2019</p><a href="#" class="link">Visit Site</a></div>
-        <div class="award-cards margin-bottom movedown50"><img src="/assets/images_theme/seven-white.svg" alt="" class="award-image margin-bottom">
-          <div class="award-title">seven Awards</div>
-          <p class="margin-bottom">Top Android App Designer, Tokyo - Japan Summer 2019</p><a href="#" class="link">Visit Site</a></div>
-        <div class="award-cards margin-bottom movedown100"><img src="/assets/images_theme/kentucy-white.svg" alt="" class="award-image margin-bottom">
-          <div class="award-title">kentucky Awards</div>
-          <p class="margin-bottom">IOS Top Company Marketer Strategist, Illinois 2018</p><a href="#" class="link">Visit Site</a></div>
-        <div class="award-cards movedown150"><img src="/assets/images_theme/chicago-white.svg" alt="" class="award-image margin-bottom">
-          <div class="award-title">chicago Awards</div>
-          <p class="margin-bottom">Best Mobile App Developer Companies 2018</p><a href="#" class="link">Visit Site</a></div>
+        {% for each_expertise in site.expertise %}
+
+          {% assign classname = "movedown" | append: forloop.index0  %}
+          <div class="award-cards margin-bottom {{classname}}"><img src="{{each_expertise.teaser}}" alt=""
+              class="award-image margin-bottom">
+            <div class="award-title">{{each_expertise.title}}</div>
+            <p class="margin-bottom">{{each_expertise.description}}</p><a href="#" class="link">View More</a>
+          </div>
+        {% endfor %}
+
       </div>
     </div>
   </div>
