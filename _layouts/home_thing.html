@@ -75,17 +75,17 @@ layout: default
   <div class="wrapper">
     <div class="row centre-align">
       <div class="left-aligned">
-        <p class="micro-heading left-aligned">company achievement</p>
-        <h3 class="section-heading left-aligned no-margin-top">Awards &amp; Recognition</h3>
+        <p class="micro-heading left-aligned">Expertise</p>
+        <h3 class="section-heading left-aligned no-margin-top">What we do</h3>
       </div>
       <div class="col awards-cols margin-bottom">
         {% for each_expertise in site.expertise %}
 
           {% assign classname = "movedown" | append: forloop.index0  %}
-          <div class="award-cards margin-bottom {{classname}}"><img src="{{each_expertise.teaser}}" alt=""
-              class="award-image margin-bottom">
+          <div class="award-cards margin-bottom {{classname}}">
+            <img src="{{each_expertise.teaser}}" alt="" class="award-image margin-bottom">
             <div class="award-title">{{each_expertise.title}}</div>
-            <p class="margin-bottom">{{each_expertise.description}}</p><a href="#" class="link">View More</a>
+            <p class="margin-bottom">{{each_expertise.description}}</p><a href="{{each_expertise.url}}" class="link">View More</a>
           </div>
         {% endfor %}
 
