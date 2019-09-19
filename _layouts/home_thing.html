@@ -166,14 +166,19 @@ layout: default
     <div class="row">
       <div class="col">
         <div class="w-layout-grid grid-3 img3">
-          <div id="w-node-d75b0073f77d-1508a948" class="blog-card img2">
+          {% for each_post in site.posts | limit: 6 %}
+
+          <div id="w-node-{{forloop.index0}}-1508a948" class="blog-card "
+          style="background-image: url('{{each_post.header.teaser}}');">
             <div class="blog-card-overlay">
-              <div class="blog-card-category">Interface design</div>
-              <h3 class="blog-card-title"><a href="single-blog-article.html" class="blog-card-link">Create an Adaptive Sketch Symbol for Material Design’s Outlined Text Field</a><br></h3>
-              <div class="meta-date">June 29 · 12 min read</div>
+              <div class="blog-card-category">{{each_post.description}}</div>
+              <h3 class="blog-card-title"><a href="{{each_post.url}}" class="blog-card-link">{{each_post.title}}</a><br></h3>
+              <div class="meta-date"></div>
             </div>
           </div>
-          <div id="w-node-49fde485019b-1508a948" class="blog-card img1">
+
+          {% endfor %}
+          <!-- <div id="w-node-49fde485019b-1508a948" class="blog-card img1">
             <div class="blog-card-overlay">
               <div class="blog-card-category">Branding</div>
               <h3 class="blog-card-title"><a href="single-blog-article.html" class="blog-card-link">Advice for Millennials: The Case for Spacing Out</a><br></h3>
@@ -207,7 +212,7 @@ layout: default
               <h3 class="blog-card-title"><a href="single-blog-article.html" class="blog-card-link">2019 UI and UX Design Trends</a><br></h3>
               <div class="meta-date">June 29 · 3 min read</div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
