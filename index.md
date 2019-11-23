@@ -1,10 +1,10 @@
 ---
-title: "Welcome to Akriya Technologies"
-excerpt: "Welcome to Akriya Technologies - embracing Digital Transformation"
+title: "WendorEvents"
+excerpt: "WendorEvents - Engagement for Digital Age"
 <!-- permalink: /home.html -->
 toc: false
 author_profile: false
-excerpt: "Make technology work for you."
+excerpt: "Engagement for Digital Age"
 layout: home_thing
 wide: true
 header:
@@ -12,8 +12,8 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Start a project"
-      url: "/start-a-project"
+    - label: "Book Now"
+      url: "/book-a-project"
 
 chunks:
   - title: offerings

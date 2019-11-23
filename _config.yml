@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "WendorEvents"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "WendorEvents"
+description              : "Engagements for the Digital Age"
+url                      : https://we.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : karx/homepage
+repository               : karx/wendorEvents
 teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/di-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -110,18 +110,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
+  name             : "Kartik Arora"
   avatar           : "/assets/images/Deva-a.png"
   bio              : "Embracing digital transformation"
   location         : "India"
-  email            : admin@akriya.co.in
+  email            : kartik@akriya.co.in
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:admin@akriya.co.in
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+      url: "https://kaaro.akriya.co.in"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/karx_brb"
@@ -146,13 +146,10 @@ footer:
       url: "https://www.facebook.com/akriyaIN/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
+      url: "https://github.com/karx/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/kaaroclick"
@@ -216,7 +213,7 @@ kramdown:
 
 
 collections:
-  projects:
+  photos:
      output: true
      permalink: /:collection/:path
      layout: projecto
@@ -319,10 +316,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
+  # _photos
   - scope:
       path: ""
-      type: projects
+      type: photos
     values:
       layout: single
       author_profile: false
