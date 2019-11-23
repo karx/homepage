@@ -1,6 +1,7 @@
 ---
 title: "Core"
 excerpt: "What, how and why!"
+layout: core
 permalink: /core.html
 toc: true
 ---
