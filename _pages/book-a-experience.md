@@ -1,7 +1,7 @@
 ---
-title: "Start a project"
-excerpt: "Start a project with us"
-permalink: /start-a-project.html
+title: "Book an Experience"
+excerpt: "Book an experience with us"
+permalink: /book-a-experience.html
 toc: true
 ---
 
