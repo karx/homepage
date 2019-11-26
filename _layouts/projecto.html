@@ -14,143 +14,36 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
-
-  {% include sidebar.html %}
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
-
-    <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
-        </header>
-      {% endunless %}
-
-      <section class="page__content" itemprop="text">
-        {% if page.toc %}
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
-            </nav>
-          </aside>
-        {% endif %}
-        {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        {% if page.model%}
-        <div class="model-view">
-          <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="{{page.model.color}}"></model-viewer>
+<div class="section-2 page-header">
+  <div class="wrapper-3">
+    <div class="row-2">
+      <div class="col-2 lg-6 md-4">
+        <h1 class="no-margin">{{page.title}}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section bg-article-1"></div>
+<div class="section-2">
+  <div class="wrapper">
+    <div class="row-2 centre-align">
+      <div class="col-2 lg-6 md-3 sm-2">
+        <div class="rich-text-block w-richtext">
+          {{content}}
         </div>
-        {% endif %}
-        <!-- {% if page.features and page.feature_image_full != true%}
-            <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> Features </h4></header>
-            <div class="feature-main">
-                <div class="featureimage">
-                    {% if page.feature_image %}
-                        <img src={{page.feature_image}} alt="" srcset="">
-                    {% endif %}
-                </div>
-                <div class="features feature-list-1">
-                    {% for feature in page.features  %}
-                        <div class="each-feature"> {{feature}} </div>
-                    {% endfor %}
-                </div>
-                <div class="features feature-list-2">
-                    {% for feature in page.features_2  %}
-                        <div class="each-feature"> {{feature}} </div>
-                    {% endfor %}
-                </div>
-            </div>
-           {% endif %} -->
-        <h3>Features</h3>
-        {% if page.feature_image_full %}
-            <img src="{{page.feature_image}}" alt="" srcset="">
-        {% endif %}
-        {% if page.features and page.features[0] %}
-          <div class="features">
 
-            {% for feature in page.features %}
-
-            {% if feature.title %}
-            <div class="feature">
-              <div>
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
-                </span>
-              </div>
-              <div class="featureText">
-                <h3>
-                  {{ feature.title }}
-                </h3>
-                <p>
-                  {{ feature.description }}
-                </p>
-              </div>
-            </div>
-            {% endif %}
-
-            {% endfor %}
-
-          </div>
-          {% endif %}
-
-      </section>
-
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-        {% if page.last_modified_at %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-      </footer>
-
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
-    </div>
-
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
-  </article>
-
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
-    <div class="page__related">
-      <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
       </div>
     </div>
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
-  {% elsif page.id and page.related %}
-    <div class="page__related">
-      <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      <div class="grid__wrapper">
-        {% for post in site.posts limit:4 %}
-          {% if post.id == page.id %}
-            {% continue %}
-          {% endif %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
+  </div>
+  <div class="wrapper margin-top">
+    <h2 class="wrapper related-title">Related content</h2>
+    <div class="row-2 no-bottom-margins">
+      <div class="col-2 lg-6">
+        <div class="big-blog-thumbnail-container"><a href="#" class="works-link w-inline-block"><img src="images/Screen-Shot-2019-05-24-at-14.20.59.JPG" width="616" srcset="images/Screen-Shot-2019-05-24-at-14.20.59-p-500.jpeg 500w, images/Screen-Shot-2019-05-24-at-14.20.59.JPG 631w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, 45vw" alt="" class="column-image"><div class="centre-align"><h4 class="no-bottom-margins-2">Is Our Desire For Safety Causing Us Harm?</h4><p class="low-opacity">Self improvement</p></div></a></div>
+      </div>
+      <div class="col-2 lg-6">
+        <div class="big-blog-thumbnail-container"><a href="#" class="works-link w-inline-block"><img src="images/sruvs.jpeg" width="616" alt="" class="column-image"><div class="centre-align"><h4 class="no-bottom-margins-2">Defining a Modular Type Scale for Web UI</h4><p class="low-opacity">User Interface</p></div></a></div>
       </div>
     </div>
-  {% endif %}
-
-
+  </div>
 </div>

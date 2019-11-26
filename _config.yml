@@ -213,7 +213,7 @@ kramdown:
 
 
 collections:
-  photos:
+  albums:
      output: true
      permalink: /:collection/:path
      layout: projecto
@@ -221,10 +221,7 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
-  expertise:
-    output: true
-    permalink: /:collection/:path
-    layout: single
+
 
 # Sass/SCSS
 sass:
@@ -316,10 +313,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _photos
+  # _albums
   - scope:
       path: ""
-      type: photos
+      type: albums
     values:
       layout: single
       author_profile: false
