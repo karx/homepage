@@ -7,4 +7,4 @@ images_to_show:
 layout: projecto
 layout: single
 ---
-#### Social Wall!!!
+#### kSocial Wall!!!
