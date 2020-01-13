@@ -228,6 +228,10 @@ collections:
     output: true
     permalink: /:collection/:path
     layout: single
+  labs:
+    output: true
+    permalink: /:collection/:path
+    layout: single
 
 # Sass/SCSS
 sass:
@@ -348,6 +352,19 @@ defaults:
   - scope:
       path: ""
       type: expertise
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      toc: false
+
+  #labs
+  - scope:
+      path: ""
+      type: labs
     values:
       layout: single
       author_profile: false

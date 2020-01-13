@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: ak_blog_single
 title: mail-to-you
 header: 
   teaser: ""
