@@ -4,9 +4,9 @@
 
 $(document).ready(function() {
   // Sticky footer
-  var bumpIt = function() {
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-  };
+  // var bumpIt = function() {
+  //   $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+  // };
 
   bumpIt();
   $(window).resize(
