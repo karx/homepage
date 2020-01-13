@@ -17,7 +17,7 @@ sidebar:
 
 ---
 
-Hola, I am Kartik and and thanks for taking the time to read this!
+Hola, I am Kartik and thanks for taking the time to read this!
 
 Just after graduation in 2015, I worked for Bing Search Engine team for a couple of years and since then have been working on my own venture here in Noida. 
 We work as a product house, who also provide specialized services if and when needed, in the domain of Web Technologies and IoT.

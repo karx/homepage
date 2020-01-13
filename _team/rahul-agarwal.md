@@ -13,8 +13,8 @@ sidebar:
     image_alt: "animated image of Rahul Agarwal"
     text: "Engineer and Architect"
   - title: "Responsibilities"
-    text: "Enforcer"
 
+published: false
 ---
 #Geek #Artificial_Intelligence #Innovator #Speaker #Explorer #Patriot #Traveller
 
