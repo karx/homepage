@@ -5,6 +5,6 @@ permalink: /social-wall.html
 toc: true
 images_to_show:
 layout: projecto
-layout: single
+
 ---
 #### kSocial Wall!!!
