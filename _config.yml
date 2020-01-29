@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Vidiyo"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Vidiyo"
+description              : "Get a personalized shoutout"
+url                      : https://vidiyo.me
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
-teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/vidiyo_logo_new.svg"
+logo                     : "/assets/images/vidiyo_logo_new.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -110,18 +110,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
+  name             : "Vidiyo"
   avatar           : "/assets/images/Deva-a.png"
   bio              : "Embracing digital transformation"
   location         : "India"
-  email            : admin@akriya.co.in
+  email            : admin@vidiyo.me
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@akriya.co.in
+      url: mailto:admin@vidiyo.me
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+      url: "https://vidiyo.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/karx_brb"
@@ -358,9 +358,9 @@ defaults:
 
 
 # Theme Settings
-topbar_color                              : "#000000"
+topbar_color                              : "#090D0F"
 topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_title_color                        : "#090D0F"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
@@ -368,24 +368,24 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#090D0F"
 
-link_color                                : "#1d63ea"
+link_color                                : "#FFFFFF"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color                       : "#FFFFFF"
+feature_text_color                        : "#FFFFFF"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#FF006C"
+feature_icons_background_color            : "#FF006C"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#FF006C"
+social_icons_background_color             : "#FF006C"
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#FF006C"
 
 
 ## Javascript

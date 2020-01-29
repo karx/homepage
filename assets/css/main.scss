@@ -6,13 +6,13 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
 
-$header-font-family: 'Permanent Marker', cursive;
-$content-font-family: 'Kalam', cursive;
+$header-font-family: 'Poppins' ;
+$content-font-family: 'Poppins';
 
 
 body {
     // background: black;
-    
+    background: #090D0F 0% 0% no-repeat padding-box;
     font-family: $header-font-family;
     font-family: $content-font-family;
 
@@ -20,40 +20,121 @@ body {
 #main {
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .intro-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-family: $header-font-family;
-
+    max-width: 100%;
+    @include breakpoint($x-large) {
+        max-width: $max-width;
+    }
     .left-side {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-family: $content-font-family;
         a {
             font-family: $content-font-family;
         }
+        .intro-line-1 {
+            text-align: left;
+            font-size: 1.22em;
+            line-height: 3.688em;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            opacity: 1;
+
+        }
+        .intro-line-2 {
+            font-weight: 200;
+            font-size: 0.703em;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            opacity: 1;
+
+        }
     }
-    .right-side model-viewer{
-        height: 50vh;
+    .right-side {
+        height: 90vh;
         width: 40vw;
         // z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .phone-image {
+            width: 372px;
+            height: 652px;
+            background: transparent url('/assets/images/phone.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .asset-in-phone {
+                width: 343px;
+                height: 623px;
+                background: transparent url('/assets/images/intro-image.png') 0% 0% no-repeat padding-box;
+                border-radius: 22px;
+                opacity: 1;
+            }
+        }
     }
     
 }
 
 .what-container {
-    // border-radius: 20px;
-    // -webkit-box-shadow: 2px -10px 15px -2px rgba(73,78,82,0.36); 
-    // box-shadow: 2px -10px 15px 2px rgba(73,78,82,0.36);
-    // height: 100vh;
-    // z-index: 2;
+    background: #1C262A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    // padding-bottom: 10vh;
     .what-content {
+        @include breakpoint($x-large) {
+            max-width: $max-width;
+        }
+        width: 100%;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+        background: transparent url('/assets/images/what-connector.svg') 50% 10vh no-repeat padding-box;
+        
+        .parts {
+            width: 30vw;
+            height: 40vh;
+            .header {
+                
+                font-weight: 400;
+                font-size: 1.15em;
+                letter-spacing: 0;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+            .content {
+                font-weight: 100;
+                font-size: 0.7em;
+                letter-spacing: 0.75px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+        }
+        .part-1,.part-3 {
+            align-self: flex-end;
+            text-align: right;
+            
+        }
+        .part-2 {
+            align-self: flex-start;
+            text-align: left;
+            
+        }
 
     }
 }
@@ -84,4 +165,33 @@ h1,h2,h3,h4 {
         // justify-content: space-evenly;;
     }
 
+}
+
+.recent-container {
+    background: #1C262A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .recent-header {
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 1;
+        h2 {
+            font-weight: 700;
+            font-size: 2.4em;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            text-align: right;
+            font-weight: 200;
+            font-size: 1    .7em;
+            letter-spacing: 0;
+            color: #F1F1F1;
+            opacity: 1;
+        }
+    }
+    
 }

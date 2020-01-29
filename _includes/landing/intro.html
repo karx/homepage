@@ -5,14 +5,24 @@
             <h1>{{page.excerpt}}</h1>
         </div>
         <div class="intro-line-2">
+            {{page.excerpt-sub}}
+        </div>
+        <div class="intro-line-3">
             {% for button in page.header.actions %}
             <a href="{{button.url}}">{{button.label}}</a>
             {% endfor %}
         </div>
     </div>
     <div class="right-side">
-        <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="transparent">
-        </model-viewer>
+        <!-- <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="transparent">
+        </model-viewer> -->
+        <div class="phone-model">
+            <div class="phone-image">
+                <div class="asset-in-phone">
+                    
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

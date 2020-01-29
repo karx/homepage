@@ -1,0 +1,23 @@
+<div class="recent-container">
+    <div class="recent-header section-header">
+        <h2>Recent Shout-out</h2>
+        <p>Checkout these latest shoutouts on Vidiyo</p>
+    </div>
+    <div class="recent-content">
+        {% for beta in site.recent %}
+        <div class="each-beta-item">
+            <div class="item-header">
+                <h3>{{beta.title}}</h3>
+                <div class="item-info">
+                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
+                    {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
+                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
+                </div>
+                <p>{{beta.description}}</p>
+            </div>
+           
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
