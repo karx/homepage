@@ -4,20 +4,21 @@
         <p>Checkout these latest shoutouts on Vidiyo</p>
     </div>
     <div class="recent-content">
-        {% for beta in site.recent %}
+        {% for beta in site.vidiyos %}
         <div class="each-beta-item">
+            <div class="phone">
+
+            </div>
             <div class="item-header">
-                <h3>{{beta.title}}</h3>
-                <div class="item-info">
-                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
-                    {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
-                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
-                </div>
-                <p>{{beta.description}}</p>
+                {{beta.title}}
             </div>
            
         </div>
         {% endfor %}
+    </div>
+
+    <div class="what-all-btn">
+        Watch all
     </div>
 
 </div>

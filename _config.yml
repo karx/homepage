@@ -216,15 +216,15 @@ kramdown:
 
 
 collections:
-  projects:
+  stars:
      output: true
      permalink: /:collection/:path
-     layout: projecto
+     layout: staro
   team:
      output: true
      permalink: /:collection/:path
      layout: single
-  labs:
+  vidiyos:
      output: true
      permalink: /:collection/:path
      layout: single
@@ -319,10 +319,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
+  # _stars
   - scope:
       path: ""
-      type: projects
+      type: stars
     values:
       layout: single
       author_profile: false
@@ -343,7 +343,7 @@ defaults:
       share: false
       related: false
       toc: false
-  # _labs
+  # _vidiyos
   - scope:
       path: ""
       type: lab

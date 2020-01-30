@@ -1,0 +1,61 @@
+<div class="browse-container">
+    <div class="browse-header section-header">
+        <i>
+            <img src="/assets/images/Icon-feather-search.svg" alt="">
+        </i>
+        <input type="text" class="search-bar" placeholder="Try 'Nitibha kaul' or Tejaswini Manogna" />
+    </div>
+    <div class="browse-title-bar">
+        
+            <div class="head-title">
+                Categories
+
+            </div>
+            <div class="head-options">
+                <div class="heart-count">
+                    You have
+                </div>
+                <div class="buy-hearts">
+                    Buy More
+                </div>
+            </div>
+    </div>
+    <div class="browse-content">
+        <div class="tags-bar">
+
+
+        </div>
+        <div class="all-stars">
+            {% for beta in site.stars %}
+            <div class="each-beta-item">
+                <div class="each-image">
+                    <img src="{{beta.image_url}}" alt="">
+                </div>
+                <div class="item-header">
+                    <div class="name">
+                        <div class="first">
+                            {{beta.first_name}}
+                        </div>
+                        <div class="last">
+                            {{beta.last_name}}
+                        </div>
+                    </div>
+                    <div class="hearts">
+                        <div class="icon">
+                            <img src="/assets/images/Icon-awesome-heart.svg" alt="">
+                        </div>
+                        <div class="value">
+                            {{beta.heart_cost}}
+                        </div>
+                    </div>
+                    
+                </div>
+               
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+        
+    
+
+</div>
