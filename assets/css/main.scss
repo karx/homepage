@@ -60,6 +60,9 @@ body {
             opacity: 1;
 
         }
+        .intro-line-3 {
+            margin-top: 6vh;
+        }
     }
     .right-side {
         flex: 1;
@@ -70,16 +73,16 @@ body {
         justify-content: center;
         align-items: center;
         .phone-image {
-            width: 372px;
-            height: 652px;
+            width: 260px;//372px;
+            height: 456px;//652px;
             background: transparent url('/assets/images/phone.svg') 0% 0% no-repeat padding-box;
             opacity: 1;
             display: flex;
             justify-content: center;
             align-items: center;
             .asset-in-phone {
-                width: 343px;
-                height: 623px;
+                width: 240px; //343px;
+                height: 436px; //623px;
                 background: transparent url('/assets/images/intro-image.png') 0% 0% no-repeat padding-box;
                 border-radius: 22px;
                 opacity: 1;
@@ -389,4 +392,8 @@ body {
         text-decoration: none;
 
     }
+}
+
+a {
+    text-decoration: none;
 }
