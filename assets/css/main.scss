@@ -486,42 +486,106 @@ a {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            .form-intro {
-                text-align: left;
-                font-weight: 200;
-                font-size: 17px;
-                line-height: 25px;
-                letter-spacing: 1.19px;
-                color: #A4A4A4;
-                opacity: 1;
-                padding: 5vh;
-            }
-            .form-profile-image {
-
-            }
-            .form-profile-image-lable {
-                font-weight: 100;
-                font-size: 15px;
-                line-height: 25px;
-                letter-spacing: 1.05px;
-                color: #E2E2E2;
-                opacity: 1;
-            }
-            .form-general {
+            padding-bottom: 10vh;
+            .form-inner-inner {
                 display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
+                flex-direction: column;
+                justify-content: center;
                 align-items: center;
-                flex-wrap: wrap;
+                max-width: 800px;
 
-                .general-each {
-                    // width: 50%;
-                    background: #0E0E11 0% 0% no-repeat padding-box;
+                .form-intro {
+                    text-align: left;
+                    font-weight: 200;
+                    font-size: 17px;
+                    line-height: 25px;
+                    letter-spacing: 1.19px;
+                    color: #A4A4A4;
                     opacity: 1;
-                    width: 30vw;
-                    height: 50px;
-                    border-radius: 25px;
+                    padding: 5vh;
+                }
+                .form-profile-image {
+
+                }
+                .form-profile-image-lable {
+                    font-weight: 100;
+                    font-size: 15px;
+                    line-height: 25px;
+                    letter-spacing: 1.05px;
+                    color: #E2E2E2;
+                    opacity: 1;
+                }
+                .form-general {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    max-width: 60vw;
+                    .general-each {
+                        // width: 50%;
+                        background: #0E0E11 0% 0% no-repeat padding-box;
+                        opacity: 1;
+                        min-width: 18vw;
+                        height: 50px;
+                        border-radius: 25px;
+                        margin: 25px;
+                    }
+                }
+                .form-scocial-intro {
+                    
+                    font-weight: 100;
+                    font-size: 15px;
+                    line-height: 25px;
+                    letter-spacing: 1.05px;
+                    color: #E2E2E2;
+                    opacity: 1;
+                
+                }
+                .form-social {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    max-width: 60vw;
+
+                
+                    .general-each {
+                        // width: 50%;
+                        background: #0E0E11 0% 0% no-repeat padding-box;
+                        opacity: 1;
+                        min-width: 18vw;
+                        height: 50px;
+                        border-radius: 25px;
+                        margin: 25px;
+                    }
+
+                }
+                .form-tnc-intro {
+                    font-weight: 100;
+                    font-size: 15px;
+                    line-height: 25px;
+                    letter-spacing: 1.05px;
+                    color: #E2E2E2;
+                    opacity: 1;
+                }
+                .form-tnc {
+                    background: #0E0E11 0% 0% no-repeat padding-box;
+                    border-radius: 30px;
+                    opacity: 1;
+                    overflow-y: scroll;
+                    max-width: 60vw;
+                    // min-width: 20vw;
+                    height: 250px;
+
+                    font-weight: 100;
+                    font-size: 13px;
+                    line-height: 25px;
+                    letter-spacing: 0.91px;
+                    color: #5B5B5B;
+                    opacity: 1;
+                    padding: 20px;
                 }
             }
         }
