@@ -1,25 +1,25 @@
 ---
-title: "Welcome to Akriya Technologies"
-excerpt: "Welcome to Akriya Technologies - embracing Digital Transformation"
+title: "C.R.E.A.M"
+excerpt: "Custom Real-time Engagement Acceleration Merchandise"
 <!-- permalink: /home.html -->
 toc: false
 author_profile: false
-excerpt: "Make technology work for you."
+excerpt: "Custom Real-time Engagement Acceleration Merchandise"
 layout: landing
 wide: true
 header:
-  overlay_image: "/assets/images/homepage-banner.png"
+  overlay_image: "/assets/images/digital-icon-web-logo.png"
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Start a project"
-      url: "/start-a-project"
+    - label: "Order now"
+      url: "/shop"
 
 chunks:
   - title: offerings
 
 model:
-  asset: "/assets/models/akriya-1-2.glb"
+  asset: "/assets/models/pacman_arcade__animation/pac_man.glb"
   color: #FFFFFF
 
     

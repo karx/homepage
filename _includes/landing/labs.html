@@ -1,15 +1,15 @@
 <div class="labs-container">
     <div class="labs-header section-header">
-        <h2>Cooking in labs</h2>
-        <p>Some of our internal projects.</p>
+        <h2>Product Available</h2>
+        <p>The choice is yours and yours alone</p>
     </div>
     <div class="labs-content">
-        {% for beta in site.labs %}
+        {% for beta in site.products %}
         <div class="each-beta-item">
             <div class="item-header">
-                <h3>{{beta.title}}</h3>
+                <a href="{{beta.url}}" class="link-item"><h3>{{beta.title}}</h3></a>
                 <div class="item-info">
-                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
+                    {% if beta.buy_link %} <a href="{{beta.url}}" class="visit_link i-link"> Buy Now </a> {%endif%}
                     {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
                     {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
                 </div>

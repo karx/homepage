@@ -6,7 +6,7 @@ layout: archive
 {{ content }}
 
 <ul class="taxonomy__index">
-  {% assign threadsInStatus = site.projects | group_by_exp: 'thread', 'thread.status' %}
+  {% assign threadsInStatus = site.products | group_by_exp: 'thread', 'thread.status' %}
   {% for status in threadsInStatus %}
     <li>
       <a href="#{{ status.name }}">
@@ -16,7 +16,7 @@ layout: archive
   {% endfor %}
 </ul>
 
-{% assign threadsByStatus = site.projects | group_by_exp: 'thread', 'thread.status' %}
+{% assign threadsByStatus = site.products | group_by_exp: 'thread', 'thread.status' %}
 {% for status in threadsByStatus %}
   <section id="{{ status.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ status.name }}</h2>

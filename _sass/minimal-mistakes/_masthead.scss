@@ -23,7 +23,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
+    font-family: $header-font-family;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -59,7 +59,6 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-
   .site-nav {
     margin-left: 0;
 
@@ -80,9 +79,10 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-size: 0.6em;
 
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
+    font-weight: 600;
   }
 }

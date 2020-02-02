@@ -70,38 +70,12 @@ layout: default
                 </div>
             </div>
            {% endif %} -->
-        <h3>Features</h3>
-        {% if page.feature_image_full %}
-            <img src="{{page.feature_image}}" alt="" srcset="">
-        {% endif %}
-        {% if page.features and page.features[0] %}
-          <div class="features">
+        
 
-            {% for feature in page.features %}
-
-            {% if feature.title %}
-            <div class="feature">
-              <div>
-                <span class="fa-stack fa-1x">
-                  <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                  <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
-                </span>
-              </div>
-              <div class="featureText">
-                <h3>
-                  {{ feature.title }}
-                </h3>
-                <p>
-                  {{ feature.description }}
-                </p>
-              </div>
-            </div>
-            {% endif %}
-
-            {% endfor %}
-
+          <div class="buy-now">
+            <h3>Buy Now</h3>
+            <p>To buy, s  imply send a request via mail. You can do so by clicking here: <a href="mailto:kartik@akriya.co.in&subject={{page.title}} Order Request" class="link-to-buy">Buy Request</a></p>
           </div>
-          {% endif %}
 
       </section>
 

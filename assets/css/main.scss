@@ -6,9 +6,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
 
-$header-font-family: 'Permanent Marker', cursive;
-$content-font-family: 'Kalam', cursive;
-
+$header-font-family: 'Press Start 2P', cursive;
+$content-font-family: 'Audiowide', cursive;
 
 body {
     // background: black;
@@ -38,6 +37,7 @@ body {
     .right-side model-viewer{
         height: 50vh;
         width: 40vw;
+        
         // z-index: -1;
     }
     
@@ -68,6 +68,10 @@ h1,h2,h3,h4 {
 
 .labs-container {
     margin-top: 100px;
+    .link-item {
+        text-decoration: none;
+        color: inherit;
+    }
     .labs-content {
         display: flex;
         flex-direction: row;

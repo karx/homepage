@@ -2,14 +2,12 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Projects"
-    url: /projects/
+  - title: "Shop"
+    url: /shop/
   - title: "Blog"
     url: "/blogs"
-  - title: "Team"
-    url: /team/
   - title: "Contact Us"
-    url: /contact/
+    url: https://calendly.com/kaaromail/15min
   - title: "Core"
     url: /core.html
   # - title: "About"
