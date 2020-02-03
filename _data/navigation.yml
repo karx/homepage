@@ -11,7 +11,7 @@ main:
   - title: "Sign Up"
     url: /register/
   - title: "Login"
-    url: /login
+    url: /login-page
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

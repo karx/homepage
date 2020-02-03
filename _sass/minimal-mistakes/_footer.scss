@@ -14,7 +14,7 @@
   bottom: 0;
   height: auto;
   /* sticky footer fix end */
-  margin-top: 3em;
+  
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -26,9 +26,9 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+  
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 2em 1em 2em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
