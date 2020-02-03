@@ -1,5 +1,16 @@
 <div class="page__footer-follow">
-  <ul class="social-icons">
+  <div class="footer-container">
+    <div class="left-div">
+      {% include micro/about.html %}
+    </div>
+    <div class="mid-div">
+      {% include micro/usefull-links.html %}
+    </div>
+    <div class="right-div">
+      {% include micro/newseller.html %}
+    </div>
+  </div>
+  <!-- <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
@@ -13,7 +24,7 @@
     {% endif %}
 
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-  </ul>
+  </ul> -->
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.</div>

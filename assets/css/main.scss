@@ -480,13 +480,13 @@ a {
             width: 100%;
             background: #1E1E27 0% 0% no-repeat padding-box;
             opacity: 1;
-            height: 100vh;
             border-radius: 10px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             padding-bottom: 10vh;
+            margin-bottom: 10vh;
             .form-inner-inner {
                 display: flex;
                 flex-direction: column;
@@ -523,13 +523,7 @@ a {
                     flex-wrap: wrap;
                     max-width: 60vw;
                     .general-each {
-                        // width: 50%;
-                        background: #0E0E11 0% 0% no-repeat padding-box;
-                        opacity: 1;
-                        min-width: 18vw;
-                        height: 50px;
-                        border-radius: 25px;
-                        margin: 25px;
+                        
                     }
                 }
                 .form-scocial-intro {
@@ -550,15 +544,12 @@ a {
                     flex-wrap: wrap;
                     max-width: 60vw;
 
-                
+                    
                     .general-each {
                         // width: 50%;
-                        background: #0E0E11 0% 0% no-repeat padding-box;
-                        opacity: 1;
-                        min-width: 18vw;
-                        height: 50px;
-                        border-radius: 25px;
-                        margin: 25px;
+                       
+
+                      
                     }
 
                 }
@@ -586,6 +577,24 @@ a {
                     color: #5B5B5B;
                     opacity: 1;
                     padding: 20px;
+                }
+
+                .general-each {
+                    // width: 50%;
+                    background: #0E0E11 0% 0% no-repeat padding-box;
+                    opacity: 1;
+                    min-width: 18vw;
+                    height: 50px;
+                    border-radius: 25px;
+                    margin: 25px;
+
+                    .gen-input {
+                        background: #0E0E11 0% 0% no-repeat padding-box;
+                        box-shadow: none;
+                        // border: none;
+                        // margin: none;
+                        // border-style: none;
+                    }
                 }
             }
         }
