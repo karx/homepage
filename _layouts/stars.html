@@ -54,6 +54,15 @@ layout: default
         <div class="book-btn">
           Request for {{page.heart_cost}} <img class="heart-icon" src="/assets/images/Icon-awesome-heart.svg" alt="">
         </div>
+
+        <!-- <div class="book-form">
+          <form action="#" method="POST">
+            <div>
+              <label for="This is vidiyo is for">This is vidiyo is for</label>
+              <input type="radio" name="for" id="for">
+            </div>
+          </form>
+        </div> -->
       </div>
       {{ content }}
       {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
