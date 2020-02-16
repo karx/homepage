@@ -6,7 +6,7 @@ main:
     url: /
   - title: "Browse"
     url: "/browse"
-  - title: "Register as Telent"
+  - title: "Register as Talent"
     url: /talent-register/
   - title: "Sign Up"
     url: /register/

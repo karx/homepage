@@ -11,4 +11,7 @@ front_:type: actors
 tags: 
     - Bollywood
 heart_cost: 15
+categories:
+    - Recently Added
+    - Actor
 ---

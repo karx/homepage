@@ -12,18 +12,45 @@
                 Categories
 
             </div>
-            <div class="head-options">
+            <!-- <div class="head-options">
                 <div class="heart-count">
                     You have
                 </div>
                 <div class="buy-hearts">
                     Buy More
                 </div>
-            </div>
+            </div> -->
     </div>
     <div class="browse-content">
         <div class="tags-bar">
+            
 
+            {% for star in site.stars %}
+                {% if star.categories %}
+                    {% for eachCategory in star.categories %}
+                        {% capture tmp %}{{ tmp }}#{{ eachCategory }}{% endcapture %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+
+            {% assign allcategoriess = tmp | remove_first: '#' | split: '#' | sort %}
+
+            <!-- Step 2: create an array of unique categoriess (without duplicates) -->
+
+            {% for categories in allcategoriess %}
+                {% unless tmp2 contains categories %}
+                    {% capture tmp2 %}{{ tmp2 }}#{{ categories | strip }}{% endcapture %}
+                {% endunless %}
+            {% endfor %}
+
+            {% assign uniquecategoriess = tmp2 | remove_first: '#' | split: '#' | sort %}
+
+            {% for eachCategory in uniquecategoriess %}
+            <!-- {{tmp}} -->
+            <div class="each-tag">
+                {{eachCategory}}
+            </div>
+            {% endfor %}
 
         </div>
         <div class="all-stars">

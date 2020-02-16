@@ -7,7 +7,7 @@
         {% for beta in site.vidiyos %}
         <div class="each-beta-item">
             <div class="phone">
-
+                <video class="video-autoplay-pusher" src="{{beta.vid_url}}" autoplay loop muted></video>
             </div>
             <div class="item-header">
                 {{beta.title}}
@@ -17,8 +17,8 @@
         {% endfor %}
     </div>
 
-    <div class="what-all-btn">
+    <!-- <div class="what-all-btn">
         Watch all
-    </div>
+    </div> -->
 
 </div>

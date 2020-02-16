@@ -10,4 +10,8 @@ header:
 layout: stars
 front_type: comic
 heart_cost: 20
+categories:
+    - Youtuber
+    - Streamer
+    - Actor
 ---
