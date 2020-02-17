@@ -7,93 +7,117 @@
             If you have fans and want to join Vidiyo as talent, you can enroll here and we'll be in touch.
         </div>
         <div class="reg-form-form">
-            <div class="form-inner-inner">
+            <form name="talent-register" method="POST" data-netlify="true" action="/talent-reg-start">
 
 
-                <div class="form-intro">
-                    Fill out the form here
-                </div>
-                <div class="form-profile-image">
-                    <img src="/assets/images/form-profile-upload.svg" alt="">
-                </div>
-                <div class="form-profile-image-lable">
-                    Profile Picture
-                </div>
-                <div class="form-general">
-                    <div class="general-each first-name">
-                        <input type="text" class="gen-input" placeholder="First Name" aria-placeholder="First Name" />
+                <div class="form-inner-inner">
+
+
+                    <div class="form-intro">
+                        Fill out the form here
                     </div>
-                    <div class="general-each last-name">
-                        <input type="text" class="gen-input" placeholder="Last Name" aria-placeholder="Last Name" />
-
+                    <!-- <div class="form-profile-image">
+                        <img src="/assets/images/form-profile-upload.svg" alt="">
                     </div>
-                    <div class="general-each email">
-                        <input type="text" class="gen-input" placeholder="Email" aria-placeholder="Email" />
+                    <div class="form-profile-image-lable">
+                        Profile Picture
+                    </div> -->
+                    <div class="form-general">
+                        <div class="general-each first-name">
+                            <input type="text" class="gen-input" placeholder="First Name" name="first-name"
+                                aria-placeholder="First Name" />
+                        </div>
+                        <div class="general-each last-name">
+                            <input type="text" class="gen-input" placeholder="Last Name" name="last-name"
+                                aria-placeholder="Last Name" />
 
-                    </div>
-                    <div class="general-each contact">
-                        <input type="text" class="gen-input" placeholder="contact" aria-placeholder="contact" />
-                    </div>
-                </div>
-                <div class="form-social-intro">
-                    Social handle
-                </div>
-                <div class="form-social">
+                        </div>
+                        <div class="general-each email">
+                            <input type="text" class="gen-input" placeholder="Email" name="email"
+                                aria-placeholder="Email" />
 
-                    <div class="general-each insta">
-                        <input type="text" class="gen-input social-input" placeholder="insta"
-                            aria-placeholder="insta" />
-
+                        </div>
+                        <div class="general-each contact">
+                            <input type="text" class="gen-input" placeholder="contact number" name="contact"
+                                aria-placeholder="contact" />
+                        </div>
                     </div>
-                    <div class="general-each ticktok">
-                        <input type="text" class="gen-input social-input" placeholder="ticktok"
-                            aria-placeholder="ticktok" />
-
+                    <div class="form-social-intro">
+                        Social handle
                     </div>
-                    <div class="general-each youtube">
-                        <input type="text" class="gen-input social-input" placeholder="youtube"
-                            aria-placeholder="youtube" />
+                    <div class="form-social">
 
-                    </div>
-                    <div class="general-each twitter">
-                        <input type="text" class="gen-input social-input" placeholder="twitter"
-                            aria-placeholder="twitter" />
-                    </div>
-                </div>
-                <div class="form-tnc-intro">
-                    Terms and Conditions
-                </div>
-                <div class="form-tnc">
-                    Welcome to vidiyo.me! These terms and conditions outline the rules and regulations for the use of
-                    Vidiyo’s Website, located at vidiyo.me. By accessing this website we assume you accept these terms
-                    and conditions. Do not continue to use vidiyo.me if you do not agree to take all of the terms and
-                    conditions stated on this page. Our Terms and Conditions were created with the help of the Terms And
-                    Conditions Generator and the Terms & Conditions Generator. The following terminology applies to
-                    these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: “Client”,
-                    “You” and “Your” refers to you, the person log on this website and compliant to the Company’s terms
-                    and conditions. “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our Company. “Party”,
-                    “Parties”, or “Us”, refers to both the Client and ourselves. All terms refer to the offer,
-                    acceptance and consideration of payment necessary to undertake the process of our assistance to the
-                    Client in the most appropriate manner for the express purpose of meeting the Client’s needs in
-                    respect of provision of the Company’s stated services, in accordance with and subject to, prevailing
-                    law of Netherlands. Any use of the above terminology or other words in the singular, plural,
-                    capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to
-                    same. Cookies We employ the use of cookies. By accessing vidiyo.me, you agreed to use cookies in
-                    agreement with the Vidiyo’s Privacy Policy. Most interactive websites use cookies to let us retrieve
-                    the user’s details for each visit. Cookies are used by our website to enable the functionality of
-                    certain areas to make it easier for people visiting our website. Some of our affiliate/advertising
-                    partners may also use cookies. License Unless otherwise stated, Vidiyo and/or its licensors own the
-                    intellectual property rights for all material on vidiyo.me. All intellectual property rights are
-                    reserved. You may access this from vidiyo.me for your own personal use subjected to restrictions set
-                    in these terms and conditions.
-                </div>
-                <div class="form-tnc-check">
+                        <div class="general-each insta">
+                            <input type="text" class="gen-input social-input" placeholder="Instagram"
+                                aria-placeholder="Instagram" />
 
+                        </div>
+                        <div class="general-each ticktok">
+                            <input type="text" class="gen-input social-input" placeholder="TickTok"
+                                aria-placeholder="TickTok" />
+
+                        </div>
+                        <div class="general-each youtube">
+                            <input type="text" class="gen-input social-input" placeholder="YouTube"
+                                aria-placeholder="YouTube" />
+
+                        </div>
+                        <div class="general-each twitter">
+                            <input type="text" class="gen-input social-input" placeholder="Twitter"
+                                aria-placeholder="Twitter" />
+                        </div>
+                    </div>
+                    <div class="form-tnc-intro">
+                        Terms and Conditions
+                    </div>
+                    <div class="form-tnc">
+                        Welcome to vidiyo.me! These terms and conditions outline the rules and regulations for the use
+                        of
+                        Vidiyo’s Website, located at vidiyo.me. By accessing this website we assume you accept these
+                        terms
+                        and conditions. Do not continue to use vidiyo.me if you do not agree to take all of the terms
+                        and
+                        conditions stated on this page. Our Terms and Conditions were created with the help of the Terms
+                        And
+                        Conditions Generator and the Terms & Conditions Generator. The following terminology applies to
+                        these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements:
+                        “Client”,
+                        “You” and “Your” refers to you, the person log on this website and compliant to the Company’s
+                        terms
+                        and conditions. “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our Company.
+                        “Party”,
+                        “Parties”, or “Us”, refers to both the Client and ourselves. All terms refer to the offer,
+                        acceptance and consideration of payment necessary to undertake the process of our assistance to
+                        the
+                        Client in the most appropriate manner for the express purpose of meeting the Client’s needs in
+                        respect of provision of the Company’s stated services, in accordance with and subject to,
+                        prevailing
+                        law of Netherlands. Any use of the above terminology or other words in the singular, plural,
+                        capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to
+                        same. Cookies We employ the use of cookies. By accessing vidiyo.me, you agreed to use cookies in
+                        agreement with the Vidiyo’s Privacy Policy. Most interactive websites use cookies to let us
+                        retrieve
+                        the user’s details for each visit. Cookies are used by our website to enable the functionality
+                        of
+                        certain areas to make it easier for people visiting our website. Some of our
+                        affiliate/advertising
+                        partners may also use cookies. License Unless otherwise stated, Vidiyo and/or its licensors own
+                        the
+                        intellectual property rights for all material on vidiyo.me. All intellectual property rights are
+                        reserved. You may access this from vidiyo.me for your own personal use subjected to restrictions
+                        set
+                        in these terms and conditions.
+                    </div>
+                    <div class="form-tnc-check">
+                        <input type="checkbox" name="agree-tnc" id="Agree"> I Agree</select>
+                    </div>
+                    <button type="submit"><div class="form-submit-btn">
+                        Register
+                    </div>
+                    </button>
                 </div>
-                <div class="form-submit-btn">
-                    Register
-                </div>
-            </div>
+
+            </form>
         </div>
     </div>
 
