@@ -4,6 +4,9 @@ description: Live counter of followers on Twitter
 buy_link: /shop
 # visit_link: https://thoughtjumper.akriya.co.in
 layout: projecto
+
+owner: global
+product_type: frame
 ---
 ### CREAM for Twitter
 A dedicated device for your Twitter profile. 

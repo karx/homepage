@@ -224,10 +224,14 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
-  labs:
+  partners:
      output: true
-     permalink: /:collection/:path
+     permalink: /p/:path
      layout: single
+  product_types:
+    output: true
+    permalink: /:collection/:path
+    layout: single
 
 # Sass/SCSS
 sass:
@@ -343,10 +347,22 @@ defaults:
       share: false
       related: false
       toc: false
-  # _labs
+  # partners
   - scope:
       path: ""
-      type: lab
+      type: partners
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      toc: false
+# product_types
+  - scope:
+      path: ""
+      type: product_types
     values:
       layout: single
       author_profile: false
