@@ -1,4 +1,5 @@
 ---
+identifier: instagram-di
 title: Instagram Followers
 description: Live counter of followers on Instagram
 buy_link: /shop
@@ -6,6 +7,8 @@ buy_link: /shop
 layout: projecto
 owner: global
 product_type: frame
+price: 5000
+
 ---
 ### CREAM for Instagram
 A dedicated device for your Instagram profile. 
