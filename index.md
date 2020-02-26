@@ -12,7 +12,7 @@ header:
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "RSVP"
-      url: "/play"
+      url: "/rsvp"
 
 chunks:
   - title: offerings

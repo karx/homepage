@@ -1,0 +1,62 @@
+<div class="rsvp-forms-container">
+  <form
+    accept-charset="UTF-8"
+    action="/thankyou"
+    method="POST"
+    enctype="multipart/form-data"
+    target="_blank"
+    name="rsvp-kreedakendra-01"
+    data-netlify="true"
+  >
+    <div class="form-group">
+      <label for="in-email" required="required">Email address</label>
+      <input
+        type="email"
+        name="email"
+        class="form-control"
+        id="in-email"
+        aria-describedby="emailHelp"
+        placeholder="Enter email"
+      />
+    </div>
+    <div class="form-group">
+      <label for="in-name">Name</label>
+      <input
+        type="text"
+        name="name"
+        class="form-control"
+        id="in-name"
+        placeholder="Enter your name"
+        required="required"
+      />
+    </div>
+    <div class="form-group">
+      <label for="in-fav-game">Favourite Game</label>
+      <select
+        class="form-control select-with-option"
+        id="in-fav-game"
+        name="fav-game"
+        required="required"
+      >
+        <option>CS:GO</option>
+        <option>Minecraft</option>
+        <option>Pubg - Mobile</option>
+        <option>PlayerUnknown's Battleground</option>
+        <option>Portal</option>
+        <option>PlayerUnknown's Battleground</option>
+        <option>NFS</option>
+        <option>FIFA</option>
+        <option>Mario</option>
+
+      </select>
+    </div>
+    <hr />
+    <div class="form-group mt-3">
+      <label class="mr-2">Upload your Photo:</label>
+      <p class="note">I would not be checking if it's human photo. If you upload your dog's photo, please bring dog along. Entry is using face recognition. Cat faces is in Beta.</p>
+      <input type="file" name="file" />
+    </div>
+    <hr />
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
