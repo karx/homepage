@@ -21,6 +21,7 @@ model:
   asset: "/assets/models/pacman_arcade__animation/pac_man.glb"
   color: #FFFFFF
 
+linky_link: https://calendly.com/akriya/engagement-experience-booking
     
 ---
 
