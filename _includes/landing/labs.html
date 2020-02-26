@@ -1,6 +1,6 @@
 <div class="labs-container">
     <div class="labs-header section-header">
-        <h2>Product Available</h2>
+        <h2>Product Showcased</h2>
         <p>The choice is yours and yours alone</p>
     </div>
     <div class="labs-content">
@@ -9,13 +9,13 @@
             <div class="item-header">
                 <a href="{{beta.url}}" class="link-item"><h3>{{beta.title}}</h3></a>
                 <div class="item-info">
-                    {% if beta.buy_link %} <a href="{{beta.url}}" class="visit_link i-link"> Buy Now </a> {%endif%}
+                    {% if beta.buy_link %} <a href="{{beta.url}}" class="visit_link i-link"> View </a> {%endif%}
                     {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
                     {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
                 </div>
                 <p>{{beta.description}}</p>
             </div>
-           
+
         </div>
         {% endfor %}
     </div>

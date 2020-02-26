@@ -1,19 +1,18 @@
 ---
-title: "C.R.E.A.M"
-excerpt: "Custom Real-time Engagement Acceleration Merchandise"
+title: "Kreeda Kendra"
+excerpt: "Make-shift Gaming Parlour"
 <!-- permalink: /home.html -->
 toc: false
 author_profile: false
-excerpt: "Custom Real-time Engagement Acceleration Merchandise"
-layout: landing
 wide: true
+layout: landing
 header:
   overlay_image: "/assets/images/digital-icon-web-logo.png"
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Order now"
-      url: "/shop"
+    - label: "RSVP"
+      url: "/play"
 
 chunks:
   - title: offerings

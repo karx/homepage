@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "C.R.E.A.M"
+title                    : "Kreeda Kendra"
 title_separator          : "-"
-name                     : "C.R.E.A.M"
-description              : "Custom Merchandise for Engagement Acceleration"
-url                      : https://di.akriya.co.in
+name                     : "Kreeda Kendra"
+description              : "Make-shift Gaming Parlour"
+url                      : https://kk.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
 teaser                   : "/assets/images/digital-icon-web-logo.png"
@@ -110,7 +110,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "C.R.E.A.M"
+  name             : "Kreeda Kendra"
   avatar           : "/assets/images/Deva-a.png"
   bio              : "Custom Merchandise for Engagement Acceleration"
   di.location         : "India"
@@ -374,7 +374,7 @@ defaults:
 
 
 # Theme Settings
-topbar_color                              : "#000000"
+topbar_color                              : "#6689a2"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
