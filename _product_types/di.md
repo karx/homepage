@@ -5,6 +5,7 @@ description: a frame that tells FAME
 ---
 
 ## Pushed
+
 | Title | Stub | KPI | One Liner |  KPI delivery |
 | ---- | ---- | --- | --| ---|
 | CS:GO | kkcsgo | Score: | kill everything that moves | ⏳ |
