@@ -109,10 +109,10 @@ h1,h2,h3,h4 {
 
 .the-page {
     min-height: 600px;
-    background-position: center; /* Center the image */
+    
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-
+    background-size: contain; /* Resize the background image to cover the entire container */
+    background-position: center center;
 }
 
 #page-1 {

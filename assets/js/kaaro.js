@@ -30,13 +30,13 @@ async function journeyStart() {
     kaaroScrollTo('page-5');
     await delay(1000);
     kaaroScrollTo('page-6');
-    await delay(1000);
+    await delay(3000);
     kaaroScrollTo('page-7');
-    await delay(1000);
+    await delay(4000);
     kaaroScrollTo('page-8');
     await delay(5000);
     kaaroScrollTo('page-9');
-    await delay(2000);
+    await delay(4000);
     kaaroScrollTo('intro');
 }
 
