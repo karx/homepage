@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "HalfPipe in Bir"
+title:  "Skateboarding Halfpipe in Bir"
 header:
   teaser: "/assets/images/Bhoj-PNG.png"
 tags:
@@ -20,4 +20,12 @@ model:
   asset: "/assets/models/bir-half-pip.gltf"
   color: #EAE6A4
 permalink: /pipe.html
+author: false
+
 ---
+
+## Skateboaring Halfpipe
+Design by Nitin S. P. Rawat
+
+## Located At
+![L'Chaim in Bir](/assets/images/invitephotos/Page 10.png)
