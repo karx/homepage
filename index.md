@@ -1,13 +1,13 @@
 ---
-title: "Kreeda Kendra"
-excerpt: "Make-shift Gaming Parlour"
+title: "Bhoj"
+excerpt: "आओ खाओ मौज मनाओ"
 <!-- permalink: /home.html -->
 toc: false
 author_profile: false
 wide: true
 layout: landing
 header:
-  overlay_image: "/assets/images/digital-icon-web-logo.png"
+  overlay_image: "/assets/images/invitephotos/Bhoj-Icon.svg"
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
@@ -17,8 +17,22 @@ header:
 chunks:
   - title: offerings
 
+sidebar:
+  - title: Intro
+    image: "/assets/images/invitephotos/Page 1.png"
+    image-alt: ESP32 Developer module image
+    text: 
+  - title: Epiloge
+    image: "/assets/images/invitephotos/Page 2.png"
+    image-alt: ESP32 Developer module image
+    text: 
+  - title: Page 3
+    image: "/assets/images/invitephotos/Page 3.png"
+    image-alt: ESP32 Developer module image
+    text: 
+
 model:
-  asset: "/assets/models/pacman_arcade__animation/pac_man.glb"
+  asset: "/assets/models/kacchul_2.gltf"
   color: #FFFFFF
 
 linky_link: /rsvp

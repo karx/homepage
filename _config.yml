@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kreeda Kendra"
+title                    : "Bhoj"
 title_separator          : "-"
-name                     : "Kreeda Kendra"
-description              : "Make-shift Gaming Parlour"
-url                      : https://kk.akriya.co.in
+name                     : "Bhoj"
+description              : "आओ खाओ मौज मनाओ"
+url                      : https://bhoj.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
-teaser                   : "/assets/images/digital-icon-web-logo.png"
-logo                     : "/assets/images/digital-icon-web-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/invitephotos/Bhoj-Icon.svg"
+logo                     : "/assets/images/invitephotos/Bhoj-Icon.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -83,11 +83,8 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : karx_brb
-facebook:
-  username               : AkriyaIN
-  app_id                 : 334414337063190
-  publisher              : AkriyaIN
+  username               : introvertchefin
+
 linkedin                 : karx01
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
@@ -96,9 +93,8 @@ social:
   type                   : Organization
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/karx_brb"
-    - "https://instagram.com/kaaroclick"
+    - "https://twitter.com/introvertchefin"
+    - "https://instagram.com/introvertchefin"
 
 # Analytics
 analytics:
@@ -110,52 +106,52 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kreeda Kendra"
+  name             : "Yogesh Pandey"
   avatar           : "/assets/images/Deva-a.png"
-  bio              : "Custom Merchandise for Engagement Acceleration"
+  bio              : "आओ खाओ मौज मनाओ"
   di.location         : "India"
-  email            : admin@akriya.co.in
+  email            : yogesh@edvanta.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@akriya.co.in
+      url: mailto:yogesh@edvanta.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+      url: "https://aedvanta.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/karx_brb"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
+      url: "https://twitter.com/introvertchefin"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://www.facebook.com/akriyaIN/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
+      url: "https://github.com/devendvanta"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/kaaroclick"
+      url: "https://instagram.com/introvertchefin"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/karx_brb"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
+      url: "https://twitter.com/introvertchefin"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://www.facebook.com/akriyaIN/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
+      url: "https://github.com/introvertchefin"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
+      url: "https://gitlab.com/devedvanta"
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   url: "https://bitbucket.org/kaaro/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/kaaroclick"
+      url: "https://instagram.com/introvertchefin"
 
 
 # Reading Files
@@ -216,7 +212,7 @@ kramdown:
 
 
 collections:
-  products:
+  fooditems:
      output: true
      permalink: /:collection/:path
      layout: projecto
@@ -374,17 +370,17 @@ defaults:
 
 
 # Theme Settings
-topbar_color                              : "#6689a2"
+topbar_color                              : "#F44336"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/images/digital-icon-web-logo.png                    # Replace with alternative image path or image URL.
+cover_image                               : /assets/images/invitephotos/Bhoj-Icon.svg                   # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : yellow                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#EAE6A4"
 
 link_color                                : "#1d63ea"
 

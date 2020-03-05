@@ -6,8 +6,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
 //Pacifico
-$header-font-family: 'Monoton', cursive;
-$content-font-family: 'Tomorrow', cursive;
+$header-font-family: 'Playfair Display', serif;
+$content-font-family: 'Josefin Slab', serif;
 
 body {
     // background: black;
@@ -24,8 +24,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: $header-font-family;
-
+    // font-family: $header-font-family;
+    font-family: 'Halant', serif;
     .left-side {
         display: flex;
         flex-direction: column;
@@ -105,4 +105,36 @@ h1,h2,h3,h4 {
 }
 .rsvp-date {
   color: mediumslateblue;
+}
+
+.the-page {
+    min-height: 600px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+#page-1 {
+    background-image: url("/assets/images/invitephotos/Page 1.png") ;
+}
+
+#page-2 {
+    background-image: url("/assets/images/invitephotos/Page 2.png") ;
+}
+
+#page-3 {
+    background-image: url("/assets/images/invitephotos/Page 3.png") ;
+}
+
+#page-4 {
+    background-image: url("/assets/images/invitephotos/Page 4.png") ;
+}
+
+#page-5 {
+    background-image: url("/assets/images/invitephotos/Page 5.png") ;
+}
+
+#page-6 {
+    background-image: url("/assets/images/invitephotos/Page 6.png") ;
 }
