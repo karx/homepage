@@ -1,5 +1,5 @@
 ---
-title: "Bhoj"
+title: "भोज"
 excerpt: "आओ खाओ मौज मनाओ"
 <!-- permalink: /home.html -->
 toc: false

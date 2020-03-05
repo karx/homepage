@@ -37,6 +37,8 @@ async function journeyStart() {
     await delay(5000);
     kaaroScrollTo('page-9');
     await delay(4000);
+    kaaroScrollTo('page-10');
+    await delay(4000);
     kaaroScrollTo('intro');
 }
 

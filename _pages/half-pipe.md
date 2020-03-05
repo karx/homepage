@@ -17,8 +17,7 @@ tags:
 #     image-alt: ESP32 Developer module image
 #     text: 
 model:
-  asset: "/assets/models/bir-half-pip.gltf
-  "
-  color: #FFFFFF
+  asset: "/assets/models/bir-half-pip.gltf"
+  color: #EAE6A4
 permalink: /pipe.html
 ---
