@@ -1,5 +1,5 @@
 
-<div class="intro-container">
+<div class="intro-container" id="intro">
     <div class="left-side">
         <div class="intro-line-1">
             <h1>{{page.excerpt}}</h1>
@@ -8,11 +8,15 @@
             {% for button in page.header.actions %}
             <a href="{{button.url}}">{{button.label}}</a>
             {% endfor %}
+            <div class="play-start" id="play-start">
+                ▶
+            </div>
         </div>
     </div>
     <div class="right-side">
         <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="#EAE6A4">
         </model-viewer>
     </div>
+    <audio id="themSounds" src="/assets/images/invitephotos/Wahan Kaun Hai Tera Musafir Jayega Kahan - GUIDE_haO0ucjvxeo.mp3" preload="auto"></audio>
 </div>
 
