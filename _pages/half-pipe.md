@@ -28,4 +28,4 @@ author: false
 Design by Nitin S. P. Rawat
 
 ## Located At
-![L'Chaim in Bir](/assets/images/invitephotos/Page 10.png)
+[![L'Chaim in Bir](/assets/images/invitephotos/Page 10.png)](https://maps.app.goo.gl/wtSQUJwVgKbpvHTo7)
