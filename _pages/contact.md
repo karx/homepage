@@ -6,10 +6,10 @@ toc: true
 ---
 
 
-## Want us to work for you?
-Send an **RFP** at [_info@akriya.co.in_](mailto:info@akriya.co.in)
+## Need help?
+Contact Kamal at [_neelkamalpanday@gmail.com_](mailto:neelkamalpanday@gmail.com)
 
 
-## Looking to work with us?
-Send us your resume at [_careers@akriya.co.in_](mailto:careers@akriya.co.in)
+## Looking to collaborate?
+Send us a propsal at [_neelkamalpanday@gmail.com_](mailto:neelkamalpanday@gmail.com)
 

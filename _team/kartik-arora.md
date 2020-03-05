@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: single
 title:  "Kartik Arora"
 profile_image: "https://avatars3.githubusercontent.com/u/7826138?s=400&u=9fb2c463d89472c513d0d0f47c77218f348a0a0b&v=4"
@@ -34,4 +34,4 @@ I am an aspiring developer advocate, DIY enthusiast, a little extrovert and also
 
 ## Contact info
 * mail: kartik@akriya.co.in
-* mobile: +91-8437166272
+* mobile: +91-8437166272 -->

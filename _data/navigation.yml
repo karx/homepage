@@ -2,12 +2,12 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "play"
+  - title: "RSVP"
     url: /rsvp/
-  - title: "Blog"
-    url: "/blogs"
+  # - title: "Blog"
+  #   url: "/blogs"
   - title: "Contact Us"
-    url: https://calendly.com/akriya/engagement-experience-booking
+    url: /contact.html
   - title: "Core"
     url: /core.html
   # - title: "About"

@@ -4,7 +4,7 @@ excerpt: "What, how and why!"
 permalink: /core.html
 toc: true
 ---
-# Event Proposal - `Kreeda Kendra`
+<!-- # Event Proposal - `Kreeda Kendra`
 
 ## About Us
 `Kreeda Kendra` is a small experience meetup set up for a group of like-minded individuals-associates-partners. 
@@ -131,4 +131,4 @@ Images Carousel Full Netlfix FUll
 * Budget Freeze
 * Game prelims
 * Catering Finalize
-* Fin this document
+* Fin this document -->
