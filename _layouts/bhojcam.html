@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="cam-div">
+    <div id="loading" style='display:flex'>
+        <div class="spinner-text">
+            Loading PoseNet model...
+        </div>
+        <div class="sk-spinner sk-spinner-pulse"></div>
+    </div>
+    <div id='main' aria-label="Camera Feed with overlay for visual feedback">
+        <video id="video" playsinline style=" -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        display: none;
+        ">
+        </video>
+        <canvas id="output" />
+    </div>
+</div>

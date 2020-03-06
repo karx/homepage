@@ -20,4 +20,5 @@ model:
   asset: "/assets/models/bir-half-pip.gltf"
   color: #EAE6A4
 permalink: /pipe.html
+author: false
 ---
