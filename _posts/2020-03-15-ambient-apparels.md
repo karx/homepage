@@ -33,10 +33,9 @@ author:
       url: "https://instagram.com/ashtam55"
 
 author_profile: true
-gist: true
-
 
 ---
+Tees Which Love Talking
 
 ## Story
 
