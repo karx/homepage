@@ -4,7 +4,8 @@ description: Live counter of YouTube Subsciber count
 buy_link: /shop
 # visit_link: https://thoughtjumper.akriya.co.in
 layout: projecto
-
+owner: global
+product_type: frame
 ---
 
 ### CREAM for YouTube

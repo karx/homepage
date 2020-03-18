@@ -1,20 +1,19 @@
-<!-- <div class="partners-container">
+<div class="partners-container">
     <div class="partners-header section-header">
-        <h2>Awesome partners</h2>
-        
+        <h2>Partners</h2>
+        <p>Featured partners</p>
     </div>
     <div class="partners-content">
-        {% for beta in site.partners %}
-        <div class="each-beta-item">
-            <div class="item-header">
-                <h3>{{beta.title}}</h3>
-                <p>{{beta.description}}</p>
-            </div>
-            <div class="item-info">
-                {{}}
-            </div>
-        </div>
+        {% for post in site.partners limit:4 %}
+            {% if post.id == page.id %}
+                {% continue %}
+            {% endif %}
+            {% include archive-single.html type="grid" %}
         {% endfor %}
     </div>
 
-</div> -->
+    <!-- <div class="partners-more">
+        <a href="./partners.html" class="internal-ling">More..</a>
+    </div> -->
+    <div style="clear: both"></div>
+</div>

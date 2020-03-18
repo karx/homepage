@@ -5,6 +5,22 @@ permalink: /core.html
 toc: true
 ---
 
+## What is C.R.E.A.M ?
+
+|   | |
+| --- | -- |
+| C | Custom |
+| R | Real-time |
+| E | Engagement |
+| A | Acceleration |
+| M | Merchandise |
+
+
+
+CREAM is a system created by Akriya Technologies, to build web-enabled merchandise for increasing engagement and fully leveraging technology in this competitive customer-centric field. The system is designed to provide end-users with notifications and actionables to interact with the Influencer.
+
+Using CREAM, we can have an omnipresent engagement mechanism by surfacing updates and actionables on peripheral/IoT devices. There is a range of web plugins/hooks we leverage to build engagement rules for each device, based on Influencer demand. 
+
 ## What do we do?
 Akriya Technologies is a full-service IoT technology and service company.
 Our high synergy team, innovative problem-solving techniques and a creative touch enable us to help people embrace this decade's Digital Transformation.
@@ -40,3 +56,4 @@ These tools with the right set of hand enable us to design, develop and build wi
 We aim to make people embrace technology.
 
 This thought is deeply rooted in all of us, because of how Technology (as we know it), has changed our lives (as we knew it).
+To know more, visit our [homepage](https://akriya.co.in)

@@ -89,3 +89,22 @@ h1,h2,h3,h4 {
     }
 
 }
+
+.items-for-sale {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .each-item {
+        max-width: 200px;
+
+    }
+}
+
+
+.gist .file {
+    max-height:400px;
+    overflow:auto !important;
+  }
