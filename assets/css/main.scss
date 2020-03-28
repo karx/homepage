@@ -105,3 +105,73 @@ h1,h2,h3,h4 {
         padding-bottom: 1vh;
     }
 }
+
+.nextlive {
+    .main {
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        width: 850px;
+        height: 480px;
+      }
+       
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        margin-top: 2em;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #464646;
+      }
+      h1 sup {
+          text-transform: lowercase;
+          color: #7718d4;
+      }
+       
+      #countdown {
+        color: #F6F4F3;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Lato", sans-serif;
+        font-size: 1em;
+        letter-spacing: 5px;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+       
+      .days, .hours, .minutes, .seconds, .left {
+        display: inline-block;
+        padding: 20px;
+        // width: 120px;
+        border-radius: 10px;
+      }
+       
+      .days {
+        background: #D87200;
+      }
+       
+      .hours {
+        background:  #FF3E41;
+      }
+       
+      .minutes {
+        background: #FFB20C;
+      }
+       
+      .seconds {
+        background:  #2186FF;
+      }
+       
+      .left {
+          background: #E10A0A;
+      }
+      .c-number {
+        font-family: "Montserrat", sans-serif;
+        color: #333;
+        font-size: 5em;
+      }
+}

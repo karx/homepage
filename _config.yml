@@ -96,9 +96,9 @@ social:
   type                   : Organization
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/akriyaIN"
-    - "https://instagram.com/akriyaClick"
+    # - "https://www.facebook.com/akriyaIN/"
+    # - "https://twitter.com/akriyaIN"
+    - "https://instagram.com/naamankithai"
 
 # Analytics
 analytics:
@@ -122,28 +122,28 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://smokestudio.akriya.co.in"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/smokestudio"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/smokestudio/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/smokestudio"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://www.facebook.com/smokestudio/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/naamhaiankit"
+      url: "https://instagram.com/naamankithai"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/smokestudio"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/smokestudio/"
+    - label: "Twitch"
+      icon: "fab fa-fw fa-twitch"
+      url: "https://twitch.tv/karx01"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://www.facebook.com/smokestudio/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/smokestudio"
+      url: "https://instagram.com/naamankithai"
 
 
 # Reading Files
