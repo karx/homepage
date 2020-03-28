@@ -1,26 +1,25 @@
 ---
-title: "Welcome to Akriya Technologies"
-excerpt: "Welcome to Akriya Technologies - embracing Digital Transformation"
+title: "Smoke Studio"
+excerpt: "Bakchodi . Blunts & Blues"
 <!-- permalink: /home.html -->
 toc: false
 author_profile: false
-excerpt: "Make technology work for you."
 layout: landing
 wide: true
-header:
-  overlay_image: "/assets/images/homepage-banner.png"
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "Start a project"
-      url: "/start-a-project"
+# header:
+#   overlay_image: "/assets/images/homepage-banner.png"
+#   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+#   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+#   actions:
+#     - label: "Start a project"
+#       url: "/start-a-project"
 
 chunks:
   - title: offerings
 
 model:
-  asset: "/assets/models/akriya-1-2.glb"
-  color: #FFFFFF
+  asset: "/assets/models/record_bendy_and_the_ink_machine/scene.gltf"
+  color: '#efe9f5'
 
     
 ---

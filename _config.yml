@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Smoke Studio"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Smoke Studio"
+description              : "Bakchodi . Blunts & Blues"
+url                      : https://smokestudio.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
-teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/logo-01.png"
+logo                     : "/assets/images/logo-01.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -110,10 +110,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
-  avatar           : "/assets/images/Deva-a.png"
-  bio              : "Embracing digital transformation"
-  location         : "India"
+  name             : "Smoke Studio"
+  avatar           : "/assets/images/logo-01.png"
+  bio              : Bakchodi . Blunts & Blues"
+  location         : "The Internet"
   email            : admin@akriya.co.in
   links:
     - label: "Email"
@@ -121,41 +121,29 @@ author:
       url: mailto:admin@akriya.co.in
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+      url: "https://smokestudio.akriya.co.in"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
+      url: "https://twitter.com/smokestudio"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
+      url: "https://www.facebook.com/smokestudio/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaClick"
+      url: "https://instagram.com/naamhaiankit"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
+      url: "https://twitter.com/smokestudio"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
+      url: "https://www.facebook.com/smokestudio/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaclick"
+      url: "https://instagram.com/smokestudio"
 
 
 # Reading Files
@@ -360,15 +348,15 @@ defaults:
 # Theme Settings
 topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_title_color                        : "#efe9f5"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
+cover_overlay_color                       : "#efe9f5"
 cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#efe9f5"
 
 link_color                                : "#1d63ea"
 

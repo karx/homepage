@@ -85,3 +85,23 @@ h1,h2,h3,h4 {
     }
 
 }
+
+.the-page {
+    min-height: 600px;
+    
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    background-position: center center;
+    margin-bottom: 25px;
+}
+
+.upcoming {
+    background-image: url("/assets/images/Smoke_studio-01.jpg") ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    #play-start {
+        padding-bottom: 1vh;
+    }
+}
