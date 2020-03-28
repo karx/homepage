@@ -28,6 +28,8 @@ logo                     : "/assets/images/logo-01.png" # path of logo image to 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+instagram_live_link      : "https://instagram.com/naamankithai"
+twitch_live_link         : "https://twitch.tv/karx01"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:

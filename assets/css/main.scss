@@ -6,9 +6,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
 
-$header-font-family: 'Permanent Marker', cursive;
-$content-font-family: 'Kalam', cursive;
-
+$header-font-family: 'Spicy Rice', cursive;
+$content-font-family: 'Indie Flower', cursive;
 
 body {
     // background: black;
@@ -116,7 +115,7 @@ h1,h2,h3,h4 {
       }
        
       h1 {
-        font-family: "Montserrat", sans-serif;
+        
         text-align: center;
         margin-top: 2em;
         font-size: 2em;
@@ -173,5 +172,12 @@ h1,h2,h3,h4 {
         font-family: "Montserrat", sans-serif;
         color: #333;
         font-size: 5em;
+      }
+
+      #isLive {
+          display: none;
+        .live-link {
+            max-width: 200px;
+        }
       }
 }
