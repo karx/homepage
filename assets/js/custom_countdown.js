@@ -1,6 +1,6 @@
 /** code by webdevtrick ( https://webdevtrick.com ) **/
 const year = new Date().getFullYear();
-const choosenDate = new Date(year, 2, 29, 21, 30).getTime();
+const choosenDate = new Date(year, 3, 4, 21, 30).getTime();
 
 let countdown = setInterval(function() {
 
