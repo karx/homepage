@@ -1,7 +1,7 @@
 ---
-title: "Blog"
-excerpt: "What are we upto"
-permalink: /blogs.html
+title: "Streans"
+excerpt: "Replay of live is Lit!"
+permalink: /streams.html
 toc: true
 layout: posts
 # header:

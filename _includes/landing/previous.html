@@ -1,0 +1,19 @@
+<div class="blogs-container">
+    <div class="blogs-header section-header">
+        <h2>Previous Streams</h2>
+        <p>Replay of live is lit!</p>
+    </div>
+    <div class="blogs-content">
+        {% for post in site.posts limit:4 %}
+            {% if post.id == page.id %}
+                {% continue %}
+            {% endif %}
+            {% include archive-single.html type="grid" %}
+        {% endfor %}
+    </div>
+
+    <div class="blogs-more">
+        <a href="./streams.html" class="internal-ling">More..</a>
+    </div>
+
+</div>
