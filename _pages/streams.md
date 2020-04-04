@@ -1,5 +1,5 @@
 ---
-title: "Streans"
+title: "Streams"
 excerpt: "Replay of live is Lit!"
 permalink: /streams.html
 toc: true
