@@ -23,7 +23,7 @@ description              : "Bakchodi . Blunts & Blues"
 url                      : https://smokestudio.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
-teaser                   : "/assets/images/logo-01.png"
+teaser                   : "/assets/images/white with two guitars.png."
 logo                     : "/assets/images/logo-01.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : "Smoke Studio"
-  avatar           : "/assets/images/logo-01.png"
+  avatar           : "/assets/images/white with two guitars.png"
   bio              : Bakchodi . Blunts & Blues"
   location         : "The Internet"
   email            : admin@akriya.co.in

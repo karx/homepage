@@ -30,6 +30,10 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        .intro-image {
+            max-height: 10vh;
+            max-width: 20vw;
+        }
         a {
             font-family: $content-font-family;
         }
