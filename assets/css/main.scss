@@ -6,9 +6,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
 
-$header-font-family: 'Permanent Marker', cursive;
-$content-font-family: 'Kalam', cursive;
-
+$header-font-family: 'Saira Stencil One', cursive;
+$content-font-family: 'Tenali Ramakrishna', sans-serif;
 
 body {
     // background: black;

@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Ashwatthamians"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Ashwatthamians "
+description              : "We are Gamers"
+url                      : https://ashwatthamians.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
-teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/ashwa.jpeg"
+logo                     : "/assets/images/ashwa.jpeg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -110,18 +110,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
-  avatar           : "/assets/images/Deva-a.png"
-  bio              : "Embracing digital transformation"
-  location         : "India"
-  email            : admin@akriya.co.in
+  name             : "Ashwatthamians"
+  avatar           : "/assets/images/ashwa.jpeg"
+  bio              : "We are Gamers"
+  location         : "Discord"
+  email            : admin@ashwatthamians.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@akriya.co.in
+      url: mailto:admin@ashwatthamians.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+      url: "https://ashwatthamians.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/akriyaIN"
@@ -144,15 +144,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
       url: "https://github.com/karx"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/akriyaclick"
@@ -224,14 +218,6 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
-  labs:
-     output: true
-     permalink: /:collection/:path
-     layout: single
-  poems:
-     output: true
-     permalink: /:collection/:path
-     layout: poem_viz
   
 
 # Sass/SCSS
@@ -348,26 +334,6 @@ defaults:
       share: false
       related: false
       toc: false
-  # _labs
-  - scope:
-      path: ""
-      type: lab
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      toc: false
-  # _poems
-  - scope:
-      path: ""
-      type: poems
-    values:
-      layout: poem_viz
-      toc: false
-
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -380,7 +346,7 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#000"
 
 link_color                                : "#1d63ea"
 

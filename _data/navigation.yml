@@ -2,18 +2,18 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Projects"
-    url: /projects/
-  - title: "Blog"
-    url: "/blogs"
-  - title: "Team"
-    url: /team/
-  - title: "Contact Us"
-    url: /contact/
-  - title: "Core"
-    url: /core.html
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Rule Book"
+    url: /rulebook/
+  - title: "Prizes"
+    url: "/prizes"
+  - title: "Point System"
+    url: /pointsystem
+  - title: "Structure"
+    url: /structure
+  - title: "Schedule"
+    url: /schedule
+  - title: "Register"
+    url: /register
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
