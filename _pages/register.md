@@ -7,4 +7,59 @@ permalink: /register.html
 
 
 ## Here is the Registration Form.
-<div class="typeform-widget" data-url="https://ashtamdelhi.typeform.com/to/AH8cft" data-transparency="100" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+
+  <div class="container">
+        <form id="contactForm">
+          <p>
+            <label>Team Name</label>
+            <input type="text" name="team_name" id="team_name" required>
+          </p>
+          <p>
+            <label>Leader Name</label>
+            <input type="text" name="leader_name" id="leader_name" required>
+          </p>
+          <p>
+            <label>Leader IGN (In-Game-Name)</label>
+            <input type="text" name="leader_ign" id="leader_ign" required>
+          </p>
+          <p>
+            <label>Leader Discord Tag (eg: AshwAメKali#2002 )</label>
+            <input type="text" name="leader_dtag" id="leader_dtag" required>
+          </p>
+          <p>
+            <label>Leader Email address</label>
+            <input type="text" name="leader_email" id="leader_email" required>
+          </p>
+          <p>
+            <label>Leader WhatsApp Number</label>
+            <input type="text" name="leader_phone" id="leader_phone" required>
+          </p>
+          <p>
+            <label>Player 2 IGN</label>
+            <input type="text" name="p2_ign" id="p2_ign" required>
+          </p>
+          <p>
+            <label>Player 3 IGN</label>
+            <input type="text" name="p3_ign" id="p3_ign" required>
+          </p>
+          <p>
+            <label>Player 4 IGN</label>
+            <input type="text" name="p4_ign" id="p4_ign" required>
+          </p>
+          <p>
+            <label>Player 5 IGN</label>
+            <input type="text" name="p5_ign" id="p5_ign">
+          </p>
+          <p>
+            <label>Player 6 IGN</label>
+            <input type="text" name="p6_ign" id="p6_ign">
+          </p>
+          <p class="full">
+            <button type="submit">Proceed to Pay</button>
+          </p>
+        <h4>Entry Fees INR 100 to be charged</h4>
+        </form>
+
+  </div>
+
