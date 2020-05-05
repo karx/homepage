@@ -1,5 +1,5 @@
 ---
-title: "Register"
+title: "Ashwa Cup 1.0"
 excerpt: "Register for Cup"
 permalink: /register.html
 
@@ -93,7 +93,7 @@ permalink: /register.html
 
 function paymentprocess(){
 var options = {
-    "key": "rzp_live_ub8ivKmihDj8b4", // Enter the Key ID generated from the Dashboard
+    "key": "rzp_live_VMH3swrMj6hdJW", // Enter the Key ID generated from the Dashboard
     "amount": "10000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
     "name": "AGN Esports",
