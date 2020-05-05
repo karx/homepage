@@ -59,6 +59,7 @@ permalink: /register.html
             <button type="submit" id="button" onclick="paymentprocess()">Proceed to Pay</button>
           </p>
         <h6>Entry Fees INR 97.64 + 2.36 (Gateway Charges) total INR 100 to be charged.</h6>
+        <p>Payments are secured via Razorpay</p>
         
   </div>
 
@@ -145,6 +146,7 @@ var uniqueID = document.getElementById('leader_phone').value;
         </div>
         <div class="modal-body">
           <p class="text-center">Your Registration has been confirmed. Check your email for detials.</p>
+          <p class="text-center">Didn't Receive Mail no issue. Join our <a href="https://bit.ly/2VFEchg">Discord Server</a> for more informations.</p>
         </div>
         <div class="modal-footer">
           <button class="btn btn-success btn-block" data-dismiss="modal" align="center">OK</button>
