@@ -58,18 +58,15 @@ permalink: /register.html
           <p class="full">
             <button type="submit" id="button" onclick="paymentprocess()">Proceed to Pay</button>
           </p>
-        <h4>Entry Fees INR 100 to be charged</h4>
+        <h6>Entry Fees INR 97.64 + 2.36 (Gateway Charges) total INR 100 to be charged.</h6>
         
   </div>
 
 
 
 <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
-
-
 <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
-
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
 
@@ -155,4 +152,3 @@ var uniqueID = document.getElementById('leader_phone').value;
       </div>
     </div>
   </div>
-  
