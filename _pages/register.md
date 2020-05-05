@@ -11,6 +11,7 @@ permalink: /register.html
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <div class="container">
+  <form>
           <p>
             <label>Team Name</label>
             <input type="text" name="team_name" id="team_name" required>
@@ -29,7 +30,7 @@ permalink: /register.html
           </p>
           <p>
             <label>Leader Email address</label>
-            <input type="text" name="leader_email" id="leader_email" required>
+            <input type="email" name="leader_email" id="leader_email" required>
           </p>
           <p>
             <label>Leader WhatsApp Number</label>
@@ -55,11 +56,12 @@ permalink: /register.html
             <label>Player 6 IGN (Optional)</label>
             <input type="text" name="p6_ign" id="p6_ign">
           </p>
+        <h6>Entry Fees INR 97.64 + 2.36 (Gateway Charges) total INR 100 to be charged.</h6>
+        <p>Payments are secured via Razorpay</p>
           <p class="full">
             <button type="submit" id="button" onclick="paymentprocess()">Proceed to Pay</button>
           </p>
-        <h6>Entry Fees INR 97.64 + 2.36 (Gateway Charges) total INR 100 to be charged.</h6>
-        <p>Payments are secured via Razorpay</p>
+</form>
         
   </div>
 
@@ -92,6 +94,7 @@ permalink: /register.html
 <script>
 
 function paymentprocess(){
+  if 
 var options = {
     "key": "rzp_live_VMH3swrMj6hdJW", // Enter the Key ID generated from the Dashboard
     "amount": "10000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
