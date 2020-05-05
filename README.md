@@ -3,6 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/karx/homepage.svg)](https://raw.githubusercontent.com/karx/homepage/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg)](https://jekyllrb.com/)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/karx01)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81970528-877b-40b8-afa0-f20ffb4676e7/deploy-status)](https://app.netlify.com/sites/ashwatthamians/deploys)
 
 Ashwatthamians - We are Gamers
 
@@ -15,3 +16,6 @@ For general support and discussion of this project, please join the Discord serv
 
 To check known bugs and see planned changes and features for this project, please see the GitHub issues.
 Found a bug we don't already have an issue for? Please report it in a new GitHub issue with as much detail as you can!
+
+This site is deployed using Netlify.   
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81970528-877b-40b8-afa0-f20ffb4676e7/deploy-status)](https://app.netlify.com/sites/ashwatthamians/deploys)
