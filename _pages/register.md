@@ -5,7 +5,7 @@ permalink: /register.html
 
 ---
 
-
+![Ashwa_Cup_Banner](/assets/images/ashwa_banner_wn.jpeg)
 ## Here is the Registration Form.
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
