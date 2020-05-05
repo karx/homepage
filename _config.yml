@@ -96,9 +96,8 @@ social:
   type                   : Organization
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/akriyaIN"
-    - "https://instagram.com/akriyaClick"
+    - "https://www.facebook.com/ashwatthamians/"
+    - "https://www.instagram.com/ashwatthamians_official/"
 
 # Analytics
 analytics:
@@ -114,36 +113,30 @@ author:
   avatar           : "/assets/images/ashwa.jpeg"
   bio              : "We are Gamers"
   location         : "Discord"
-  email            : admin@ashwatthamians.com
+  email            : holybgaming@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@ashwatthamians.com
+      url: mailto:holybgaming@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://ashwatthamians.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN" 
+      url: "https://ashwatthamians.com" 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaClick"
+      url: "https://www.instagram.com/ashwatthamians_official/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
+      url: "https://www.facebook.com/ashwatthamians/"
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
-      url: "https://github.com/karx"
+      url: "https://bit.ly/35pARX1"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaclick"
+      url: "https://www.instagram.com/ashwatthamians_official/"
 
 
 # Reading Files
