@@ -6,6 +6,7 @@ permalink: /register.html
 ---
 
 ![Ashwa_Cup_Banner](/assets/images/ashwa_banner_wn.jpeg)
+
 ## Here is the Registration Form.
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -94,7 +95,6 @@ permalink: /register.html
 <script>
 
 function paymentprocess(){
-  if 
 var options = {
     "key": "rzp_live_VMH3swrMj6hdJW", // Enter the Key ID generated from the Dashboard
     "amount": "10000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
