@@ -24,12 +24,12 @@ tags:
 
 | Region | Player IGN | 
 | ---- | ---- |
-| 🇳 | BAWALメIshan |
-| 🇳 | BAWALメAnkuj |
-| 🇳 | BAWALメlakshay |
-| 🇳 | BAWALメTushar |
-| 🇳 | DONERIA2604 |
-| 🇳 | BAWALメBhawesh |
+| 🇮🇳 | BAWALメIshan |
+| 🇮🇳 | BAWALメAnkuj |
+| 🇮🇳 | BAWALメlakshay |
+| 🇮🇳 | BAWALメTushar |
+| 🇮🇳 | DONERIA2604 |
+| 🇮🇳 | BAWALメBhawesh |
 
 
 

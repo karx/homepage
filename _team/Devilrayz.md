@@ -24,10 +24,10 @@ tags:
 
 | Region | Player IGN | 
 | ---- | ---- |
-| 🇳 | DEviLッAnku |
-| 🇳 | DEviLッElectro |
-| 🇳 | DEviLッMj |
-| 🇳 | DEviLッJÓKÊR |
+| 🇮🇳 | DEviLッAnku |
+| 🇮🇳 | DEviLッElectro |
+| 🇮🇳 | DEviLッMj |
+| 🇮🇳 | DEviLッJÓKÊR |
 
 
 

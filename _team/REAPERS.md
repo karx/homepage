@@ -24,11 +24,11 @@ tags:
 
 | Region | Player IGN | 
 | ---- | ---- |
-| 🇳 | GRIMxMIN |
-| 🇳 | GRIMxMAX |
-| 🇳 | GRIMxZING |
-| 🇳 | GRIMxNAUT |
-| 🇳 | TAISTER |
+| 🇮🇳 | GRIMxMIN |
+| 🇮🇳 | GRIMxMAX |
+| 🇮🇳 | GRIMxZING |
+| 🇮🇳 | GRIMxNAUT |
+| 🇮🇳 | TAISTER |
 
 
 
