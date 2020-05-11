@@ -1,5 +1,5 @@
 ---
-title: "Team"
+title: "Teams"
 permalink: /team/
 layout: collection
 collection: team
