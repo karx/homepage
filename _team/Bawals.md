@@ -35,5 +35,5 @@ tags:
 
 ## Talk to
 
-Team Leader Discord: BAWALメIshan#8369
+Team Leader Discord: BAWALメIshan#8369   
 (Email & Mobile number hidden)
