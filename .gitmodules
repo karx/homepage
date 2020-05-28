@@ -1,0 +1,3 @@
+[submodule "pokemon_models"] 
+  path = pokemon_models 
+  url = git://github.com/06wj/pokemon
