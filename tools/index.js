@@ -38,8 +38,16 @@ function gen_pages() {
                 "header": {
                     "teaser": pokemonImageSourceFromId(index)
                 },
-                "status": "Kento"
-            });
+                "status": "Kento",
+                
+                "sidebar": [
+                    {
+                        "image": pokemonImageSourceFromId(index)
+                    }
+                ]
+                
+            }
+            );
         data += `\n---`;
 
         fs.writeFileSync(`../_pokemons/${("00" + index).slice(-3)}.md`, data);

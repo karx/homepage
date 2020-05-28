@@ -320,7 +320,7 @@ defaults:
       path: ""
       type: pokemons
     values:
-      layout: single
+      layout: pokemono
       author_profile: false
       read_time: true
       comments: true
