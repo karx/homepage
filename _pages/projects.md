@@ -1,7 +1,7 @@
 ---
-title: "Projects"
-permalink: /projects/
-layout: projects
+title: "Pokemons"
+permalink: /pokemons/
+layout: pokemons
 classes: wide
 author_profile: true
 ---

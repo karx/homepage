@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Poke n Load"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Poke n Load"
+description              : "Embracing Pokemon Generations"
+url                      : https://poke.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
 teaser                   : "/assets/images/Teaser.png"
@@ -141,18 +141,12 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/karx"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/akriyaclick"
@@ -216,11 +210,11 @@ kramdown:
 
 
 collections:
-  projects:
+  pokemons:
      output: true
      permalink: /:collection/:path
-     layout: projecto
-  team:
+     layout: pokemono
+  trainer:
      output: true
      permalink: /:collection/:path
      layout: single
@@ -228,10 +222,7 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
-  poems:
-     output: true
-     permalink: /:collection/:path
-     layout: poem_viz
+
   
 
 # Sass/SCSS
@@ -324,10 +315,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
+  # _pokemons
   - scope:
       path: ""
-      type: projects
+      type: pokemons
     values:
       layout: single
       author_profile: false
@@ -336,10 +327,10 @@ defaults:
       share: true
       related: false
       toc: false
-  # _team
+  # _trainer
   - scope:
       path: ""
-      type: team
+      type: trainer
     values:
       layout: single
       author_profile: false
@@ -360,14 +351,7 @@ defaults:
       share: false
       related: false
       toc: false
-  # _poems
-  - scope:
-      path: ""
-      type: poems
-    values:
-      layout: poem_viz
-      toc: false
-
+ 
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -402,7 +386,7 @@ footer_text_color                         : "#666666"
 
 ## Javascript
 head_scripts:
-  - path: https://unpkg.com/@google/model-viewer@0.8.1/dist/model-viewer.js
+  - path: https://unpkg.com/@google/model-viewer/dist/model-viewer.js
     is_module: true
   - path: https://unpkg.com/@google-web-components/google-chart@3.0.0/google-chart.js?module
     is_module: true
