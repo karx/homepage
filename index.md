@@ -1,10 +1,9 @@
 ---
-title: "Welcome to Akriya Technologies"
-excerpt: "Welcome to Akriya Technologies - embracing Digital Transformation"
+title: "Ethopedia"
+excerpt: "Embracing Ethoslab"
 <!-- permalink: /home.html -->
 toc: false
 author_profile: false
-excerpt: "Make technology work for you."
 layout: landing
 wide: true
 header:
@@ -12,27 +11,28 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Start a project"
-      url: "/start-a-project"
+    - label: "Expore a project"
+      url: "/explore-a-project"
 
 chunks:
   - title: offerings
 
 model:
-  asset: "/assets/models/akriya-1-2.glb"
+  asset: "/assets/models/minecraft/ethoSkinMinusB2-31May2020.gltf"
   color: #FFFFFF
 
     
 ---
+This is sir Ethoslab
 
+* aka Etho
+* aka Treetho
+* aka Ergo
+* aka Mr Slab
+* aka Ladders -you go up, you go down
 
-Allow us to _materialize_ your next great idea.
+Part of Team Canada, a Red-stoner, Hermitcrafter, used to play on the Mindcrack server, the inventor of Etho clock.
 
-Based in Noida, India, We at endeavour to build and sustain the standards in this modern world with our proficient skills and undying commitment to deliver the top-notch services and products.
+Rocking a Red button indicator he claimed in Hermitcraft Season 7.
 
-Our team of highly skilled engineers and design thinkers, with everyone being ready to become a friend to your project and you personally 😆.
-[More about us](/core)
-
-We provide, we partner, we prototype. We design and we develop.
-From custom IoT solutions to web plugins, with our curated [Technology Stack](/tech)
-
+`Get your snacks`

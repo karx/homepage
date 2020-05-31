@@ -16,15 +16,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Ethopedia"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Ethopedia"
+description              : "Embracing Ethoslab"
+url                      : https://www.youtube.com/user/EthosLab
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
-teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/teaser.jpg"
+logo                     : "/assets/images/519-0.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -83,22 +83,18 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : akriyaIN
-facebook:
-  username               : AkriyaIN
-  app_id                 : 334414337063190
-  publisher              : AkriyaIN
-linkedin                 : karx01
-og_image                 : # Open Graph/Twitter default site image
+  username               : EthoLP
+og_image                 : "/assets/images/teaser.jpg"
+# Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : Organization
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/akriyaIN"
-    - "https://instagram.com/akriyaClick"
+# social:
+#   type                   : Organization
+#   name                   : # If the user or organization name differs from the site's name
+#   links: # An array of links to social media profiles
+#     - "https://www.facebook.com/akriyaIN/"
+#     - "https://twitter.com/akriyaIN"
+#     - "https://instagram.com/akriyaClick"
 
 # Analytics
 analytics:
@@ -110,52 +106,32 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
-  avatar           : "/assets/images/Deva-a.png"
-  bio              : "Embracing digital transformation"
-  location         : "India"
-  email            : admin@akriya.co.in
+  name             : "EthosLab"
+  avatar           : "/assets/images/Etho_skin.png"
+  bio              : "I hate onions"
+  location         : "Canada"
+  # email            : admin@akriya.co.in
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@akriya.co.in
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+    - label: "Youtube"
+      icon: "fas fa-fw fa-youtube-square"
+      url: https://www.youtube.com/user/EthosLab
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://akriya.co.in"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaClick"
+      url: "https://twitter.com/EthoLP"
 
 # Site Footer
 footer:
   links:
+    - label: "Youtube"
+      icon: "fas fa-fw fa-youtube-square"
+      url: https://www.youtube.com/user/EthosLab
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaclick"
+      url: "https://twitter.com/EthoLP"
+
 
 
 # Reading Files
@@ -228,10 +204,14 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
-  poems:
+  series:
      output: true
      permalink: /:collection/:path
-     layout: poem_viz
+     layout: single
+  comments:
+     output: true
+     permalink: /:collection/:path
+     layout: comment_of_the_day
   
 
 # Sass/SCSS
@@ -360,12 +340,19 @@ defaults:
       share: false
       related: false
       toc: false
-  # _poems
+  # _series
   - scope:
       path: ""
-      type: poems
+      type: series
     values:
-      layout: poem_viz
+      layout: series
+      toc: false
+  # _comments
+  - scope:
+      path: ""
+      type: comments
+    values:
+      layout: comment_of_the_day
       toc: false
 
 

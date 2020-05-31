@@ -1,10 +1,19 @@
-# [Homepage for Akriya Technologies](https://akriya.co.in)
+# [Ethopedia](https://etho.akriya.co.in)
 
 [![LICENSE](https://img.shields.io/github/license/karx/homepage.svg)](https://raw.githubusercontent.com/karx/homepage/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg)](https://jekyllrb.com/)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/karx01)
 
-Akriya Technologies - Embracing Digital Transformation
+Ethopedia - Embracing Ethoslab
+
+## Important Community posts
+* https://www.reddit.com/r/ethoslab/comments/d6yz97/i_made_a_timeline_of_all_of_ethos_series/
+* https://www.reddit.com/r/ethoslab/comments/fzv1nz/video_series_timeline_25_years_later/
+
+
+## Tools
+* Getting Thumbnails of a Youtube Video. [More here](https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api)
+`https://img.youtube.com/vi/<insert-youtube-video-id-here>/default.jpg`
 
 :sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
 
