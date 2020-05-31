@@ -1,10 +1,10 @@
 <div class="blogs-container">
     <div class="blogs-header section-header">
-        <h2>Blogs</h2>
-        <p>What are we upto?</p>
+        <h2>Projects</h2>
+        <p>What etho Upto?</p>
     </div>
     <div class="blogs-content">
-        {% for post in site.posts limit:4 %}
+        {% for post in site.projects limit:8 %}
             {% if post.id == page.id %}
                 {% continue %}
             {% endif %}
@@ -13,7 +13,7 @@
     </div>
 
     <div class="blogs-more">
-        <a href="./blogs.html" class="internal-ling">More..</a>
+        <a href="./projects.html" class="internal-ling">More..</a>
     </div>
 
 </div>

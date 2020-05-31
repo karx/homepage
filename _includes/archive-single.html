@@ -1,7 +1,11 @@
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+  {% if post.header.overlay_image %}
+    {% capture teaser %}{{ post.header.overlay_image }}{% endcapture %}
+  {% else %}
+    {% assign teaser = site.teaser %}
+  {% endif %}
 {% endif %}
 
 {% if post.id %}
