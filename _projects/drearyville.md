@@ -36,7 +36,7 @@ tags:
 ---
 
 # Dreary Ville
-A larger than live Rube Goldberg Machine that ann
+A larger than live Rube Goldberg Machine.
 
 ## Explosion Galore
 How did Etho survive building it, It is hard to believe.
