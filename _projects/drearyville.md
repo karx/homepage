@@ -20,7 +20,7 @@ feature_image: /assets/images/dreary_A.jpg
 cords: '-801 148 -3110'
 
 header: 
-    overlay_image: '/assets/images/dreary_A.png'
+    overlay_image: '/assets/images/dreary_A.jpg'
     overlay_filter: 0.5 
 
 

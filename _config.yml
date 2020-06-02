@@ -310,6 +310,7 @@ defaults:
       type: projects
     values:
       layout: single
+      series: Ethos LP
       author_profile: false
       read_time: true
       comments: true
