@@ -17,7 +17,7 @@ This is Sir Ethoslab
 
 Part of Team Canada, a Red-stoner, Hermit-crafter, used to play on the Mindcrack server, the inventor of Etho clock, builder of Nexus, an all-time Googler, the humble Minecrafter - `Etho`.
 
-Rocking a Red button indicator he claimed in Hermitcraft Season 7.
+Currently found lurking around in the Hemitcraft Season 7 server.
 
 `Get your snacks`
 
