@@ -3,7 +3,7 @@ name: Windmill
 title: Windmill
 categories:
   - Transport
-status: Broken
+status: Complete
 # type: System
 layout: projecto
 excerpt: Chunky Windmill
