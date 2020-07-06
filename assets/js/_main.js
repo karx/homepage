@@ -5,7 +5,7 @@
 $(document).ready(function() {
   // Sticky footer
   var bumpIt = function() {
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+    // $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
   };
 
   bumpIt();
@@ -92,7 +92,7 @@ $(document).ready(function() {
       events: true // if true, emit custom events
     });
   }
-  
+
   // add lightbox class to all image links
   $(
     "a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']"
