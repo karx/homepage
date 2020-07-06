@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "WendorEvents"
+title                    : "Gratification Machines"
 title_separator          : "-"
-name                     : "WendorEvents"
+name                     : "Gratification Machines"
 description              : "Engagements for the Digital Age"
 url                      : https://we.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"

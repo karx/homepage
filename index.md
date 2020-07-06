@@ -1,6 +1,6 @@
 ---
-title: "WendorEvents"
-excerpt: "WendorEvents - Engagement for Digital Age"
+title: "Gratification Machines"
+excerpt: "Gratification Machines - Engagement for Digital Age"
 <!-- permalink: /home.html -->
 toc: false
 author_profile: false
