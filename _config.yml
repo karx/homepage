@@ -1,30 +1,15 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Aditya Sagar"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Aditya Sagar"
+description              : "Ahm, I mean me"
+url                      : https://aditya-sagar.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
 teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/Teaser.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -83,22 +68,13 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : akriyaIN
-facebook:
-  username               : AkriyaIN
-  app_id                 : 334414337063190
-  publisher              : AkriyaIN
-linkedin                 : karx01
+  username               : thereforlaughs
+
+linkedin                 : aditya-sagar-6762aba4/
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : Organization
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/akriyaIN"
-    - "https://instagram.com/akriyaClick"
+
 
 # Analytics
 analytics:
@@ -110,52 +86,43 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
-  avatar           : "/assets/images/Deva-a.png"
-  bio              : "Embracing digital transformation"
+  name             : "Aditya Sagar"
+  avatar           : "/assets/images/AdityaSagar-New.jpg"
+  bio              : "Ahm, I mean me"
   location         : "India"
-  email            : admin@akriya.co.in
+  email            : aditya.sagar.official@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@akriya.co.in
+      url: mailto:aditya.sagar.official@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+      url: "https://aditya-sagar.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
+      url: "https://twitter.com/thereforlaughs"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/karx"
-    - label: "Instagram"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaClick"
+      url: "https://www.linkedin.com/in/aditya-sagar-6762aba4/"
 
 # Site Footer
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://aditya-sagar.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
+      url: "https://twitter.com/thereforlaughs"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/karx"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
-    - label: "Instagram"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaclick"
+      url: "https://www.linkedin.com/in/aditya-sagar-6762aba4/"
 
 
 # Reading Files
@@ -220,19 +187,16 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: projecto
-  team:
+  travel:
      output: true
      permalink: /:collection/:path
      layout: single
-  labs:
+  books:
      output: true
      permalink: /:collection/:path
      layout: single
-  poems:
-     output: true
-     permalink: /:collection/:path
-     layout: poem_viz
-  
+
+
 
 # Sass/SCSS
 sass:
@@ -266,16 +230,6 @@ whitelist:
   - jekyll-include-cache
 
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -336,10 +290,10 @@ defaults:
       share: true
       related: false
       toc: false
-  # _team
+  # _travel
   - scope:
       path: ""
-      type: team
+      type: travel
     values:
       layout: single
       author_profile: false
@@ -348,10 +302,10 @@ defaults:
       share: false
       related: false
       toc: false
-  # _labs
+  # _books
   - scope:
       path: ""
-      type: lab
+      type: book
     values:
       layout: single
       author_profile: false
@@ -360,13 +314,7 @@ defaults:
       share: false
       related: false
       toc: false
-  # _poems
-  - scope:
-      path: ""
-      type: poems
-    values:
-      layout: poem_viz
-      toc: false
+
 
 
 # Theme Settings

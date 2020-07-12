@@ -6,11 +6,11 @@ main:
     url: /projects/
   - title: "Blog"
     url: "/blogs"
-  - title: "Team"
+  - title: "Work Experience"
     url: /team/
-  - title: "Contact Us"
+  - title: "Activities"
     url: /contact
-  - title: "Core"
+  - title: "About"
     url: /core.html
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

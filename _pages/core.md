@@ -5,38 +5,14 @@ permalink: /core.html
 toc: true
 ---
 
-## What do we do?
-Akriya Technologies is a full-service IoT technology and service company.
-Our high synergy team, innovative problem-solving techniques and a creative touch enable us to help people embrace this decade's Digital Transformation.
+## Who am I?
+A recent MBA graduate from IIM Bangalore, I'm actively looking for new opportunities in product management. 
 
-Broadly, we have been providing technical consultation and services in the following categories:
-* Designing and developing complete technology System (Hardware + Software) 
-  This entails a more e2e approach, from design to engineering and development.
-  Some technological advancements have driven traditional methods of operations obsolete. In scenarios like on-ground cash management, event management, record-keeping, etc. a complete system design is required.
- 
-* Building or augment to existing systems
-  Retro-fitting existing infrastructure with modules to help improve efficiency, portability, performance and availability.
-  
+The program at IIMB provided me with a ton of opportunity in working collaboratively and a working knowledge of areas in business and management like business development, strategy, finance, marketing and sales. 
 
-## How do we do?
-We design-hack-use a **toolkit**.
+I've also completed my Bachelors and Masters in Computer Science and Engineering from IIT Delhi, and have a strong technical background and work experience. I've worked with various programming languages (C++, Java, Python), statistical modelling tools (Matlab, R, Excel, SPSS), and databases (SQL, Oracle, Redis) and would comfortable in picking up new software and tools. 
 
-This toolkit is how are able to fulfil our, our client's and our community's needs.
-* SoC Modules + Mobiles
-* Web Technologies + Data
-* Collaborative tooling
-* Design Toolkit
-* Operations Tooling
-* Community help
+I have two years of work experience at Samsung Research India, contributing to the System Software and Server Development teams there. I've also worked as a part time research consultant at Worldquant LLC while I was studying at IIT Delhi, and had several internships at corporates like ACT Fibernet, Softage Information Technology and Kritikal Solutions.
 
-These tools with the right set of hand enable us to design, develop and build wide ranges of 
-* Data acquisition devices
-* Reactive systems
-* Scalable cloud services
-* Flexible workflows
-* Intelligent modules
+This experience really helps me ship an all-round product, and collaborate and communicate effectively with various related teams in business and technology.   
 
-## Why do we do?
-We aim to make people embrace technology.
-
-This thought is deeply rooted in all of us, because of how Technology (as we know it), has changed our lives (as we knew it).
