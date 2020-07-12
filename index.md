@@ -18,7 +18,7 @@ chunks:
   - title: offerings
 
 model:
-  asset: "/assets/models/aditya-mustang.glb"
+  asset: "/assets/models/drone.glb"
   color: #FFFFFF
 
 ---
