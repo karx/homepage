@@ -6,8 +6,6 @@ main:
     url: /samples/
   - title: "Blog"
     url: "/blogs"
-  - title: "Team"
-    url: /team/
   - title: "Contact Us"
     url: /contact
   - title: "Core"
