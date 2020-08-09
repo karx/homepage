@@ -1,0 +1,40 @@
+---
+layout: archive
+---
+
+
+{{ content }}
+
+<ul class="taxonomy__index">
+  {% assign threadsInStatus = site.labs | group_by_exp: 'thread', 'thread.status' %}
+  {% for status in threadsInStatus %}
+    <li>
+      <a href="#{{ status.name }}">
+        <strong>{{ status.name }}</strong> <span class="taxonomy__count">{{ status.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% assign threadsByStatus = site.labs | group_by_exp: 'thread', 'thread.status' %}
+{% for status in threadsByStatus %}
+  <section id="{{ status.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ status.name }}</h2>
+    <!-- {{ categories }} -->
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for beta in status.items %}
+      <div class="each-item">
+        <div class="title">
+          <h3>{{beta.title}}</h3>
+        </div>
+        <div class="container">
+          <paper-audio-player src="{{beta.before.src}}" title="{{beta.before.title}}" color="#F05C38" preload="none"></paper-audio-player>
+          <paper-audio-player src="{{beta.after.src}}" title="{{beta.after.title}}" color="#0FA3C7" preload="none"></paper-audio-player></div>
+
+      </div>
+
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}

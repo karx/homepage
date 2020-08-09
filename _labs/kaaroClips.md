@@ -16,4 +16,11 @@ github: https://github.com/karx/twitter-kClips
 embed_link: '<a class="twitter-timeline" href="https://twitter.com/ClipsKaaro?ref_src=twsrc%5Etfw">Tweets by ClipsKaaro</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
 contribute_link: https://github.com/karx/twitter-kClips
 visit_link: https://twitter.com/ClipsKaaro?ref_src=twsrc%5Etfw
+status: Mastering
+before:
+  title: Sample Before
+  src: http://nadikun.com/audio/demo.mp3
+after:
+  title: Sample After
+  src: http://nadikun.com/audio/demo.mp3
 ---

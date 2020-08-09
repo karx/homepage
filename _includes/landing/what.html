@@ -1,12 +1,13 @@
 <div class="what-container">
     <div class="what-header section-header">
-        <h2>Empowering Connected Devices</h2>
-        <p>We are a technology startup commited to building, maintaining the `Toolkit` for the `Web 3.0`.</p>
+        <h2>{{page.what.header}}</h2>
+        <p>{{page.what.details}}</p>
     </div>
     <div class="what-content">
-        <div class="part-1">- Ubiquitous</div>
-        <div class="part-2">- Semantic Web</div>
-        <div class="part-3">- Immersive Graphics</div>
-        <div class="part-3">- AI</div>
+        {% for option in page.what.options %}
+          <div class="part-1">- {{option}}</div>
+        {% endfor %}
+
+
     </div>
 </div>

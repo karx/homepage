@@ -6,18 +6,22 @@
     <div class="labs-content">
         {% for beta in site.labs | where:"published",false %}
         <div class="each-beta-item">
+
             <div class="item-header">
+
                 <h3>{{beta.title}}</h3>
                 <div class="item-info">
-                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
-                    {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
-                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
                 </div>
-                <p>{{beta.description}}</p>
+                <paper-audio-player src="{{beta.before.src}}" title="{{beta.before.title}}" color="#F05C38" preload="none"></paper-audio-player>
+                <paper-audio-player src="{{beta.after.src}}" title="{{beta.after.title}}" color="#0FA3C7" preload="none"></paper-audio-player>
+
             </div>
-           
+
         </div>
         {% endfor %}
+    </div>
+    <div class="more-container">
+      <a href="/samples/">More Samples</a>
     </div>
 
 </div>

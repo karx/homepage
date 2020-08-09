@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Virtual JustBuzz - Buzz em"
+title:  "JustBuzz"
 description: Virtual JustBuzz for Demo
 header:
   teaser: "/assets/images/devices/buzzer.jpg"
@@ -25,6 +25,13 @@ visit_link: https://akriya.co.in/labs/virtualbuzzer.html
 # model:
 #   asset: "/assets/models/esp.glb"
 #   color: #FFFFFF
+status: Vocal Tuning
+before:
+  title: Sample Before
+  src: http://nadikun.com/audio/demo.mp3
+after:
+  title: Sample After
+  src: http://nadikun.com/audio/demo.mp3
 ---
 ## Virtual JustBuzz
 
