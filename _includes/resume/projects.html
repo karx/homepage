@@ -1,0 +1,45 @@
+<section class="colorlib-services" data-section="projects" id="PROJECTS">
+  <div class="colorlib-narrow-content">
+    <div class="row">
+      <div
+        class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+        data-animate-effect="fadeInLeft"
+      >
+        <span class="heading-meta">My previous project</span>
+        <h2 class="colorlib-heading">Here are some of my projects</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="timeline-centered">
+
+          {% for project in site.projects %}
+          <article
+            class="timeline-entry animate-box"
+            data-animate-effect="fadeInRight"
+          >
+            <div class="timeline-entry-inner">
+              <div class="timeline-icon color-1">
+                <i class="icon-pen2"></i>
+              </div>
+              <div class="timeline-label">
+                <h3>
+                  <a href="{{project.url}}">{{project.title}}</a>
+                </h3>
+                <h2>
+                  <a>{{project.location}}</a>
+                  <br />
+                  <span>{{project.datespan}}</span>
+                </h2>
+                <a href="{{project.url}}">Learn More</a>
+              </div>
+            </div>
+          </article>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

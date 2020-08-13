@@ -1,26 +1,13 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Arshi Goyal"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Arshi Goyal"
+description              : "Senior Associate at Axtria Inc| Former Masters Student at Rutgers University"
+resume_pdf               : "/assets/resume/AG.pdf"
+url                      : https://arshigoyal.me
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
 teaser                   : "/assets/images/Teaser.png"
@@ -28,42 +15,6 @@ logo                     : "/assets/images/Deva-a.png" # path of logo image to d
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
 search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -83,22 +34,17 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : akriyaIN
-facebook:
-  username               : AkriyaIN
-  app_id                 : 334414337063190
-  publisher              : AkriyaIN
-linkedin                 : karx01
+  username               : arshigoyal
+linkedin                 : arshigoyal
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : Organization
+  type                   : Person
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/akriyaIN"
-    - "https://instagram.com/akriyaClick"
+    - "https://twitter.com/arshigoyal"
+    - "https://instagram.com/_arshigoyal"
 
 # Analytics
 analytics:
@@ -110,52 +56,37 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
+  name             : "Arshi Goyal"
   avatar           : "/assets/images/Deva-a.png"
-  bio              : "Embracing digital transformation"
+  bio              : ""
   location         : "India"
-  email            : admin@akriya.co.in
+  email            : arshigoyal17@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@akriya.co.in
+      url: mailto:arshigoyal17@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
+      url: "https://arshigoyal.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
+      url: "https://twitter.com/arshigoyal"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
+      url: "https://github.com/tris04"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaClick"
+      url: "https://instagram.com/_arshigoyal"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/kaaro"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/kaaro/"
+      url: "https://twitter.com/arshigoyal"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaclick"
+      url: "https://instagram.com/_arshigoyal"
 
 
 # Reading Files
@@ -232,7 +163,7 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: poem_viz
-  
+
 
 # Sass/SCSS
 sass:

@@ -1,0 +1,54 @@
+---
+layout: resumeDefault
+---
+
+<div id="colorlib-page">
+  <div class="container-wrap">
+  <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+  <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+    <div class="text-center">
+      <div class="author-img" style="background-image: url(images/DSC_0256.JPG);"></div>
+      <h1 id="colorlib-logo"><a href="index.html"> {{site.name}} </a></h1>
+      <span class="position"><strong>{{site.description}}</strong></span>
+    </div>
+    <nav id="colorlib-main-menu" role="navigation" class="navbar">
+      <div id="navbar" class="collapse">
+        <ul>
+          <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+          <li><a href="#" data-nav-section="about">About</a></li>
+          <li><a href="#" data-nav-section="projects">Projects</a></li>
+          <li><a href="#" data-nav-section="education">Education</a></li>
+          <li><a href="#" data-nav-section="experience">Experience</a></li>
+                      <li><a href="#" data-nav-section="achievement">Positions Held</a></li>
+                      <li><a href="#" data-nav-section="certification">Certifications and Publications</a></li>
+          <li><a href="#" data-nav-section="contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </aside>
+
+  <div id="colorlib-main">
+    {% include resume/home.html %}
+    {% include resume/about.html %}
+
+
+    {% include resume/projects.html %}
+
+    {% include resume/education.html %}
+
+    {% include resume/experience.html %}
+
+
+    {% include resume/achievement.html %}
+    <br>
+    <br>
+    <br>
+    <br>
+
+    {% include resume/certification.html %}
+
+    {% include resume/contact.html %}
+
+  </div><!-- end:colorlib-main -->
+</div><!-- end:container-wrap -->
+</div><!-- end:colorlib-page -->
