@@ -5,7 +5,7 @@ locale                   : "en-US"
 title                    : "Arshi Goyal"
 title_separator          : "-"
 name                     : "Arshi Goyal"
-description              : "Senior Associate at Axtria Inc| Former Masters Student at Rutgers University"
+description              : "Senior Associate at Axtria Inc | Former Masters Student at Rutgers University"
 resume_pdf               : "/assets/resume/AG.pdf"
 url                      : https://arshigoyal.me
 baseurl                  : # the subpath of your site, e.g. "/blog"
