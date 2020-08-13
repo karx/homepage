@@ -59,8 +59,9 @@ author:
   name             : "Arshi Goyal"
   avatar           : "/assets/images/Deva-a.png"
   bio              : ""
-  location         : "India"
+  location         : "Chicago, IL 60090"
   email            : arshigoyal17@gmail.com
+  tel              : "+12063078930"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
