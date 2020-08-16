@@ -2,10 +2,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "MixingWebsite"
+title                    : "Teevra Ma Productions"
 title_separator          : "-"
-name                     : "MixingWebsite"
-description              : "Editing, Mixing, Mastering and Vocal Tuning"
+name                     : "Teevra Ma Productions"
+description              : "Produce Mix Master"
 url                      : https://mix.akriya.co.in
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
@@ -65,18 +65,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "MixingWebsite"
+  name             : "Teevra Ma Productions"
   avatar           : "/assets/images/Deva-a.png"
-  bio              : "Editing, Mixing, Mastering and Vocal Tuning"
+  bio              : "Produce Mix Master"
   location         : "India"
-  email            : admin@themixingwebsite.com
+  email            : admin@theTeevra Ma Productions.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:admin@akriya.co.in
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://themixingwebsite.com"
+      url: "https://theTeevra Ma Productions.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/akriyaIN"
@@ -306,7 +306,7 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#000"
 
 link_color                                : "#1d63ea"
 

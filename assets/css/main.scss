@@ -6,122 +6,119 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
 
-$header-font-family: 'Permanent Marker', cursive;
-$content-font-family: 'Kalam', cursive;
-
+$header-font-family: "Acme", sans-serif;
+$content-font-family: "Advent Pro", sans-serif;
 
 body {
-    // background: black;
-
-    font-family: $header-font-family;
-    font-family: $content-font-family;
-
+  background: black;
+  // font-family: $header-font-family;
+  font-family: $content-font-family;
+  font-weight: 200;
 }
 #main {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 .intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: $header-font-family;
+
+  .left-side {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: $header-font-family;
-
-    .left-side {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        a {
-            font-family: $content-font-family;
-        }
+    flex-direction: column;
+    justify-content: center;
+    a {
+      font-family: $content-font-family;
     }
-    .right-side model-viewer{
-        height: 50vh;
-        width: 40vw;
-        // z-index: -1;
-    }
-
+  }
+  .right-side model-viewer {
+    height: 50vh;
+    width: 40vw;
+    // z-index: -1;
+  }
 }
 
 .what-container {
-    // border-radius: 20px;
-    // -webkit-box-shadow: 2px -10px 15px -2px rgba(73,78,82,0.36);
-    // box-shadow: 2px -10px 15px 2px rgba(73,78,82,0.36);
-    // height: 100vh;
-    // z-index: 2;
-    .what-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-
-    }
+  // border-radius: 20px;
+  // -webkit-box-shadow: 2px -10px 15px -2px rgba(73,78,82,0.36);
+  // box-shadow: 2px -10px 15px 2px rgba(73,78,82,0.36);
+  // height: 100vh;
+  // z-index: 2;
+  .what-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
-h1,h2,h3,h4 {
-    font-family: $header-font-family;
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font-family;
 }
 
 .section-header {
-    text-align: center;
+  text-align: center;
 }
 
 .labs-container {
-    margin-top: 100px;
-    .labs-content {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+  margin-top: 100px;
+  .labs-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
-        .each-beta-item {
-            width: 300px;
-        }
+    .each-beta-item {
+      width: 300px;
     }
-    .item-info {
-        display: flex;
-        flex-direction: row;
-        // justify-content: space-evenly;;
+  }
+  .item-info {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-evenly;;
+  }
+  .more-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    a {
+      display: block;
+      border: 2px #0fa3c7 solid;
+      border-radius: 4px;
+      padding: 5px;
     }
-    .more-container {
-      margin-top: 20px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      a {
-        display: block;
-        border: 2px #0FA3C7 solid;
-        border-radius: 4px;
-        padding: 5px
-      }
-    }
-
+  }
 }
 
 .poem-viz {
-    #play-poem {
-        display: none;
-    }
-    #wordtree_basic {
-        position: fixed;
-        right: 0;
-        top:10vh;
-        z-index: -1;
+  #play-poem {
+    display: none;
+  }
+  #wordtree_basic {
+    position: fixed;
+    right: 0;
+    top: 10vh;
+    z-index: -1;
 
-        svg {
-            rect {
-                fill:none;
-            }
-            text {
-                fill: violet;
-            }
-        }
+    svg {
+      rect {
+        fill: none;
+      }
+      text {
+        fill: violet;
+      }
     }
-    #material_viz {
-        position: fixed;
-        right: 0;
-        top: 50vh;
-        z-index: -1;
-    }
-
+  }
+  #material_viz {
+    position: fixed;
+    right: 0;
+    top: 50vh;
+    z-index: -1;
+  }
 }

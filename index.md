@@ -1,6 +1,6 @@
 ---
-title: "MixingWebsite"
-excerpt: "Editing, Mixing, Mastering and Vocal Tuning"
+title: "Teevra Ma Productions"
+excerpt: "Arrange Produce Mix Master"
 toc: false
 author_profile: false
 layout: landing
@@ -10,15 +10,15 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Try Demo"
-      url: "/demo"
+    - label: "Submit Demo"
+      url: "/contact"
 
 chunks:
   - title: offerings
 
 model:
   asset: "/assets/models/mixer_cms600_simplified.glb"
-  color: #FFFFFF
+  color: '#000000'
 what:
   header: Editing, Mixing, Mastering and Vocal Tuning
   details: Get started easily, and pocket friendly
