@@ -6,11 +6,11 @@ title                    : "Teevra Ma Productions"
 title_separator          : "-"
 name                     : "Teevra Ma Productions"
 description              : "Produce Mix Master"
-url                      : https://mix.akriya.co.in
+url                      : https://teevrama.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : karx/homepage
-teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/teevramaLogoWhiteLarge.png"
+logo                     : "/assets/images/teevramaLogoWhiteLarge.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -50,10 +50,6 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : Organization
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://www.facebook.com/akriyaIN/"
-    - "https://twitter.com/akriyaIN"
-    - "https://instagram.com/akriyaClick"
 
 # Analytics
 analytics:
@@ -66,7 +62,7 @@ analytics:
 # Site Author
 author:
   name             : "Teevra Ma Productions"
-  avatar           : "/assets/images/Deva-a.png"
+  avatar           : "/assets/images/teevramaLogoWhiteLarge"
   bio              : "Produce Mix Master"
   location         : "India"
   email            : admin@theTeevra Ma Productions.com
@@ -76,23 +72,9 @@ author:
       url: mailto:admin@akriya.co.in
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://theTeevra Ma Productions.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/vinayak.arora/"
+      url: "https://teevrama.com"
 
 # Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/vinayak.arora/"
 
 
 # Reading Files

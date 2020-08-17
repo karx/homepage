@@ -6,8 +6,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main
 
-$header-font-family: "Acme", sans-serif;
-$content-font-family: "Advent Pro", sans-serif;
+$header-font-family: "Quicksand", sans-serif;
+$content-font-family: "Quicksand", sans-serif;
 
 body {
   background: black;
