@@ -3,7 +3,8 @@ layout: archive
 ---
 <div class="contact-container">
   <div>
-    <form  name="contact" method="POST" data-netlify="true">
+    <h2>Submit your Demo</h2>
+    <form  name="demo" method="POST" data-netlify="true">
       <label for="name">Name</label>
       <input type="text" id="name">
 
@@ -39,7 +40,30 @@ layout: archive
       <label for="demo">Submit your Demo</label>
       <input type="file" id="demo">
 
+      <button type="submit">Submit Demo</button>
+    </form>
+
+    <h2>Queries</h2>
+    <form  name="contact" method="POST" data-netlify="true">
+      <label for="name">Name</label>
+      <input type="text" id="name">
+
+      <label for="phone">Phone</label>
+      <input type="text" id="phone">
+
+      <label for="email">Email</label>
+      <input type="email" id="email">
+
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="comment" rows="5"></textarea>
+
+
+
+
       <button type="submit">Submit</button>
     </form>
+
+
+
   </div>
 </div>
