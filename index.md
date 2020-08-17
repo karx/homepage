@@ -18,7 +18,7 @@ chunks:
 
 model:
   asset: "/assets/models/mixer_cms600_simplified.glb"
-  color: '#000000'
+  color: '#131417'
 what:
   header: Editing, Mixing, Mastering and Vocal Tuning
   details: Get started easily, and pocket friendly

@@ -53,7 +53,7 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
-$background-color: #000 !default;
+$background-color: #131417 !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $lighter-gray !default;
@@ -61,7 +61,7 @@ $form-text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 35%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
-$footer-background-color: #000 !default;
+$footer-background-color: $background-color !default;
 
 // $primary-color: #6f777d !default;
 $primary-color: $light-gray !default;
