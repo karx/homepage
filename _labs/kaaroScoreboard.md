@@ -26,6 +26,8 @@ visit_link: https://kaaroscoreboard.akriya.co.in/
 #   asset: "/assets/models/esp.glb"
 #   color: #FFFFFF
 ---
+![Scoreboard Login Screen](/assets/images/kaaroScoreboard/gaming_stars_demo.jpg)
+
 ## kaaroScoreboard
 In modern day esports, scoreboards are much more than P1 score vs P2 score. Sometimes easy to maintain, but sometimes, showing ball by coverage is just too vital.
 * Player Profiles
