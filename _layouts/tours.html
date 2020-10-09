@@ -4,9 +4,6 @@ layout: archive
 
 
 {{ content }}
-
-{{site.pages}}
-
 <ul class="taxonomy__index">
   {% assign threadsInStatus = site.tours | group_by_exp: 'thread', 'thread.status' %}
   {% for status in threadsInStatus %}

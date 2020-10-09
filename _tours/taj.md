@@ -1,30 +1,23 @@
 ---
-name: AdEngine
-title: AdEngine
+name: Taj Mahal 
+location: Agra
+title: Taj Mahal
 categories:
   - Project
   - Client
 status: Ongoing
 type: System
 layout: projecto
-excerpt: To enable and enhance targeted advertising on TVs.
+excerpt: A timeless monument
 features:
-    - title: Local content management
-    - title: Realtime stream processing for markers
-    - title: Uplinking with AdEnging cloud services
-    - title: Local sensor controller
-    
-feature_image: /assets/images/AdEngine/feature.png
-header: 
-    overlay_image: /assets/images/AdEngine/header.jpg
-    teaser: /assets/images/AdEngine/header.jpg
-    overlay_filter: 0.7
+    - title: History Lesson
+    - title: Free roam
+    - title: Talk with expert
+    - title: Local weather data
 
 tags:
-  - Arduino
-  - ESP32
-  - RTS
-  - TV
+  - India
+  
 
 
 sidebar:
@@ -61,13 +54,6 @@ sidebar:
 
 ---
 
-The AdEngine POC is using an HDMI to CSI-2 bridge and piggybanking on Camera-In of a Raspberry Pi. The output is built with pass-through video + overlay which is editable HTML.
+In this Taj tour, you will be able to do the do. do the do. do the do. do the do.
 
-![CSI Bridge to Pi](https://camo.githubusercontent.com/b668f265a14e3a426f21c4d092fe18ab7e6067c3/68747470733a2f2f616b726979612e636f2e696e2f6173736574732f696d616765732f48444d492d435349322d50692e706e67)
-
-
-
-
-<!-- 
-{% include gallery caption="Screencaptures from **dashboard**." %} -->
 

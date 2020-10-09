@@ -1,10 +1,8 @@
 ---
-title: "Welcome to Akriya Technologies"
-excerpt: "Welcome to Akriya Technologies - embracing Digital Transformation"
-<!-- permalink: /home.html -->
+title: "Rispon"
 toc: false
 author_profile: false
-excerpt: "Make technology work for you."
+excerpt: "Virtual Walking Tours and Experiences"
 layout: landing
 wide: true
 header:
@@ -12,14 +10,14 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Start a project"
-      url: "/start-a-project"
+    - label: "Book a tour"
+      url: "/book-tour"
 
 chunks:
   - title: offerings
 
 model:
-  asset: "/assets/models/akriya-1-2.glb"
+  asset: "/assets/models/suitcase/scene.gltf"
   color: #FFFFFF
 
     
