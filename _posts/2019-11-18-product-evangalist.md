@@ -1,15 +1,14 @@
 ---
 layout: single
-title:  "Product Evangalist - A required role"
+title: Product Evangalist - A required role
 tags:
-  - Project Management
-  - HR
-  - Students
-  - Internship
-  - Careers
-published: false
----
+- Project Management
+- HR
+- Students
+- Internship
+- Careers
 
+---
 ## Product Evangalist 
 The role of a `Product Evangalist` is to convert. A member, who aspires only to spread the word about the product, its utitlity, its availabilty to all.
 This role was required during the [Event #2](2019-11-16-wendor-events.md)
