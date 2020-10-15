@@ -90,6 +90,9 @@ The ingestion servers basically runs a service which understands this encoding, 
 
 What are the various types of interactions that are possible on this canvas, examples of how it is being used.
 
+Mostly, if feels like giving a talk or a speech, or performing on a stage, however, the audience here has alot more tools available at their disposal.   
+We are going to refer to audience as 'viewers' or _chat. chat_ can vote, mark location on map, start a debate, introduce new topic, and well basically without a chat, there is no real stream. Without chat, a stream is just a video. 
+
 ## Refs
 
 * [https://en.wikipedia.org/wiki/Radio_calisthenics](https://en.wikipedia.org/wiki/Radio_calisthenics "https://en.wikipedia.org/wiki/Radio_calisthenics")
