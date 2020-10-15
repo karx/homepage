@@ -63,9 +63,10 @@ Now lets look at the data:
 
 Live watching at the moment on Twitch: 3,232,000 = three million two hundred thirty-two thousand.
 
-![](https://www.digitaltveurope.com/files/2020/05/Live-Streaming-State-of-Stream-April-2020-.png)
+![Streaming Platform share comparison](https://www.digitaltveurope.com/files/2020/05/Live-Streaming-State-of-Stream-April-2020-.png)
+![Twitch Traker Data]('/assets/images/Screenshot_2020-10-16 Twitch Statistics Charts.png')
 
-and live stats of Twtich which we can get from Twitch Tracker Data ---- we can extrapolate for all vendors.
+From the platform share comparison and live stats of Twtich which we can get from Twitch Tracker Data we can extrapolate for all vendors.
 
 So, after exploring, we see the actual usage of streaming category wise as:  
 [https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160](https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160 "https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160")
@@ -99,3 +100,4 @@ We are going to refer to audience as 'viewers' or _chat. chat_ can vote, mark lo
 * [https://en.wikipedia.org/wiki/Great_Divergence](https://en.wikipedia.org/wiki/Great_Divergence "https://en.wikipedia.org/wiki/Great_Divergence")
 * [https://en.wikipedia.org/wiki/Contemporary_history](https://en.wikipedia.org/wiki/Contemporary_history "https://en.wikipedia.org/wiki/Contemporary_histor")
 * [https://twitchtracker.com/statistics](https://twitchtracker.com/statistics "https://twitchtracker.com/statistics")
+* [Streaming Trends Q3 2020](https://streamhatchet.com/wp-content/uploads/2020/10/2020-Q3-Streaming-Trends.pdf) from [https://streamhatchet.com/](https://streamhatchet.com/)
