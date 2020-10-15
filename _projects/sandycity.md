@@ -38,5 +38,5 @@ Part of the Biome Enhancement Project.
 * Giant sugercane farm
 * The piramid
 
-## How did you get the llamas to walk around Sandy City like that?
+## How did Etho get the llamas to walk around Sandy City like that?
 Nobody knows, ask Etho.
