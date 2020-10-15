@@ -84,6 +84,10 @@ There are optimized encoding/formats which we have now isolated and standardized
 
 The ingestion servers basically runs a service which understands this encoding, maintains a small buffer, and projects forward this Media as an open endpoint for viewing, often embedded into a webpage or sometimes another Stream. _The Public Cloud_
 
+### Interactions
+
+What are the various types of interactions that are possible on this canvas, examples of how it is being used. 
+
 ## Refs
 
 * [https://en.wikipedia.org/wiki/Radio_calisthenics](https://en.wikipedia.org/wiki/Radio_calisthenics "https://en.wikipedia.org/wiki/Radio_calisthenics")
