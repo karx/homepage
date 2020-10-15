@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Akshay Rana"
+title:  "Ashwani Bhatti"
 profile_image: "/assets/images/rana.png"
 tags: 
-  - Community Member
+  - Executive
 header:
   teaser: "/assets/images/rana.png"
 sidebar:

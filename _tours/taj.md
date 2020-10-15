@@ -39,6 +39,9 @@ sidebar:
     date: "April 2020"
     
 
+model:
+  asset: "/assets/models/LowPolyTaj.glb"
+
      
 # gallery:
 #   - url: "/assets/images/AgriWatch/agriwatchscreens/humidity.jpg"

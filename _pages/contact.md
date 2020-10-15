@@ -14,9 +14,9 @@ Send a **RFP** at [_info@akriya.co.in_](mailto:info@akriya.co.in)
 Send us your resume at [_careers@akriya.co.in_](mailto:careers@akriya.co.in)
 
 ## Just want to have a chat?
-For general support and discussion, please join the Discord server: [Discord Invite Link](https://discord.gg/fjvwC3z)
+For general support and discussion, please join the Discord server: [Discord Invite Link](https://discord.gg/8jdSdmD)
 
-[![Discord Server](https://discordapp.com/api/guilds/434645547110891520/widget.png?style=banner2)](https://discord.gg/B2cERQ5)
+[![Discord Server](https://discordapp.com/api/guilds/756603773425549312/widget.png?style=banner2)](https://discord.gg/8jdSdmD)
 
 To check known bugs and see planned changes and features of any of our project, please see the GitHub issues.
 
