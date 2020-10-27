@@ -87,6 +87,13 @@ The ingestion servers basically runs a service which understands this encoding, 
 
 <--DRAWING-->
 
+
+To understand Protocol better: https://restream.io/blog/streaming-protocols/
+
+To understand Ingetion Server Better: [Write Sample Ingetion server for data backup example]
+
+To understand The tool better: Download [OBS - Open Broadcaster Software](https://obsproject.com/) and use it.
+
 ### Interactions
 
 What are the various types of interactions that are possible on this canvas, examples of how it is being used.
