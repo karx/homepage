@@ -2,12 +2,10 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Pokemons"
-    url: /pokemons/
-  - title: "Blog"
-    url: "/blogs"
-  - title: "Trainers"
-    url: /trainers/
+  - title: "Qualifiers"
+    url: /qualifiers/
+  - title: "Teams"
+    url: /teams/
   # - title: "Contact Us"
   #   url: /contact
   - title: "Core"

@@ -1,7 +1,7 @@
 <div class="labs-container">
     <div class="labs-header section-header">
-        <h2>Cooking in labs</h2>
-        <p>Some of our internal projects.</p>
+        <h2>Live Battlefeed</h2>
+        <p>Some live battlefeed from the ground</p>
     </div>
     <div class="labs-content">
         {% for beta in site.labs | where:"published",false %}
@@ -15,7 +15,7 @@
                 </div>
                 <p>{{beta.description}}</p>
             </div>
-           
+
         </div>
         {% endfor %}
     </div>
