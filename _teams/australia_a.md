@@ -2,8 +2,10 @@
 title: "Australia A"
 player_1: "Socksyy"
 player_2: "ChriSt"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "2-0"
+map_difference: "6-0"
+seed: "#11"
+average_elo: "1995"
 excerpt: "Socksyy and ChriSt"
 status: "Qualified"
 

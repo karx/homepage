@@ -4,8 +4,10 @@ player_1: "Telesmurf"
 player_2: "RaskWarrioR"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#98"
+average_elo: "1338.5"
 excerpt: "Telesmurf and RaskWarrioR"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

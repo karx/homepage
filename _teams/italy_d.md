@@ -2,8 +2,10 @@
 title: "Italy D"
 player_1: "[OS] RaiD_"
 player_2: "[OS] ScaryMantis"
-match_difference: "1-0"
-map_difference: "3-2"
+match_difference: "1-1"
+map_difference: "4-5"
+seed: "#46"
+average_elo: "1771.5"
 excerpt: "[OS] RaiD_ and [OS] ScaryMantis"
 status: "Qualified"
 

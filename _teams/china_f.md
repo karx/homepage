@@ -4,8 +4,10 @@ player_1: "KGT_tushen"
 player_2: "KGT_rom"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#13"
+average_elo: "1991"
 excerpt: "KGT_tushen and KGT_rom"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

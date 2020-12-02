@@ -4,8 +4,10 @@ player_1: "Nahuel05_"
 player_2: "luCh0j"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#74"
+average_elo: "1587.5"
 excerpt: "Nahuel05_ and luCh0j"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

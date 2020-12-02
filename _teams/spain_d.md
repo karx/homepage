@@ -4,8 +4,10 @@ player_1: "juantonio968"
 player_2: "Matamoros"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#111"
+average_elo: "1236"
 excerpt: "juantonio968 and Matamoros"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

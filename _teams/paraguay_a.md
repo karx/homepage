@@ -4,8 +4,10 @@ player_1: "Kiyopon"
 player_2: "Karpincho"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#70"
+average_elo: "1604.5"
 excerpt: "Kiyopon and Karpincho"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

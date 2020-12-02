@@ -13,3 +13,5 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 tools/config.json
+# Local Netlify folder
+.netlify

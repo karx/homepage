@@ -49,6 +49,19 @@ layout: default
         </div>
         {% endif %}
 
+        <div class="coverage-container">
+          <h3>Coverage</h3>
+          <div class="all-coverage-vids">
+            {% for vod in page.coverage %}
+              <div class="each-vod"></div>
+            {% endfor %}
+            <div class="submit-vod">
+              <a href="/submit.html" id="submit-link">Submit Coverage</a>
+            </div>
+          </div>
+
+        </div>
+
         {% if page.type and page.type[0] %}
           <div class="stats">
             {% for type in page.type %}

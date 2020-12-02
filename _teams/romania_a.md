@@ -2,8 +2,10 @@
 title: "Romania A"
 player_1: "Andre_2i"
 player_2: "Mihai06"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "2-0"
+map_difference: "6-1"
+seed: "#23"
+average_elo: "1950"
 excerpt: "Andre_2i and Mihai06"
 status: "Qualified"
 

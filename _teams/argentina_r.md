@@ -4,8 +4,10 @@ player_1: "Chinomania"
 player_2: "Nebuchadnezzar"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#115"
+average_elo: "1201"
 excerpt: "Chinomania and Nebuchadnezzar"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

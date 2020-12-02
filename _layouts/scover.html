@@ -1,0 +1,27 @@
+---
+layout: archive
+firebase: true
+---
+
+{{ content }}
+
+
+<div class="submit-form">
+  <form onsubmit="submitVodData(event)">
+    <label for="stream">Vod URL</label>
+    <input required type="text" name="stream" id="streamurl" placeholder="https://www.twitch.tv/videos/812081261">
+
+    <label for="match">Match</label>
+    <select required name="match" id="matchid">
+      {% for eachmatch in site.qualifiers %}
+        <option value="{{eachmatch.optval}}"> {{eachmatch.title}} | {{eachmatch.excerpt | markdownify}}</option>
+      {% endfor %}
+    </select>
+    <label for="caster">Caster URL (Optional)</label>
+    <input type="text" name="caster" placeholder="https://twitch.tv/t90official" id="casterurl">
+    <button>Submit Coverage</button>
+
+  </form>
+</div>
+
+<script src="{{ '/assets/js/vodsubmit.js' | relative_url }}"></script>

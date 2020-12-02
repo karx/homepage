@@ -2,8 +2,10 @@
 title: "China C"
 player_1: "vivi"
 player_2: "JIbatong"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "1-1"
+map_difference: "3-3"
+seed: "#1"
+average_elo: "2307"
 excerpt: "vivi and JIbatong"
 status: "Qualified"
 

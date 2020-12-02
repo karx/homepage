@@ -2,8 +2,10 @@
 title: "Czech Republic C"
 player_1: "pushTheTempo"
 player_2: "IamKoty"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "1-1"
+map_difference: "4-3"
+seed: "#26"
+average_elo: "1937"
 excerpt: "pushTheTempo and IamKoty"
 status: "Qualified"
 

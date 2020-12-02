@@ -4,9 +4,11 @@ player_1: "Brus"
 player_2: "EvilDm"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#109"
+average_elo: "1258.5"
 subsitute: "tomilapier"
 excerpt: "Brus, EvilDm and tomilapier"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

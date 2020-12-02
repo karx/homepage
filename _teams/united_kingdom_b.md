@@ -2,8 +2,10 @@
 title: "United Kingdom B"
 player_1: "darvoi"
 player_2: "steak"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "2-0"
+map_difference: "6-0"
+seed: "#31"
+average_elo: "1915.5"
 excerpt: "darvoi and steak"
 status: "Qualified"
 

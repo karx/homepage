@@ -4,8 +4,10 @@ player_1: "Xerxes"
 player_2: "JustAPlayer"
 match_difference: "0-0"
 map_difference: "0-0"
+seed: "#44"
+average_elo: "1799.5"
 excerpt: "Xerxes and JustAPlayer"
-status: "Pending"
+status: "Qualified"
 
 ---
 ## Players

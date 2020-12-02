@@ -2,10 +2,12 @@
 title: "France C"
 player_1: "Tifux"
 player_2: "Arch"
-match_difference: "0-0"
-map_difference: "0-0"
+match_difference: "1-0"
+map_difference: "3-0"
+seed: "#63"
+average_elo: "1672"
 excerpt: "Tifux and Arch"
-status: "Pending"
+status: "Qualified"
 
 ---
 ## Players

@@ -2,8 +2,10 @@
 title: "Brazil D"
 player_1: "Alive"
 player_2: "Gabi"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "2-0"
+map_difference: "6-0"
+seed: "#9"
+average_elo: "2014.5"
 excerpt: "Alive and Gabi"
 status: "Qualified"
 

@@ -4,8 +4,10 @@ player_1: "Tronquito"
 player_2: "Moctezuma"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#93"
+average_elo: "1369.5"
 excerpt: "Tronquito and Moctezuma"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players

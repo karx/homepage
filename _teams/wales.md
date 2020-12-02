@@ -4,8 +4,10 @@ player_1: "FishBulb"
 player_2: "Slinky"
 match_difference: "0-1"
 map_difference: "0-3"
+seed: "#122"
+average_elo: "1123.5"
 excerpt: "FishBulb and Slinky"
-status: "DNQ"
+status: "Qualified"
 
 ---
 ## Players
