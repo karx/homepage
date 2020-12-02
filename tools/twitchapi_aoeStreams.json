@@ -1,0 +1,366 @@
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache, no-store, must-revalidate, private
+Content-Encoding: gzip
+Expires: 0
+Pragma: no-cache
+Ratelimit-Limit: 800
+Ratelimit-Remaining: 799
+Ratelimit-Reset: 1606164909
+Timing-Allow-Origin: https://www.twitch.tv
+Twitch-Trace-Id: 0d2bee41eb550639c3177b200db5c211
+X-Ctxlog-Logid: 1-5fbc21ac-7c3657a14624a19c4d6278f5
+Date: Mon, 23 Nov 2020 20:55:08 GMT
+X-Served-By: cache-sea4452-SEA, cache-sin18034-SIN
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1606164908.287417,VS0,VS0,VE198
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=300
+transfer-encoding: chunked
+
+{
+  "data": [
+    {
+      "id": "40649985166",
+      "user_id": "92957305",
+      "user_name": "T90Official",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Netherlands A vs Chile B | World Cup Losers Match (Group E)",
+      "viewer_count": 7141,
+      "started_at": "2020-11-23T16:57:43Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_t90official-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ]
+    },
+    {
+      "id": "40102737420",
+      "user_id": "24811779",
+      "user_name": "WagamamaTV",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "age of noobs soon! ",
+      "viewer_count": 1211,
+      "started_at": "2020-11-23T13:12:14Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_wagamamatv-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ]
+    },
+    {
+      "id": "40107394860",
+      "user_id": "43643204",
+      "user_name": "OGN_EMPIRES",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "FRENCH_RUMBLE : SHULK vs CAPÖUT puis BO AU CHOIX !",
+      "viewer_count": 1016,
+      "started_at": "2020-11-23T19:07:22Z",
+      "language": "fr",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ogn_empires-{width}x{height}.jpg",
+      "tag_ids": [
+        "6f655045-9989-4ef7-8f85-1edcec42d648"
+      ]
+    },
+    {
+      "id": "40105219292",
+      "user_id": "26412614",
+      "user_name": "Nili_AoE",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "GerMonday - World Cup Casting !vpn",
+      "viewer_count": 753,
+      "started_at": "2020-11-23T16:56:25Z",
+      "language": "de",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nili_aoe-{width}x{height}.jpg",
+      "tag_ids": [
+        "9166ad14-41f1-4b04-a3b8-c8eb838c6be6"
+      ]
+    },
+    {
+      "id": "40105038524",
+      "user_id": "2400710",
+      "user_name": "MembTV",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Netherlands A vs Chile B - World Cup 2v2 !Schedule - !WC - !prime - !youtube",
+      "viewer_count": 565,
+      "started_at": "2020-11-23T16:43:49Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_membtv-{width}x{height}.jpg",
+      "tag_ids": [
+        "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+        "a005b174-b20e-46b1-8679-4589fef81c8e",
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ]
+    },
+    {
+      "id": "40105139020",
+      "user_id": "31801548",
+      "user_name": "TheSniper_AOE",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "2vs2 World Cup ! Phase de groupe",
+      "viewer_count": 226,
+      "started_at": "2020-11-23T16:50:59Z",
+      "language": "fr",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thesniper_aoe-{width}x{height}.jpg",
+      "tag_ids": [
+        "6f655045-9989-4ef7-8f85-1edcec42d648",
+        "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+        "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+        "ef4f33d5-a6cb-4935-bc1d-97c818a1e39e",
+        "a005b174-b20e-46b1-8679-4589fef81c8e",
+        "96b6073f-450d-4248-8ed4-988e28f3f759"
+      ]
+    },
+    {
+      "id": "40649983390",
+      "user_id": "38515899",
+      "user_name": "Ornlu_AoE",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "2v2 World Cup! Chile B vs Netherlands A ~ !twitter !wc !ratings !civs",
+      "viewer_count": 157,
+      "started_at": "2020-11-23T16:57:35Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ornlu_aoe-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ]
+    },
+    {
+      "id": "40107878140",
+      "user_id": "48101154",
+      "user_name": "SalzZ_Vinchester",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Играем турниры | Ночной стримчик | !challenge !coach",
+      "viewer_count": 148,
+      "started_at": "2020-11-23T19:35:20Z",
+      "language": "ru",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_salzz_vinchester-{width}x{height}.jpg",
+      "tag_ids": [
+        "0569b171-2a2b-476e-a596-5bdfb45a1327"
+      ]
+    },
+    {
+      "id": "40652069310",
+      "user_id": "162233319",
+      "user_name": "stellarMeesh",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Meesh Monday",
+      "viewer_count": 129,
+      "started_at": "2020-11-23T19:37:59Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_stellarmeesh-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039"
+      ]
+    },
+    {
+      "id": "40650032782",
+      "user_id": "26304566",
+      "user_name": "NovaAoE",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Netherlands (A.J., Prays, Dark) vs Chile (Wisepii, Nero) 2v2 World Cup 2020 | Hosted by T90Official and NachoAoE | Casting by NOV",
+      "viewer_count": 90,
+      "started_at": "2020-11-23T17:01:32Z",
+      "language": "en",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_novaaoe-{width}x{height}.jpg",
+      "tag_ids": [
+        "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+        "a005b174-b20e-46b1-8679-4589fef81c8e"
+      ]
+    },
+    {
+      "id": "40106028204",
+      "user_id": "38376666",
+      "user_name": "KasasPoxo",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "AoE2DE - Pase al TOP3 TNE Konfer vs C3mbrich | !TorneoNacional",
+      "viewer_count": 70,
+      "started_at": "2020-11-23T17:48:32Z",
+      "language": "es",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kasaspoxo-{width}x{height}.jpg",
+      "tag_ids": [
+        "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+      ]
+    },
+    {
+      "id": "40652112142",
+      "user_id": "29252936",
+      "user_name": "BiryArg",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "LIGA ARGENTINA 2da Edicion FASE GRUPOS :Biry vs Ivanenko",
+      "viewer_count": 68,
+      "started_at": "2020-11-23T19:40:47Z",
+      "language": "es",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_biryarg-{width}x{height}.jpg",
+      "tag_ids": [
+        "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+      ]
+    },
+    {
+      "id": "40652148990",
+      "user_id": "564705026",
+      "user_name": "ElJefeGorgo",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Copa del Mundo 2020  |  Fase de grupos  |  Día 8",
+      "viewer_count": 68,
+      "started_at": "2020-11-23T19:43:10Z",
+      "language": "es",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eljefegorgo-{width}x{height}.jpg",
+      "tag_ids": [
+        "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+      ]
+    },
+    {
+      "id": "40108855452",
+      "user_id": "207772299",
+      "user_name": "dekodie",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Age of Lags lets go",
+      "viewer_count": 49,
+      "started_at": "2020-11-23T20:30:45Z",
+      "language": "de",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dekodie-{width}x{height}.jpg",
+      "tag_ids": [
+        "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+        "b13ce7d5-d513-49ff-a957-76f193df42aa",
+        "1eba3cfe-51cc-460a-8259-bc8bb987f904"
+      ]
+    },
+    {
+      "id": "40650279934",
+      "user_id": "268387102",
+      "user_name": "ObaTheGreatt",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "World Cup 2x2!  Vietnan X Polônia (!video !rank !match !loja !tutorial !insta !discord)",
+      "viewer_count": 43,
+      "started_at": "2020-11-23T17:23:25Z",
+      "language": "pt",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_obathegreatt-{width}x{height}.jpg",
+      "tag_ids": [
+        "39ee8140-901a-4762-bfca-8260dea1310f",
+        "ac763b17-7bea-4632-9eb4-d106689ff409"
+      ]
+    },
+    {
+      "id": "40104212316",
+      "user_id": "58421664",
+      "user_name": "TurkEycof_AoE",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "TurkEycof Ligi 10.Hafta Troll vs Kumans - !yenipc - Hergün Saat 19:00'da Yayındayız ",
+      "viewer_count": 30,
+      "started_at": "2020-11-23T15:42:17Z",
+      "language": "tr",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_turkeycof_aoe-{width}x{height}.jpg",
+      "tag_ids": [
+        "f08d5873-f0c7-4912-94ba-a41933b4c141"
+      ]
+    },
+    {
+      "id": "40108502988",
+      "user_id": "203998708",
+      "user_name": "Capoutaoe",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "French Rumble contre le bon Shulk ",
+      "viewer_count": 27,
+      "started_at": "2020-11-23T20:10:18Z",
+      "language": "fr",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_capoutaoe-{width}x{height}.jpg",
+      "tag_ids": [
+        "6f655045-9989-4ef7-8f85-1edcec42d648"
+      ]
+    },
+    {
+      "id": "40107949228",
+      "user_id": "141893670",
+      "user_name": "ertugaoe",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "tG trainin",
+      "viewer_count": 25,
+      "started_at": "2020-11-23T19:39:33Z",
+      "language": "tr",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ertugaoe-{width}x{height}.jpg",
+      "tag_ids": [
+        "f08d5873-f0c7-4912-94ba-a41933b4c141"
+      ]
+    },
+    {
+      "id": "40652985630",
+      "user_id": "522332412",
+      "user_name": "aoeparatodes",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "Liga Argentina de AoE 2 DE - JuanPQ VS DSKaN - Por la 1ra División",
+      "viewer_count": 23,
+      "started_at": "2020-11-23T20:32:26Z",
+      "language": "es",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_aoeparatodes-{width}x{height}.jpg",
+      "tag_ids": [
+        "d4bb9c58-2141-4881-bcdc-3fe0505457d1"
+      ]
+    },
+    {
+      "id": "40107014604",
+      "user_id": "135182389",
+      "user_name": "GwizdeK_and_newt",
+      "game_id": "13389",
+      "game_name": "Age of Empires II",
+      "type": "live",
+      "title": "PL_Damiaster vs Firebeer 23.11.20 r. 21:30 || !ant \u003c-- AoEII ANThology: Ant League 2020 (PL) ",
+      "viewer_count": 23,
+      "started_at": "2020-11-23T18:47:29Z",
+      "language": "pl",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gwizdek_and_newt-{width}x{height}.jpg",
+      "tag_ids": [
+        "f9d04efa-6e25-49bf-bf0a-da3e2addaf1b",
+        "a005b174-b20e-46b1-8679-4589fef81c8e",
+        "e90b5f6e-4c6e-4003-885b-4d0d5adeb580",
+        "8486f56b-8677-44f7-8004-000295391524",
+        "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+        "b13ce7d5-d513-49ff-a957-76f193df42aa"
+      ]
+    }
+  ],
+  "pagination": {
+    "cursor": "eyJiIjp7IkN1cnNvciI6ImV5SnpJam8zTVRReExqUTVNRE0yTmpFME56STBOeXdpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In0sImEiOnsiQ3Vyc29yIjoiZXlKeklqb3lNeTR5TXpRek1UUXhPVGsyTlRRMU56Y3NJbVFpT21aaGJITmxMQ0owSWpwMGNuVmxmUT09In19"
+  }
+}

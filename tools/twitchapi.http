@@ -1,0 +1,5 @@
+
+GET https://api.twitch.tv/helix/streams
+    ?game_id=13389
+Client-Id: j4zhgepzz3onr4pn0e9a4iumcrxqjq
+Authorization: Bearer 9f8x21wfuni2h3elccsro2ucinq6u0
