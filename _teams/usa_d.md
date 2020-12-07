@@ -7,7 +7,7 @@ map_difference: "3-5"
 seed: "#56"
 average_elo: "1715"
 excerpt: "CeroKurn and ilovebaskets"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

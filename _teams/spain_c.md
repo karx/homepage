@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#81"
 average_elo: "1522"
 excerpt: "pistolero maldy and The Eagle"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

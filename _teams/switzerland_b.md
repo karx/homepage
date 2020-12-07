@@ -7,7 +7,7 @@ map_difference: "2-3"
 seed: "#61"
 average_elo: "1687"
 excerpt: "Pyroptere and _Master"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

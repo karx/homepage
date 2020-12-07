@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#101"
 average_elo: "1322"
 excerpt: "DS_Shirojj and Stiringg"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

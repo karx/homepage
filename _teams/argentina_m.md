@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#102"
 average_elo: "1314"
 excerpt: "Mengo45 and Iscojj"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

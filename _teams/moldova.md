@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#117"
 average_elo: "1174.5"
 excerpt: "thewiper and thediper"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

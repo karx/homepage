@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#110"
 average_elo: "1254"
 excerpt: "zaanosaurus and alex"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "3-3"
 seed: "#34"
 average_elo: "1899.5"
 excerpt: "Diegabiksis and 8th wonder"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

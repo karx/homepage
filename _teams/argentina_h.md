@@ -8,7 +8,7 @@ seed: "#60"
 average_elo: "1701.5"
 subsitute: "DS_TomiAKd98"
 excerpt: "Danilo, TheYune and DS_TomiAKd98"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#115"
 average_elo: "1201"
 excerpt: "Chinomania and Nebuchadnezzar"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

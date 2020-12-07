@@ -8,7 +8,7 @@ seed: "#50"
 average_elo: "1753"
 subsitute: "Dunedain44"
 excerpt: "Bulletchen, Nobody and Dunedain44"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

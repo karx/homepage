@@ -8,7 +8,7 @@ seed: "#62"
 average_elo: "1673.5"
 subsitute: "APOLO"
 excerpt: "Razorj18, AsMelodiat and APOLO"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

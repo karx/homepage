@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#121"
 average_elo: "1134.5"
 excerpt: "itswhitephoenix and Synaspe"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

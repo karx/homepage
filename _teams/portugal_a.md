@@ -8,7 +8,7 @@ seed: "#68"
 average_elo: "1615"
 subsitute: "oSetinhas"
 excerpt: "SantosSilva68, Darkwynn and oSetinhas"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

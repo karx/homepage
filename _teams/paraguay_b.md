@@ -8,7 +8,7 @@ seed: "#85"
 average_elo: "1467.5"
 subsitute: "Lord Phoenix"
 excerpt: "AAOMPY, Fray and Lord Phoenix"
-status: "Qualified"
+status: "Pending"
 
 ---
 ## Players

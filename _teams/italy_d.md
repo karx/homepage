@@ -7,7 +7,7 @@ map_difference: "4-5"
 seed: "#46"
 average_elo: "1771.5"
 excerpt: "[OS] RaiD_ and [OS] ScaryMantis"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

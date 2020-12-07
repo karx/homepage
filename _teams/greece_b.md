@@ -7,7 +7,7 @@ map_difference: "3-3"
 seed: "#119"
 average_elo: "1161"
 excerpt: "Genesas and Alexandertsak"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

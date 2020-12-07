@@ -7,7 +7,7 @@ map_difference: "3-3"
 seed: "#33"
 average_elo: "1901.5"
 excerpt: "GergisKan and Lotario"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

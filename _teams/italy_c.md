@@ -8,7 +8,7 @@ seed: "#43"
 average_elo: "1804"
 subsitute: "Simvall"
 excerpt: "Loris, salsicciotto1999 and Simvall"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

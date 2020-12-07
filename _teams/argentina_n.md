@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#104"
 average_elo: "1306"
 excerpt: "ATRperro and mac"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

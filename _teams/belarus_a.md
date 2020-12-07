@@ -7,7 +7,7 @@ map_difference: "2-3"
 seed: "#54"
 average_elo: "1718.5"
 excerpt: "OLADUSHEK and Believe_me"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

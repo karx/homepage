@@ -32,9 +32,12 @@
     "build:js": "npm run uglify && npm run add-banner"
   },
   "dependencies": {
+    "firebase-admin": "^9.4.1",
     "fs": "0.0.1-security",
     "googleapis": "^65.0.0",
     "json-to-frontmatter-markdown": "^1.0.0",
-    "json-to-pretty-yaml": "^1.2.2"
+    "json-to-pretty-yaml": "^1.2.2",
+    "moment": "^2.29.1",
+    "request": "^2.88.2"
   }
 }

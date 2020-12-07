@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#111"
 average_elo: "1236"
 excerpt: "juantonio968 and Matamoros"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

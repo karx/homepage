@@ -17,8 +17,24 @@ firebase: true
         <option value="{{eachmatch.optval}}"> {{eachmatch.title}} | {{eachmatch.excerpt | markdownify}}</option>
       {% endfor %}
     </select>
-    <label for="caster">Caster URL (Optional)</label>
+    <label for="caster">Caster URL</label>
     <input type="text" name="caster" placeholder="https://twitch.tv/t90official" id="casterurl">
+
+
+    <div class="more">
+      <label for="casterName">Caster Name</label>
+      <input type="text" name="casterName" placeholder="Dave_AoE" id="casterName">
+
+      <label for="drafts">Draft</label>
+      <input type="text" name="drafts" placeholder="https://aoe2cm.net/draft/BXRBS" id="drafts">
+
+
+      <label for="matchdetails">Match Summary</label>
+      <textarea name="matchdetails" id="matchdetails" cols="30" rows="10" placeholder="Markdown is supported"></textarea>
+
+
+    </div>
+
     <button>Submit Coverage</button>
 
   </form>

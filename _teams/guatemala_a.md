@@ -8,7 +8,7 @@ seed: "#47"
 average_elo: "1768.5"
 subsitute: "DS_pH14"
 excerpt: "DS_TaoPaiPai, chap1nziiin and DS_pH14"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#77"
 average_elo: "1555"
 excerpt: "Chifuu and Raits"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

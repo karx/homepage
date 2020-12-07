@@ -7,7 +7,7 @@ map_difference: "2-3"
 seed: "#83"
 average_elo: "1507.5"
 excerpt: "FlayverSaver and manu"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

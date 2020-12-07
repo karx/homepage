@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#76"
 average_elo: "1580"
 excerpt: "Eleuieseka and OPorcus"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

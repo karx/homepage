@@ -8,7 +8,7 @@ seed: "#109"
 average_elo: "1258.5"
 subsitute: "tomilapier"
 excerpt: "Brus, EvilDm and tomilapier"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

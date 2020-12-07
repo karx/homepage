@@ -8,11 +8,11 @@ seed: "#107"
 average_elo: "1260.5"
 subsitute: "Guilled"
 excerpt: "Sopapa, la bruja del 71 and Guilled"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players
 
 | Player 1 | Player 2 | Subsitute |
 | -- | -- | -- |
-| Sopapa | la bruja del 71 | Guilled |
+| *Sopapa* | la bruja del 71 | Guilled |

@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#92"
 average_elo: "1410.5"
 excerpt: "Azamat official and p337"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

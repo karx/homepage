@@ -8,7 +8,7 @@ seed: "#29"
 average_elo: "1921"
 subsitute: "V1sTiMa"
 excerpt: "wAkKo, Jupy and V1sTiMa"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

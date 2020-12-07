@@ -8,7 +8,7 @@ seed: "#64"
 average_elo: "1664.5"
 subsitute: "LAT_SpAwN"
 excerpt: "Mangock, LAT_Power_ and LAT_SpAwN"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

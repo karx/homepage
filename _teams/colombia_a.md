@@ -8,7 +8,7 @@ seed: "#84"
 average_elo: "1482"
 subsitute: "Vancouver"
 excerpt: "OOSS, Pandaman and Vancouver"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

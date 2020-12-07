@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#78"
 average_elo: "1548.5"
 excerpt: "Vierr and Pendeck's"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

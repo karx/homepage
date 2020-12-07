@@ -7,7 +7,7 @@ map_difference: "3-3"
 seed: "#1"
 average_elo: "2307"
 excerpt: "vivi and JIbatong"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

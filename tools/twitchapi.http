@@ -1,5 +1,6 @@
 
 GET https://api.twitch.tv/helix/streams
     ?game_id=13389
+    ?after=eyJiIjp7IkN1cnNvciI6ImV5SnpJam94TVRBeE1pNDBPVEF6TmpZeE5EY3lORGNzSW1RaU9tWmhiSE5sTENKMElqcDBjblZsZlE9PSJ9LCJhIjp7IkN1cnNvciI6ImV5SnpJam94Tmk0Mk1qTTNOakF3TWpNMU9UVXpOaXdpWkNJNlptRnNjMlVzSW5RaU9uUnlkV1Y5In19
 Client-Id: j4zhgepzz3onr4pn0e9a4iumcrxqjq
 Authorization: Bearer 9f8x21wfuni2h3elccsro2ucinq6u0

@@ -8,7 +8,7 @@ seed: "#89"
 average_elo: "1428"
 subsitute: "☭Sgt.Pepper☭"
 excerpt: "MrOsoVC8, Drac-Wolf and ☭Sgt.Pepper☭"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "1-3"
 seed: "#57"
 average_elo: "1711.5"
 excerpt: "Alakay and Masked Muchacho"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

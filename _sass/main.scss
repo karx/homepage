@@ -133,3 +133,23 @@
 .grid__item .archive__item-teaser {
   max-height: 175px !important;
 }
+
+
+table {
+  td em {
+    background: #494e52;
+    color: #494e52;
+  }
+  td:first-child em {
+    background: #fff;
+  }
+}
+table:hover {
+  td em {
+    background: #fff;
+  }
+}
+
+.blogs-content {
+  display: flex;
+}

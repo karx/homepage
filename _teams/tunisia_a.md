@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#112"
 average_elo: "1234"
 excerpt: "ThaB3i and Eydo"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

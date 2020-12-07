@@ -8,7 +8,7 @@ seed: "#10"
 average_elo: "1998.5"
 subsitute: "TV* USb_AoE"
 excerpt: "LobodelaNieve, IamTeTas and TV* USb_AoE"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

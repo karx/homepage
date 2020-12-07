@@ -7,7 +7,7 @@ map_difference: "1-3"
 seed: "#80"
 average_elo: "1525.5"
 excerpt: "CornelioBruto and Redlash"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

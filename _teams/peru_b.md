@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#114"
 average_elo: "1212"
 excerpt: "Gabo_1503 and juliocordovah"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

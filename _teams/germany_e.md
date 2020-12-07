@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#90"
 average_elo: "1426.5"
 excerpt: "Dboi and Bboi"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

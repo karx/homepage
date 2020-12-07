@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#120"
 average_elo: "1158.5"
 excerpt: "DS_valeriahuesca and amaurihr"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

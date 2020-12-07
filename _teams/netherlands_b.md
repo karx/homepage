@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#126"
 average_elo: "1058"
 excerpt: "jjoonnaatt and jeriendenblanken"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

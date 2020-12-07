@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#125"
 average_elo: "1093"
 excerpt: "El Cif Limpiador and Elgranate14"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

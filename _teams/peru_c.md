@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#128"
 average_elo: "1035.5"
 excerpt: "DS_Tilín and EL PARAGUAS CON HUECO"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

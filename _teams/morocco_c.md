@@ -7,7 +7,7 @@ map_difference: "2-3"
 seed: "#73"
 average_elo: "1589"
 excerpt: "GregStein and Dedpool_Aoe"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

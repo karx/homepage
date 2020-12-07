@@ -7,7 +7,7 @@ map_difference: "3-5"
 seed: "#75"
 average_elo: "1586.5"
 excerpt: "Big Tuna and soccersmed"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

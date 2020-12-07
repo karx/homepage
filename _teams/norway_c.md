@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#91"
 average_elo: "1417"
 excerpt: "SnippyInDaHouse and gaffelspoon"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -8,7 +8,7 @@ seed: "#116"
 average_elo: "1178"
 subsitute: "CHIMICHURRI"
 excerpt: "KETCHUP, MAYONESA and CHIMICHURRI"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

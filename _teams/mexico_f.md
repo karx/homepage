@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#69"
 average_elo: "1607"
 excerpt: "Romell13 and MoSka"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

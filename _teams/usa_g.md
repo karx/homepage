@@ -8,7 +8,7 @@ seed: "#100"
 average_elo: "1327.5"
 subsitute: "SilverHawk"
 excerpt: "LyF_Boothman1, RecklessMF and SilverHawk"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

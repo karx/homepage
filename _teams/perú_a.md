@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#98"
 average_elo: "1338.5"
 excerpt: "Telesmurf and RaskWarrioR"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

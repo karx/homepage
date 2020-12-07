@@ -6,14 +6,22 @@ async function submitVodData(e) {
   let match_id = document.getElementById('matchid').value;
   let caster = document.getElementById('casterurl').value;
 
+  let casterName = document.getElementById('casterName').value;
+  let drafts = document.getElementById('drafts').value;
+  let matchdetails = document.getElementById('matchdetails').value;
+
   let matchDetails = {
     vod_url: vod_url,
     match_id: match_id,
-    caster: caster
+    caster: caster,
+    casterName: casterName,
+    drafts: drafts,
+    matchdetails: matchdetails,
+    submitted_at: new Date()
   }
   //Send to Firebase
 
-  let firebaseOP = await db.collection(`2v2wc_matches/${match_id}/casts`).add({matchDetails});
+  let firebaseOP = await db.collection(`2v2wc_match_casts`).add({matchDetails});
 
     // .then((e) => {console.log(e)})
     // .catch((e)=> {console.error(e)});

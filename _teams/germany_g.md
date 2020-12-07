@@ -8,7 +8,7 @@ seed: "#105"
 average_elo: "1289.5"
 subsitute: "Tzedakah"
 excerpt: "cheater777, xebit and Tzedakah"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

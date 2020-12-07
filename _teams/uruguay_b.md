@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#87"
 average_elo: "1459"
 excerpt: "Gral_Artigas and lautreamont_"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

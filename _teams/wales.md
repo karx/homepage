@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#122"
 average_elo: "1123.5"
 excerpt: "FishBulb and Slinky"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

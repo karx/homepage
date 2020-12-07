@@ -8,7 +8,7 @@ seed: "#96"
 average_elo: "1359"
 subsitute: "MNBill"
 excerpt: "HolzwurmAoE, Socors and MNBill"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#70"
 average_elo: "1604.5"
 excerpt: "Kiyopon and Karpincho"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

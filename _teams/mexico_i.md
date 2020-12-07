@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#94"
 average_elo: "1369.5"
 excerpt: "Darkrai and Shadow"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "0-0"
 seed: "#44"
 average_elo: "1799.5"
 excerpt: "Xerxes and JustAPlayer"
-status: "Qualified"
+status: "Pending"
 
 ---
 ## Players

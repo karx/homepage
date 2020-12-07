@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#86"
 average_elo: "1463.5"
 excerpt: "GhoSt and FoLiO_"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

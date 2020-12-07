@@ -8,7 +8,7 @@ seed: "#42"
 average_elo: "1806.5"
 subsitute: "VN_Wottan"
 excerpt: "VN_Alegria, Chirris_ and VN_Wottan"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

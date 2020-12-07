@@ -8,7 +8,7 @@ seed: "#108"
 average_elo: "1260"
 subsitute: "Kamijou"
 excerpt: "Saldeath, johanca11 and Kamijou"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

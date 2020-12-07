@@ -52,12 +52,22 @@ layout: default
         <div class="coverage-container">
           <h3>Coverage</h3>
           <div class="all-coverage-vids">
-            {% for vod in page.coverage %}
-              <div class="each-vod"></div>
-            {% endfor %}
-            <div class="submit-vod">
-              <a href="/submit.html" id="submit-link">Submit Coverage</a>
+
+
+            <div class="page_videos"></div>
+              <div class="">
+                {% for post in site.posts %}
+                  {% if post.match_id == page.optval %}
+                    {% include rec-single.html %}
+                  {% endif %}
+                {% endfor %}
+              </div>
             </div>
+
+
+          </div>
+          <div class="submit-vod">
+            <a href="/submit.html" id="submit-link">Submit Coverage</a>
           </div>
 
         </div>
@@ -82,13 +92,6 @@ layout: default
           </div>
         {% endif %}
 
-          <!-- {% if page.base and page.base[0] %}
-          <div class="features">
-            {{page.base}}
-
-
-          </div>
-          {% endif %} -->
 
 
 

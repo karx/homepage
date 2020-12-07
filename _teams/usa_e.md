@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#71"
 average_elo: "1601.5"
 excerpt: "OrnLu and T-West"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

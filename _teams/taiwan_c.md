@@ -8,7 +8,7 @@ seed: "#41"
 average_elo: "1810.5"
 subsitute: "ritoeru's fan"
 excerpt: "aoc229001, kw and ritoeru's fan"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

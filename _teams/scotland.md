@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#124"
 average_elo: "1096"
 excerpt: "Bell and sulat"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

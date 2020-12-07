@@ -8,7 +8,7 @@ seed: "#38"
 average_elo: "1832"
 subsitute: "堂島の龍"
 excerpt: "komtan, oyacchan and 堂島の龍"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

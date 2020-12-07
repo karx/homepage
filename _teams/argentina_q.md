@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#113"
 average_elo: "1224"
 excerpt: "Cera del Oído and Juancito"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

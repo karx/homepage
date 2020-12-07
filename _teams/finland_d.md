@@ -8,7 +8,7 @@ seed: "#51"
 average_elo: "1751.5"
 subsitute: "Jääpala"
 excerpt: "Mullisaukko, Ebbu and Jääpala"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

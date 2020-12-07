@@ -8,7 +8,7 @@ let sheets = google.sheets({
   auth: config.G_SHEETS_API,
 });
 
-let debug = true;
+let debug = false;
 let qualifiers128_backup = require("./qualifiers128.json");
 let qualifiers64_backup = require("./qualifiers64.json");
 let qualifiers32_backup = require("./qualifiers32.json");
@@ -127,8 +127,8 @@ async function qualifiers128ToMD(data) {
     data += `## Results\n\n`;
     data += `| ${qualifiers128[i + 1].join(" | ")} |\n`;
     data += `| -- | -- | -- | -- | -- | -- | -- |\n`;
-    data += `| ${qualifiers128[i + 2].join(" | ")} |\n`;
-    data += `| ${qualifiers128[i + 3].join(" | ")} |\n`;
+    data += `| ${qualifiers128[i + 2].map(v => '*' + v + '*').join(" | ")} |\n`;
+    data += `| ${qualifiers128[i + 3].map(v => '*' + v + '*').join(" | ")} |\n`;
 
 
     console.log(filename);
@@ -231,7 +231,8 @@ async function playerDataToMD(data) {
       match_difference: eachTeam[7],
       map_difference: eachTeam[8],
       seed: eachTeam[0],
-      average_elo: eachTeam[1].replace(',','.')
+      average_elo: eachTeam[1].replace(',','.'),
+      sheet: 'silver'
     });
     if (eachTeam[6] !== "") {
       data += YAML.stringify({
@@ -246,8 +247,7 @@ async function playerDataToMD(data) {
     }
 
     data += YAML.stringify({
-      status: eachTeam[5] === "0-1" ? "DNQ" : eachTeam[5] === '0-0' ? "Pending" : "Qualified"
-
+      status: eachTeam[7].split('-')[1] === "1" ? "DNQ" : eachTeam[7] === '0-0' ? "Pending" : "Qualified"
     });
     data += `\n---\n`;
     data += `## Players\n\n`;
@@ -263,7 +263,7 @@ async function playerDataToMD(data) {
 
 }
 
-getAllPlayers().catch(console.error);
+// getAllPlayers().catch(console.error);
 getAllQualifiers128().catch(console.error);
-getAllQualifiers64().catch(console.error);
-getAllQualifiers32().catch(console.error);
+// getAllQualifiers64().catch(console.error);
+// getAllQualifiers32().catch(console.error);

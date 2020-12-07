@@ -7,7 +7,7 @@ map_difference: "1-3"
 seed: "#79"
 average_elo: "1543"
 excerpt: "Salytmacska and LidaKor"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

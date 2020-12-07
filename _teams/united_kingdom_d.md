@@ -8,7 +8,7 @@ seed: "#99"
 average_elo: "1328.5"
 subsitute: "quadsflopper"
 excerpt: "redneckchemist, mkalexander and quadsflopper"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

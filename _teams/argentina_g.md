@@ -7,7 +7,7 @@ map_difference: "3-3"
 seed: "#40"
 average_elo: "1823"
 excerpt: "Millo and Gary_"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

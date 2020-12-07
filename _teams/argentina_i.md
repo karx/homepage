@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#74"
 average_elo: "1587.5"
 excerpt: "Nahuel05_ and luCh0j"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

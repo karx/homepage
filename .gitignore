@@ -15,3 +15,5 @@ npm-debug.log*
 tools/config.json
 # Local Netlify folder
 .netlify
+
+firebase-config.json

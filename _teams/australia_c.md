@@ -7,7 +7,7 @@ map_difference: "4-3"
 seed: "#48"
 average_elo: "1764"
 excerpt: "Failey and Rayzor"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

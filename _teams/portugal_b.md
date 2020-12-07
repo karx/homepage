@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#118"
 average_elo: "1163"
 excerpt: "pmpc and RealBaconEater"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

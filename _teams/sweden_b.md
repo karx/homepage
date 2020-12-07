@@ -8,7 +8,7 @@ seed: "#59"
 average_elo: "1704"
 subsitute: "DarklyWise"
 excerpt: "BuLLeT, mratin and DarklyWise"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "1-3"
 seed: "#88"
 average_elo: "1454"
 excerpt: "Cornelio and Arezard17"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

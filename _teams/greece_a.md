@@ -7,7 +7,7 @@ map_difference: "3-3"
 seed: "#58"
 average_elo: "1704.5"
 excerpt: "KronosJr and vipsarkon"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#13"
 average_elo: "1991"
 excerpt: "KGT_tushen and KGT_rom"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

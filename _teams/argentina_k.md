@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#93"
 average_elo: "1369.5"
 excerpt: "Tronquito and Moctezuma"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

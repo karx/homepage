@@ -8,7 +8,7 @@ seed: "#49"
 average_elo: "1763.5"
 subsitute: "Tiger"
 excerpt: "cong4ever, Plogen and Tiger"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

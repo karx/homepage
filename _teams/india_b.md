@@ -8,7 +8,7 @@ seed: "#66"
 average_elo: "1627.5"
 subsitute: "Bluewolf"
 excerpt: "Morty, RogganWololo and Bluewolf"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

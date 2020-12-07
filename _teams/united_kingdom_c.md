@@ -7,7 +7,7 @@ map_difference: "0-3"
 seed: "#95"
 average_elo: "1363.5"
 excerpt: "Unrivalled Super Hottie and Rivalled Super Hottie"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

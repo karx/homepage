@@ -3,21 +3,12 @@
         <h2>Live Battlefeed</h2>
         <p>Some live battlefeed from the ground</p>
     </div>
-    <div class="labs-content">
-        {% for beta in site.labs | where:"published",false %}
-        <div class="each-beta-item">
-            <div class="item-header">
-                <h3>{{beta.title}}</h3>
-                <div class="item-info">
-                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
-                    {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
-                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
-                </div>
-                <p>{{beta.description}}</p>
-            </div>
-
-        </div>
-        {% endfor %}
+    <div class="labs-content" id="stream-embeds">
+      <h4 id="lookingStreams">🔦 Looking for Streams 🔦</h4>
     </div>
 
 </div>
+<script src="{{ '/assets/js/twitch-streams.js' | relative_url }}"></script>
+<script>
+  embedTop4Stream();
+</script>

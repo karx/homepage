@@ -7,7 +7,7 @@ map_difference: "4-3"
 seed: "#26"
 average_elo: "1937"
 excerpt: "pushTheTempo and IamKoty"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players
