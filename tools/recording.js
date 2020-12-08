@@ -52,7 +52,7 @@ async function recsToMD(allRecs) {
       casted_url: eachVod.caster,
       match_id: eachVod.match_id,
       vod_url: eachVod.vod_url,
-      teaser: getYoutubeVideoImage(eachVod.vod_url),
+      header: { teaser: getYoutubeVideoImage(eachVod.vod_url) },
       excerpt: `Casted by ${caster}`,
       ...vod_details
     });
@@ -68,8 +68,8 @@ async function recsToMD(allRecs) {
       data += `\n\n## Match Summary\n\n`;
       data += eachVod.matchdetails;
     }
-
-    let filename = `${moment(eachVod.submitted_at).format(`YYYY-MM-DD-mmss`)}_${eachVod.match_id}`;
+    console.log(eachVod.submitted_at.toDate());
+    let filename = `${moment(eachVod.submitted_at.toDate()).format(`YYYY-MM-DD-hhmmss`)}_${eachVod.match_id}`;
     console.log(filename);
 
     fs.writeFileSync(`../_posts/${filename}.md`, data);
