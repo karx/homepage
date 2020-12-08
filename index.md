@@ -19,7 +19,7 @@ header:
 
     
 model:
-  asset: "/assets/models/helmet.glb"
+  asset: "/assets/models/minhelmet-processed.glb"
 color: '#FFFFFF'
 
 ---
