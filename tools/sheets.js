@@ -8,7 +8,7 @@ let sheets = google.sheets({
   auth: config.G_SHEETS_API,
 });
 
-let debug = false;
+let debug = true;
 let qualifiers128_backup = require("./qualifiers128.json");
 let qualifiers64_backup = require("./qualifiers64.json");
 let qualifiers32_backup = require("./qualifiers32.json");
@@ -103,7 +103,9 @@ async function qualifiers128ToMD(data) {
   for (i = 0; i < totalLength; i += 6) {
     let data = "";
     let filename = qualifiers128[i][0].split(" #").join("_");
-    console.log(qualifiers128[i+2]);
+
+    let team_1_slug = qualifiers128[i+2][0].split(' ').join('_').toLowerCase();
+    let team_2_slug = qualifiers128[i+3][0].split(' ').join('_').toLowerCase();
     // converting team names into links to team pages
     qualifiers128[i+2][0] = `[${qualifiers128[i+2][0]}](/teams/${qualifiers128[i+2][0].split(' ').join('_').toLowerCase()})`;
     qualifiers128[i+3][0] = `[${qualifiers128[i+3][0]}](/teams/${qualifiers128[i+3][0].split(' ').join('_').toLowerCase()})`;
@@ -112,6 +114,8 @@ async function qualifiers128ToMD(data) {
     data += YAML.stringify({
       team_1: qualifiers128[i + 2][0],
       team_2: qualifiers128[i + 3][0],
+      team_1_slug: team_1_slug,
+      team_2_slug: team_2_slug,
       title: qualifiers128[i][0],
       optval: filename,
       type: 'qualifier',
@@ -143,6 +147,9 @@ async function qualifiers64ToMD(data) {
   for (i = 0; i < totalLength; i += 12) {
     let data = "";
     let filename = qualifiers64[i][0].split(" #").join("_");
+    let team_1_slug = qualifiers64[i+2][0].split(' ').join('_').toLowerCase();
+    let team_2_slug = qualifiers64[i+3][0].split(' ').join('_').toLowerCase();
+
     // converting team names into links to team pages
     qualifiers64[i+2][0] = `[${qualifiers64[i+2][0]}](/teams/${qualifiers64[i+2][0].split(' ').join('_').toLowerCase()})`;
     qualifiers64[i+3][0] = `[${qualifiers64[i+3][0]}](/teams/${qualifiers64[i+3][0].split(' ').join('_').toLowerCase()})`;
@@ -151,6 +158,8 @@ async function qualifiers64ToMD(data) {
     data += YAML.stringify({
       team_1: qualifiers64[i + 2][0],
       team_2: qualifiers64[i + 3][0],
+      team_1_slug: team_1_slug,
+      team_2_slug: team_2_slug,
       title: qualifiers64[i][0],
       optval: filename,
       type: 'qualifier',
@@ -183,6 +192,9 @@ async function qualifiers32ToMD(data) {
   for (i = 0; i < totalLength; i += 24) {
     let data = "";
     let filename = qualifiers32[i][0].split(" #").join("_");
+    let team_1_slug = qualifiers32[i+2][0].split(' ').join('_').toLowerCase();
+    let team_2_slug = qualifiers32[i+3][0].split(' ').join('_').toLowerCase();
+
     // converting team names into links to team pages
     qualifiers32[i+2][0] = `[${qualifiers32[i+2][0]}](/teams/${qualifiers32[i+2][0].split(' ').join('_').toLowerCase()})`;
     qualifiers32[i+3][0] = `[${qualifiers32[i+3][0]}](/teams/${qualifiers32[i+3][0].split(' ').join('_').toLowerCase()})`;
@@ -191,6 +203,8 @@ async function qualifiers32ToMD(data) {
     data += YAML.stringify({
       team_1: qualifiers32[i + 2][0],
       team_2: qualifiers32[i + 3][0],
+      team_1_slug: team_1_slug,
+      team_2_slug: team_2_slug,
       title: qualifiers32[i][0],
       optval: filename,
       type: 'qualifier',
@@ -232,7 +246,8 @@ async function playerDataToMD(data) {
       map_difference: eachTeam[8],
       seed: eachTeam[0],
       average_elo: eachTeam[1].replace(',','.'),
-      sheet: 'silver'
+      sheet: 'silver',
+      team_slug: eachTeam[3].split(' ').join('_').toLowerCase(),
     });
     if (eachTeam[6] !== "") {
       data += YAML.stringify({
@@ -265,5 +280,5 @@ async function playerDataToMD(data) {
 
 // getAllPlayers().catch(console.error);
 getAllQualifiers128().catch(console.error);
-// getAllQualifiers64().catch(console.error);
-// getAllQualifiers32().catch(console.error);
+getAllQualifiers64().catch(console.error);
+getAllQualifiers32().catch(console.error);
