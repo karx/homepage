@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#115"
 average_elo: "1201"
+sheet: "silver"
+team_slug: "argentina_r"
 excerpt: "Chinomania and Nebuchadnezzar"
 status: "DNQ"
 

@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#128"
 average_elo: "1035.5"
+sheet: "silver"
+team_slug: "peru_c"
 excerpt: "DS_Tilín and EL PARAGUAS CON HUECO"
 status: "DNQ"
 

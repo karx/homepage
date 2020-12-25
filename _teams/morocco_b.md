@@ -2,13 +2,15 @@
 title: "Morocco B"
 player_1: "_ChaFaR_"
 player_2: "Robla"
-match_difference: "1-0"
-map_difference: "3-1"
+match_difference: "1-1"
+map_difference: "3-4"
 seed: "#72"
 average_elo: "1600"
+sheet: "silver"
+team_slug: "morocco_b"
 subsitute: "Flex"
 excerpt: "_ChaFaR_, Robla and Flex"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

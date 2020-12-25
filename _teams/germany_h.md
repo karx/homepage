@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#110"
 average_elo: "1254"
+sheet: "silver"
+team_slug: "germany_h"
 excerpt: "zaanosaurus and alex"
 status: "DNQ"
 

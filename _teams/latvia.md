@@ -6,6 +6,8 @@ match_difference: "1-1"
 map_difference: "3-3"
 seed: "#34"
 average_elo: "1899.5"
+sheet: "silver"
+team_slug: "latvia"
 excerpt: "Diegabiksis and 8th wonder"
 status: "DNQ"
 

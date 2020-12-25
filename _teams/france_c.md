@@ -2,12 +2,14 @@
 title: "France C"
 player_1: "Tifux"
 player_2: "Arch"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "1-1"
+map_difference: "3-3"
 seed: "#63"
 average_elo: "1672"
+sheet: "silver"
+team_slug: "france_c"
 excerpt: "Tifux and Arch"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

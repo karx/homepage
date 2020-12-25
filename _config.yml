@@ -300,7 +300,7 @@ defaults:
       path: ""
       type: teams
     values:
-      layout: single
+      layout: eachteam
       author_profile: false
       read_time: false
       comments: false

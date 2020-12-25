@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#93"
 average_elo: "1369.5"
+sheet: "silver"
+team_slug: "argentina_k"
 excerpt: "Tronquito and Moctezuma"
 status: "DNQ"
 

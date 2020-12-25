@@ -6,6 +6,8 @@ match_difference: "1-1"
 map_difference: "3-3"
 seed: "#1"
 average_elo: "2307"
+sheet: "silver"
+team_slug: "china_c"
 excerpt: "vivi and JIbatong"
 status: "DNQ"
 

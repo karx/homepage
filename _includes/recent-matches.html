@@ -1,0 +1,31 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+  <div class="sidebar sticky">
+
+    {% for s in site.qualifiers %}
+      {% if s.team_1_slug == page.team_slug or s.team_2_slug == page.team_slug %}
+      <div class="eachMatch-sidebar">
+          <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | relative_url }}"
+          alt="{% if teaser_alt %}{{ teaser_alt }}{% endif %}">
+          {% endif %}
+          {% if s.title %}
+            <a href="{{ s.url | relative_url }}" rel="permalink">{{ s.title }}</a>
+          {% endif %}
+          {% if s.excerpt %}{{ s.excerpt | markdownify }}{% endif %}
+          {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      </div>
+      {% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+
+  </div>

@@ -2,13 +2,15 @@
 title: "Australia B"
 player_1: "Zain_Naik"
 player_2: "FlawlessJ"
-match_difference: "2-0"
-map_difference: "6-0"
+match_difference: "2-1"
+map_difference: "6-3"
 seed: "#27"
 average_elo: "1931"
+sheet: "silver"
+team_slug: "australia_b"
 subsitute: "Shed"
 excerpt: "Zain_Naik, FlawlessJ and Shed"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

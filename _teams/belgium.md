@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "1-3"
 seed: "#57"
 average_elo: "1711.5"
+sheet: "silver"
+team_slug: "belgium"
 excerpt: "Alakay and Masked Muchacho"
 status: "DNQ"
 

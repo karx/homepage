@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#114"
 average_elo: "1212"
+sheet: "silver"
+team_slug: "peru_b"
 excerpt: "Gabo_1503 and juliocordovah"
 status: "DNQ"
 

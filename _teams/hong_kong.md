@@ -6,6 +6,8 @@ match_difference: "1-1"
 map_difference: "3-3"
 seed: "#37"
 average_elo: "1841"
+sheet: "silver"
+team_slug: "hong_kong"
 excerpt: "Dog9you and _king大帝"
 status: "DNQ"
 

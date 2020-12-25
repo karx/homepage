@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#81"
 average_elo: "1522"
+sheet: "silver"
+team_slug: "spain_c"
 excerpt: "pistolero maldy and The Eagle"
 status: "DNQ"
 

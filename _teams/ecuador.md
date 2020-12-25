@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#106"
 average_elo: "1284.5"
+sheet: "silver"
+team_slug: "ecuador"
 excerpt: "Rian23 and alvarogergard77"
 status: "DNQ"
 

@@ -2,12 +2,14 @@
 title: "Uruguay A"
 player_1: "URU ALBO"
 player_2: "BadJoke"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "1-1"
+map_difference: "3-3"
 seed: "#67"
 average_elo: "1627"
+sheet: "silver"
+team_slug: "uruguay_a"
 excerpt: "URU ALBO and BadJoke"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

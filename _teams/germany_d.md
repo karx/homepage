@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "2-3"
 seed: "#83"
 average_elo: "1507.5"
+sheet: "silver"
+team_slug: "germany_d"
 excerpt: "FlayverSaver and manu"
 status: "DNQ"
 

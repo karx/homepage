@@ -6,6 +6,8 @@ match_difference: "1-1"
 map_difference: "4-3"
 seed: "#48"
 average_elo: "1764"
+sheet: "silver"
+team_slug: "australia_c"
 excerpt: "Failey and Rayzor"
 status: "DNQ"
 

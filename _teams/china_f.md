@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#13"
 average_elo: "1991"
+sheet: "silver"
+team_slug: "china_f"
 excerpt: "KGT_tushen and KGT_rom"
 status: "DNQ"
 

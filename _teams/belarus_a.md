@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "2-3"
 seed: "#54"
 average_elo: "1718.5"
+sheet: "silver"
+team_slug: "belarus_a"
 excerpt: "OLADUSHEK and Believe_me"
 status: "DNQ"
 

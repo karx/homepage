@@ -6,6 +6,8 @@ match_difference: "1-1"
 map_difference: "4-3"
 seed: "#26"
 average_elo: "1937"
+sheet: "silver"
+team_slug: "czech_republic_c"
 excerpt: "pushTheTempo and IamKoty"
 status: "DNQ"
 

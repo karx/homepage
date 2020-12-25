@@ -6,6 +6,8 @@ match_difference: "1-1"
 map_difference: "3-3"
 seed: "#119"
 average_elo: "1161"
+sheet: "silver"
+team_slug: "greece_b"
 excerpt: "Genesas and Alexandertsak"
 status: "DNQ"
 

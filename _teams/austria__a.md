@@ -2,13 +2,15 @@
 title: "Austria  A"
 player_1: "nC_LB10"
 player_2: "Clemensor"
-match_difference: "1-0"
-map_difference: "3-1"
+match_difference: "1-1"
+map_difference: "3-4"
 seed: "#45"
 average_elo: "1786.5"
+sheet: "silver"
+team_slug: "austria__a"
 subsitute: "Lavie_Head"
 excerpt: "nC_LB10, Clemensor and Lavie_Head"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players

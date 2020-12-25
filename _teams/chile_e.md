@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#103"
 average_elo: "1307"
+sheet: "silver"
+team_slug: "chile_e"
 excerpt: "Valak and Blackhunt"
 status: "DNQ"
 

@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#82"
 average_elo: "1511"
+sheet: "silver"
+team_slug: "south_africa"
 excerpt: "YoungPanda and Lozherd"
 status: "DNQ"
 

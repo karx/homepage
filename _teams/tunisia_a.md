@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#112"
 average_elo: "1234"
+sheet: "silver"
+team_slug: "tunisia_a"
 excerpt: "ThaB3i and Eydo"
 status: "DNQ"
 

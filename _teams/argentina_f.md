@@ -6,6 +6,8 @@ match_difference: "1-1"
 map_difference: "3-3"
 seed: "#33"
 average_elo: "1901.5"
+sheet: "silver"
+team_slug: "argentina_f"
 excerpt: "GergisKan and Lotario"
 status: "DNQ"
 

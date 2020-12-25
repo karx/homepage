@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#121"
 average_elo: "1134.5"
+sheet: "silver"
+team_slug: "iran"
 excerpt: "itswhitephoenix and Synaspe"
 status: "DNQ"
 

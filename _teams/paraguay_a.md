@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "0-3"
 seed: "#70"
 average_elo: "1604.5"
+sheet: "silver"
+team_slug: "paraguay_a"
 excerpt: "Kiyopon and Karpincho"
 status: "DNQ"
 

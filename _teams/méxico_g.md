@@ -6,6 +6,8 @@ match_difference: "0-1"
 map_difference: "1-3"
 seed: "#88"
 average_elo: "1454"
+sheet: "silver"
+team_slug: "méxico_g"
 excerpt: "Cornelio and Arezard17"
 status: "DNQ"
 

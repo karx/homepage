@@ -2,13 +2,15 @@
 title: "Slovakia"
 player_1: "Ondrej94"
 player_2: "squeak"
-match_difference: "1-0"
-map_difference: "3-0"
+match_difference: "2-1"
+map_difference: "7-5"
 seed: "#30"
 average_elo: "1916.5"
+sheet: "silver"
+team_slug: "slovakia"
 subsitute: "THE ILLUSIONIST"
 excerpt: "Ondrej94, squeak and THE ILLUSIONIST"
-status: "Qualified"
+status: "DNQ"
 
 ---
 ## Players
