@@ -1,7 +1,7 @@
 ---
 title: "Qualifiers"
 permalink: /qualifiers/
-layout: pokemons
+layout: qualifiers
 classes: wide
 author_profile: true
 ---

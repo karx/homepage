@@ -295,6 +295,18 @@ defaults:
       share: true
       related: false
       toc: false
+  # _playoffs
+  - scope:
+      path: ""
+      type: playoffs
+    values:
+      layout: pokemono
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: false
+      toc: false
   # _teams
   - scope:
       path: ""
@@ -324,6 +336,10 @@ defaults:
 
 collections:
   qualifiers:
+     output: true
+     permalink: /:collection/:path
+     layout: pokemono
+  playoffs:
      output: true
      permalink: /:collection/:path
      layout: pokemono
