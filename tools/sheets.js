@@ -8,7 +8,7 @@ let sheets = google.sheets({
   auth: config.G_SHEETS_API,
 });
 
-let debug = true;
+let debug = false;
 let qualifiers128_backup = require("./qualifiers128.json");
 let qualifiers64_backup = require("./qualifiers64.json");
 let qualifiers32_backup = require("./qualifiers32.json");
@@ -278,7 +278,7 @@ async function playerDataToMD(data) {
 
 }
 
-// getAllPlayers().catch(console.error);
+getAllPlayers().catch(console.error);
 getAllQualifiers128().catch(console.error);
 getAllQualifiers64().catch(console.error);
 getAllQualifiers32().catch(console.error);
