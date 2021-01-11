@@ -9,13 +9,20 @@
     {% for s in site.qualifiers %}
       {% if s.team_1_slug == page.team_slug or s.team_2_slug == page.team_slug %}
       <div class="eachMatch-sidebar">
-          <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | relative_url }}"
-          alt="{% if teaser_alt %}{{ teaser_alt }}{% endif %}">
+
+          {% if s.title %}
+            <a href="{{ s.url | relative_url }}" rel="permalink">{{ s.title }}</a>
           {% endif %}
+          {% if s.excerpt %}{{ s.excerpt | markdownify }}{% endif %}
+          {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      </div>
+      {% endif %}
+    {% endfor %}
+
+    {% for s in site.playoffs %}
+      {% if s.team_1_slug == page.team_slug or s.team_2_slug == page.team_slug %}
+      <div class="eachMatch-sidebar">
+
           {% if s.title %}
             <a href="{{ s.url | relative_url }}" rel="permalink">{{ s.title }}</a>
           {% endif %}
