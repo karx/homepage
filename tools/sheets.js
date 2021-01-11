@@ -462,7 +462,7 @@ async function relegatedPlayerDataToMD(data) {
       map_difference: eachTeam[5],
       sheet: 'silver',
       status: 'Relegated',
-      team_slug: eachTeam[3].split(' ').join('_').toLowerCase(),
+      team_slug: eachTeam[0].split(' ').join('_').toLowerCase(),
     });
     if (eachTeam[3] !== "") {
       data += YAML.stringify({

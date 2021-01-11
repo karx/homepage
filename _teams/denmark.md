@@ -6,7 +6,7 @@ match_difference: "1-1"
 map_difference: "3-4"
 sheet: "silver"
 status: "Relegated"
-team_slug: "dobbs351"
+team_slug: "denmark"
 subsitute: "Dobbs351"
 excerpt: "Kongen_42, Bobdedestructor and Dobbs351"
 

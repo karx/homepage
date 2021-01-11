@@ -6,7 +6,7 @@ match_difference: "1-1"
 map_difference: "5-3"
 sheet: "silver"
 status: "Relegated"
-team_slug: ""
+team_slug: "ukraine"
 excerpt: "SalzZ_classicpro and SalzZ_WaRRioR"
 
 ---

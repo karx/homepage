@@ -6,7 +6,7 @@ match_difference: "1-1"
 map_difference: "4-3"
 sheet: "silver"
 status: "Relegated"
-team_slug: "daniel"
+team_slug: "usa_a"
 subsitute: "Daniel"
 excerpt: "T90Official, Scotty and Daniel"
 

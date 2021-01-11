@@ -19,9 +19,9 @@
       {% endif %}
     {% endfor %}
 
-    {% for s in site.playoffs %}
+    {% for s in site.playoffs reversed %}
       {% if s.team_1_slug == page.team_slug or s.team_2_slug == page.team_slug %}
-      <div class="eachMatch-sidebar">
+      <div class="eachMatch-sidebar {{s.status}}">
 
           {% if s.title %}
             <a href="{{ s.url | relative_url }}" rel="permalink">{{ s.title }}</a>

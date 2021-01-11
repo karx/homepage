@@ -6,7 +6,7 @@ match_difference: "2-0"
 map_difference: "6-6"
 sheet: "silver"
 status: "Relegated"
-team_slug: ""
+team_slug: "chile_b"
 excerpt: "Wisepii and Neromelnick"
 
 ---

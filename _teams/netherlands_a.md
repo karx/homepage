@@ -6,7 +6,7 @@ match_difference: "0-1"
 map_difference: "2-3"
 sheet: "silver"
 status: "Relegated"
-team_slug: "darknoob"
+team_slug: "netherlands_a"
 subsitute: "Darknoob"
 excerpt: "AngelinaJolie, PraYs and Darknoob"
 

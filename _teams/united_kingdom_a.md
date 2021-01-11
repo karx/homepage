@@ -6,7 +6,7 @@ match_difference: "0-1"
 map_difference: "1-3"
 sheet: "silver"
 status: "Relegated"
-team_slug: "nick"
+team_slug: "united_kingdom_a"
 subsitute: "Nick"
 excerpt: "_hallis, Recon and Nick"
 
