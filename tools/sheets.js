@@ -14,6 +14,12 @@ let qualifiers64_backup = require("./qualifiers64.json");
 let qualifiers32_backup = require("./qualifiers32.json");
 let teams_backup = require("./allPlayerData.json");
 
+let playoff32_backup = require("./playoff32.json");
+let playoff16_backup = require("./playoff16.jplayoff32.json");
+let playoffQF_backup = require("./playoffQF.jplayoff32.json");
+let playoffSF_backup = require("./playoffSF.jplayoff32.json");
+let playoffGF_backup = require("./playoffGF.jplayoff32.json");
+
 const SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"];
 
 async function getAllPlayers() {
@@ -278,7 +284,161 @@ async function playerDataToMD(data) {
 
 }
 
-getAllPlayers().catch(console.error);
-getAllQualifiers128().catch(console.error);
-getAllQualifiers64().catch(console.error);
-getAllQualifiers32().catch(console.error);
+// getAllPlayers().catch(console.error);
+// getAllQualifiers128().catch(console.error);
+// getAllQualifiers64().catch(console.error);
+// getAllQualifiers32().catch(console.error);
+
+
+
+
+async function getAllPlayOff32() {
+  //Round of 32
+  if (!debug) {
+    sheets.spreadsheets.values
+      .get({
+        spreadsheetId: "1I3cnl0rgKrwoymq82MhHXg_SasBPbsvqbfRnGgdI11U",
+        range: "Silver League!B5:H",
+      })
+      .then((sheetVal) => {
+        console.log(sheetVal.data);
+        fs.writeFileSync("./playoff32.json", JSON.stringify(sheetVal.data));
+        playoffToMD(sheetVal.data);
+      });
+  } else {
+    let data = playoff32_backup;
+    console.log(data.range);
+    playoffToMD(data);
+  }
+}
+
+async function getAllPlayOff16() {
+  //Round of 32
+  if (!debug) {
+    sheets.spreadsheets.values
+      .get({
+        spreadsheetId: "1I3cnl0rgKrwoymq82MhHXg_SasBPbsvqbfRnGgdI11U",
+        range: "Silver League!k8:Q",
+      })
+      .then((sheetVal) => {
+        console.log(sheetVal.data);
+        fs.writeFileSync("./playoff16.json", JSON.stringify(sheetVal.data));
+        playoffToMD(sheetVal.data, 12, 'Round of 16');
+      });
+  } else {
+    let data = playoff16_backup;
+    console.log(data.range);
+    playoffToMD(data, 'Round of 16');
+  }
+}
+
+async function getAllPlayOffQF() {
+  //Round of 32
+  if (!debug) {
+    sheets.spreadsheets.values
+      .get({
+        spreadsheetId: "1I3cnl0rgKrwoymq82MhHXg_SasBPbsvqbfRnGgdI11U",
+        range: "Silver League!T14:Z",
+      })
+      .then((sheetVal) => {
+        console.log(sheetVal.data);
+        fs.writeFileSync("./playoffQF.json", JSON.stringify(sheetVal.data));
+        playoffToMD(sheetVal.data, 24, 'Quaterfinals');
+      });
+  } else {
+    let data = playoffQF_backup;
+    console.log(data.range);
+    playoffToMD(data, 24, 'Quaterfinals');
+  }
+}
+
+async function getAllPlayOffSF() {
+  //Round of 32
+  if (!debug) {
+    sheets.spreadsheets.values
+      .get({
+        spreadsheetId: "1I3cnl0rgKrwoymq82MhHXg_SasBPbsvqbfRnGgdI11U",
+        range: "Silver League!AC26:AK",
+      })
+      .then((sheetVal) => {
+        console.log(sheetVal.data);
+        fs.writeFileSync("./playoffSF.json", JSON.stringify(sheetVal.data));
+        playoffToMD(sheetVal.data, 48, 'Semifinals');
+      });
+  } else {
+    let data = playoffSF_backup;
+    console.log(data.range);
+    playoffToMD(data, 48, 'Semifinals');
+  }
+}
+
+async function getAllPlayOffGF() {
+  //Round of 32
+  if (!debug) {
+    sheets.spreadsheets.values
+      .get({
+        spreadsheetId: "1I3cnl0rgKrwoymq82MhHXg_SasBPbsvqbfRnGgdI11U",
+        range: "Silver League!AN49:AV",
+      })
+      .then((sheetVal) => {
+        console.log(sheetVal.data);
+        fs.writeFileSync("./playoffGF.json", JSON.stringify(sheetVal.data));
+        playoffToMD(sheetVal.data,96, 'Grandfinals');
+      });
+  } else {
+    let data = playoffGF_backup;
+    console.log(data.range);
+    playoffToMD(data,96, 'Grandfinals');
+  }
+}
+
+async function playoffToMD(data, jumpsize = 6, label = 'Round of 32') {
+  let playoff_data = data.values;
+  let totalLength = playoff_data.length;
+  console.log({ totalLength });
+  for (i = 0; i < totalLength; i += jumpsize) {
+    let data = "";
+    let filename = playoff_data[i][0].split(" #").join("_");
+    let team_1_slug = playoff_data[i+2][0].split(' ').join('_').toLowerCase();
+    let team_2_slug = playoff_data[i+3][0].split(' ').join('_').toLowerCase();
+
+    // converting team names into links to team pages
+    playoff_data[i+2][0] = `[${playoff_data[i+2][0]}](/teams/${playoff_data[i+2][0].split(' ').join('_').toLowerCase()})`;
+    playoff_data[i+3][0] = `[${playoff_data[i+3][0]}](/teams/${playoff_data[i+3][0].split(' ').join('_').toLowerCase()})`;
+
+    data += `---\n`;
+    data += YAML.stringify({
+      team_1: playoff_data[i + 2][0],
+      team_2: playoff_data[i + 3][0],
+      team_1_slug: team_1_slug,
+      team_2_slug: team_2_slug,
+      title: playoff_data[i][0],
+      optval: filename,
+      type: 'playoff',
+      round: label
+    });
+
+    data += YAML.stringify({
+      status: playoff_data[i + 2][1] === "-" ? "TBP" : "Concluded",
+      excerpt: `${playoff_data[i + 2][0]} vs ${playoff_data[i + 3][0]}`,
+    });
+    data += `\n---\n`;
+
+    data += `## Results\n\n`;
+    data += `| ${playoff_data[i + 1].join(" | ")} |\n`;
+    data += `| ${playoff_data[i + 1].map(x => ' -- ').join(" | ")} |\n`;
+    data += `| ${playoff_data[i + 2].join(" | ")} |\n`;
+    data += `| ${playoff_data[i + 3].join(" | ")} |\n`;
+
+
+    console.log(filename);
+    fs.writeFileSync(`../_playoffs/${filename}.md`, data);
+  }
+}
+
+getAllPlayOff32().catch(console.error);
+getAllPlayOff16().catch(console.error);
+getAllPlayOffQF().catch(console.error);
+getAllPlayOffSF().catch(console.error);
+getAllPlayOffGF().catch(console.error);
+
