@@ -15,10 +15,10 @@ let qualifiers32_backup = require("./qualifiers32.json");
 let teams_backup = require("./allPlayerData.json");
 
 let playoff32_backup = require("./playoff32.json");
-let playoff16_backup = require("./playoff16.jplayoff32.json");
-let playoffQF_backup = require("./playoffQF.jplayoff32.json");
-let playoffSF_backup = require("./playoffSF.jplayoff32.json");
-let playoffGF_backup = require("./playoffGF.jplayoff32.json");
+let playoff16_backup = require("./playoff16.json");
+let playoffQF_backup = require("./playoffQF.json");
+let playoffSF_backup = require("./playoffSF.json");
+let playoffGF_backup = require("./playoffGF.json");
 
 const SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"];
 
@@ -80,7 +80,6 @@ async function getAllQualifiers64() {
     qualifiers64ToMD(data);
   }
 }
-
 
 async function getAllQualifiers32() {
   //Round of 32
@@ -190,7 +189,6 @@ async function qualifiers64ToMD(data) {
   }
 }
 
-
 async function qualifiers32ToMD(data) {
   let qualifiers32 = data.values;
   let totalLength = qualifiers32.length;
@@ -283,14 +281,6 @@ async function playerDataToMD(data) {
   })
 
 }
-
-// getAllPlayers().catch(console.error);
-// getAllQualifiers128().catch(console.error);
-// getAllQualifiers64().catch(console.error);
-// getAllQualifiers32().catch(console.error);
-
-
-
 
 async function getAllPlayOff32() {
   //Round of 32
@@ -436,9 +426,81 @@ async function playoffToMD(data, jumpsize = 6, label = 'Round of 32') {
   }
 }
 
-getAllPlayOff32().catch(console.error);
-getAllPlayOff16().catch(console.error);
-getAllPlayOffQF().catch(console.error);
-getAllPlayOffSF().catch(console.error);
-getAllPlayOffGF().catch(console.error);
+async function getRelegatedPlayers() {
+  if (!debug) {
+    sheets.spreadsheets.values
+      .get({
+        spreadsheetId: "1I3cnl0rgKrwoymq82MhHXg_SasBPbsvqbfRnGgdI11U",
+        range: "Silver Teams!F5:K20",
+      })
+      .then((sheetVal) => {
+        console.log(sheetVal.data);
+        fs.writeFileSync("./allRelegatedPlayerData.json", JSON.stringify(sheetVal.data));
+        relegatedPlayerDataToMD(sheetVal.data);
+      });
+  } else {
+    let data = teams_backup;
+    console.log(data.range);
+    relegatedPlayerDataToMD(data);
+  }
+}
 
+async function relegatedPlayerDataToMD(data) {
+  let playerData = data.values;
+  let totalLength = playerData.length;
+  console.log({ totalLength });
+  playerData.forEach((eachTeam) => {
+    let data = "";
+
+    data += `---\n`;
+    data += YAML.stringify({
+
+      title: eachTeam[0],
+      player_1: eachTeam[1],
+      player_2: eachTeam[2],
+      match_difference: eachTeam[4],
+      map_difference: eachTeam[5],
+      sheet: 'silver',
+      status: 'Relegated',
+      team_slug: eachTeam[3].split(' ').join('_').toLowerCase(),
+    });
+    if (eachTeam[3] !== "") {
+      data += YAML.stringify({
+
+        subsitute: eachTeam[3],
+        excerpt: `${eachTeam[1]}, ${eachTeam[2]} and ${eachTeam[3]}`
+      });
+    } else {
+      data += YAML.stringify({
+        excerpt: `${eachTeam[1]} and ${eachTeam[2]}`
+      });
+    }
+
+
+    data += `\n---\n`;
+    data += `## Players\n\n`;
+    data += `| Player 1 | Player 2 | Subsitute |\n`;
+    data += `| -- | -- | -- |\n`;
+    data += `| ${eachTeam[1]} | ${eachTeam[2]} | ${eachTeam[3] === "" ? "NIL" : eachTeam[3]} |\n`;
+
+
+    let filename = eachTeam[0].split(" ").join("_").toLowerCase();
+    console.log(filename);
+    fs.writeFileSync(`../_teams/${filename}.md`, data);
+  })
+
+}
+
+
+// getAllPlayers().catch(console.error);
+// getAllQualifiers128().catch(console.error);
+// getAllQualifiers64().catch(console.error);
+// getAllQualifiers32().catch(console.error);
+
+// getAllPlayOff32().catch(console.error);
+// getAllPlayOff16().catch(console.error);
+// getAllPlayOffQF().catch(console.error);
+// getAllPlayOffSF().catch(console.error);
+// getAllPlayOffGF().catch(console.error);
+
+getRelegatedPlayers().catch(console.error);
