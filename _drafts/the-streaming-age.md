@@ -88,11 +88,11 @@ The ingestion servers basically runs a service which understands this encoding, 
 <--DRAWING-->
 
 
-To understand Protocol better: https://restream.io/blog/streaming-protocols/
+To understand *Protocol* better: https://restream.io/blog/streaming-protocols/
 
-To understand Ingetion Server Better: [Write Sample Ingetion server for data backup example]
+To understand *Ingetion Servers* Better: [Write Sample Ingetion server for data backup example]
 
-To understand The tool better: Download [OBS - Open Broadcaster Software](https://obsproject.com/) and use it.
+To understand *The tool* better: Download [OBS - Open Broadcaster Software](https://obsproject.com/) and use it.
 
 ### Interactions
 

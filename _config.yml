@@ -232,7 +232,7 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: poem_viz
-  
+
 
 # Sass/SCSS
 sass:
@@ -351,7 +351,7 @@ defaults:
   # _labs
   - scope:
       path: ""
-      type: lab
+      type: labs
     values:
       layout: single
       author_profile: false
