@@ -3,7 +3,7 @@ layout: single
 title:  "Track-O: a Cost Efficient GPS Tracking Device"
 description:  Using Node-RED & freeboard
 header:
-  teaser: "https://cdn.instructables.com/FHX/DOZB/IZYGACRD/FHXDOZBIZYGACRD.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds"
+  teaser: "/assets/images/tracko/tracko.webp"
 tags:
   - GPS
   - Node-Red
