@@ -228,6 +228,11 @@ collections:
      output: true
      permalink: /:collection/:path
      layout: single
+  poems:
+     output: true
+     permalink: /:collection/:path
+     layout: poem_viz
+
 
 # Sass/SCSS
 sass:
@@ -346,7 +351,7 @@ defaults:
   # _labs
   - scope:
       path: ""
-      type: lab
+      type: labs
     values:
       layout: single
       author_profile: false
@@ -354,6 +359,13 @@ defaults:
       comments: false
       share: false
       related: false
+      toc: false
+  # _poems
+  - scope:
+      path: ""
+      type: poems
+    values:
+      layout: poem_viz
       toc: false
 
 

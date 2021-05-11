@@ -4,7 +4,7 @@ title: SmartBike
 categories:
   - Project
   - Client
-status: Ongoing
+status: Deployed
 type: System
 layout: projecto
 excerpt: Everything you need to rent your bikes.

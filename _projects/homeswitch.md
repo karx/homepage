@@ -28,16 +28,10 @@ tags:
 
 sidebar:
   - title: "Initial Commit"
-    image: "/assets/images/homeswitch/homeswitch.png"
-    image_alt: "Homeswitch logo"
     text: "Product Requirement finalization "
     date: "2019-03-21"
-    items:
-      - title: "Test title"
-      - title: "what is this"
+    
   - title: "UI freeze data"
-    image: "/assets/images/homeswitch/homeswitch.png"
-    image_alt: "Homeswitch logo"
     text: "Move onto bug fixing"
     date: "2019-05-21"
 model:

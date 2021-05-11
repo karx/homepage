@@ -4,7 +4,7 @@ title:  "Rahul Agarwal"
 profile_image: "https://avatars3.githubusercontent.com/u/5956890?s=460&v=4"
 github: "rahul1996"
 tags: 
-  - Executive
+  - Community Member
 header:
   teaser: "https://avatars3.githubusercontent.com/u/5956890?s=460&v=4"
 sidebar:
@@ -14,9 +14,9 @@ sidebar:
     text: "Engineer and Architect"
   - title: "Responsibilities"
 
-published: false
 ---
+
 #Geek #Artificial_Intelligence #Innovator #Speaker #Explorer #Patriot #Traveller
 
 ## Contact info
-* mail: rahul@akriya.co.in
+* mail: rahul@artiosys.com

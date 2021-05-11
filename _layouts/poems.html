@@ -1,0 +1,31 @@
+---
+layout: archive
+---
+
+
+{{ content }}
+
+<ul class="taxonomy__index">
+  {% assign poemsInAuthor = site.poems | group_by_exp: 'thread', 'thread.author_name' %}
+  {% for author in poemsInAuthor %}
+    <li>
+      <a href="#{{ author.name }}">
+        <strong>{{ author.name }}</strong> <span class="taxonomy__count">{{ author.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% assign poemByAuthor = site.poems | group_by_exp: 'thread', 'thread.author_name' %}
+{% for author in poemByAuthor %}
+  <section id="{{ author.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ author.name }}</h2>
+    <!-- {{ categories }} -->
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in author.items %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}

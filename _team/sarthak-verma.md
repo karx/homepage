@@ -4,7 +4,7 @@ title:  "Sarthak Verma"
 profile_image: "https://avatars2.githubusercontent.com/u/20480867?s=460&v=4"
 github: "IAmSarthakVerma"
 tags: 
-  - Executive
+  - Community Member
 header:
   teaser: "https://avatars2.githubusercontent.com/u/20480867?s=460&v=4"
 sidebar:

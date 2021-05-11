@@ -7,7 +7,7 @@ categories:
 status: Deployed
 type: System
 layout: projecto
-excerpt: India - at a bicyclers pace
+excerpt: India - at a bicyclers pace | A data collection project
 features:
   - title: Measuring
     fontawesome_icon_name: heartbeat

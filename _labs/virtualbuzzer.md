@@ -21,7 +21,7 @@ sidebar:
 
 contribute_link: https://github.com/karx/virtual-buzzer
 visit_link: https://akriya.co.in/labs/virtualbuzzer.html
-
+status: open
 # model:
 #   asset: "/assets/models/esp.glb"
 #   color: #FFFFFF
