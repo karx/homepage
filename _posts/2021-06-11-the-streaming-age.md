@@ -2,7 +2,7 @@
 layout: single
 title: The Streaming Age
 header:
-  teaser: "/assets/images/langton/title.png"
+  teaser: "/assets/images/streamin-age.png"
 tags:
 - Streaming
 - Live
@@ -10,13 +10,9 @@ tags:
 - Film
 - Compute
 sidebar:
-- title: LR
-  image: "/assets/images/langton/LR.png"
-  image-alt: LR 1000 Steps
-  text: LR 1000 Steps
-- title: LRRL
-  image: "/assets/images/langton/LRRL.png"
-  image-alt: LRRL 1000 Steps
+- title: A minion
+  image: "/assets/images/streaming-1.jpg"
+  alt: "Image of a Minion and Headphone on a Desk"
 
 ---
 ## Streaming Age
@@ -57,7 +53,7 @@ What in an ideal world would be streamed?
 * News - Journalism - Democratic live feed
 * PSA - Always Live
 * PSA - Highly data rich Dashboard-y Services
-* PSA - Health | eg. **Radio calisthenics**
+* PSA - Health eg. **Radio calisthenics**
 
 Now lets look at the data:
 
