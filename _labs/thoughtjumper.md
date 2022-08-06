@@ -8,6 +8,9 @@ status: active
 ---
 Thoughtjumper is a thought taking tool to collect, organise, share, collaborate, watch your thoughts.
 
+<iframe src="https://player.vimeo.com/video/711988793?h=46a66c69f4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/711988793">Introduction TJ - What are Thoughts and ThoughtMaps</a> from <a href="https://vimeo.com/user175477148">Thoughtjumper</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 TJ is semantically structured and helps create thought maps; which can also be actionable sequence of thoughts(against predefined baselines and rules) better known as quests.
 
 Both, thought maps and quests are by design - knowledge graphs.
