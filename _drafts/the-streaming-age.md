@@ -69,7 +69,9 @@ Live watching at the moment on Twitch: 3,232,000 = three million two hundred thi
 From the platform share comparison and live stats of Twtich which we can get from Twitch Tracker Data we can extrapolate for all vendors.
 
 So, after exploring, we see the actual usage of streaming category wise as:  
-[https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160](https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160 "https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160")
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQUTxgzDzPzjDrsG-MXZp_3FD5PWayIybLvc8uRskiWphGbnZPUeHZ12YCTkn7v5rLpzYKFB5iAQ1jl/pubchart?oid=1632371513&amp;format=interactive"></iframe>
+
+[Google Sheet with values](https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160 "https://docs.google.com/spreadsheets/d/1G3-Ad63vofT0W7qAQjBLo9Lczml0FTrNxjKm8dW_eBY/edit#gid=87439160")
 
 ### How can we stream?
 
@@ -79,11 +81,14 @@ But if you have time,
 Well, we first need to capture our screen/media, this can be done with any tool of your liking, the tricky part comes immediately after.  
 It is packaging and sending to so 'someplace'. This someplace is what we call an _ingetion_ server, a remote server setup ready to accept your encoded media feed, and convert it into a public endpoint, which can then be viewed by all.
 
-This packaging or trans-coding is done what we achieve using OBS or ffmpeg. _A local tool_
+This packaging or trans-coding is done what we achieve using OBS or ffmpeg. 
+* _A local tool_
 
-There are optimized encoding/formats which we have now isolated and standardized for transmitting streaming media data, most popular these days: RTMP. _The Protocol_
+There are optimized encoding/formats which we have now isolated and standardized for transmitting streaming media data, most popular these days: RTMP. 
+* _The Protocol_
 
-The ingestion servers basically runs a service which understands this encoding, maintains a small buffer, and projects forward this Media as an open endpoint for viewing, often embedded into a webpage or sometimes another Stream. _The Public Cloud_
+The ingestion servers basically runs a service which understands this encoding, maintains a small buffer, and projects forward this Media as an open endpoint for viewing, often embedded into a webpage or sometimes another Stream. 
+* _The Public Cloud_
 
 <--DRAWING-->
 
