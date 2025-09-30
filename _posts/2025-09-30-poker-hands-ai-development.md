@@ -17,15 +17,29 @@ header:
 
 # From Intent to App: A Deep Dive into My AI-Driven Development Workflow
 
-![Poker Hand Capture App Interface](/assets/images/poker-hands/main-interface.jpeg)
+For any poker player who takes the game seriously, the journey is one of continuous learning.
 
-For any poker player who takes the game seriously, the journey is one of continuous learning. It’s a game of incomplete information, where long-term success is built not on single hands, but on a foundation of solid decisions. The desire to improve is constant, and that improvement begins with measurement. How do you know if you’re making better decisions? How do you spot the patterns in your play, find your leaks, and build the self-awareness to stay confident through the inevitable swings of variance?[^29] This is where technology can be a game-changer. The joy of poker isn't just in winning; it's in the intellectual challenge, the psychological battle, and the deep satisfaction of mastering a complex skill.[^31]
+ It’s a game of incomplete information, where long-term success is built not on single hands, but on a foundation of solid decisions. The desire to improve is constant, and that improvement begins with measurement. 
+ 
+ How do you know if you’re making better decisions? 
+ How do you spot the patterns in your play, find your leaks, and build the self-awareness to stay confident through the inevitable swings of variance?[^29] 
+ 
+ This is where technology can be a game-changer. The joy of poker isn't just in winning; it's in the intellectual challenge, the psychological battle, and the deep satisfaction of mastering a complex skill.[^31]
 
-This was the catalyst for an experiment. I wanted to build a simple tool for myself and my friends—a "pokerHandCapture" web app. The concept was straightforward: a lightweight, single-page app to log chip stack sizes during a game session using natural language. No complex forms, no heavy software, just a quick and easy way to capture the data needed for later analysis.[^33] But the product itself was secondary. The real experiment was in the
+This was the catalyst for an experiment. I wanted to build a simple tool for myself and my friends—a "pokerHandCapture" web app. 
 
-_process_. Could I build this application almost entirely by "talking" to an AI agent? And could I do it by embracing simplicity, building a fast, responsive frontend with vanilla HTML and JavaScript, deliberately avoiding the "noise" and complexity of modern web frameworks?[^34]
 
-This article is the story of that journey. It’s a detailed breakdown of the powerful workflow that emerged—a pattern I’ve come to call "Intent-Driven Development." I’m going to share the complete prompt history, the technical roadblocks, and the strategic decisions that shaped the final product. My goal is to provide a replicable, real-world blueprint for anyone looking to harness AI as a true partner in the craft of building software that is both useful and a joy to use.[^26]
+The concept was straightforward: a lightweight, single-page app to log chip stack sizes during a game session using natural language. No complex forms, no heavy software, just a quick and easy way to capture the data needed for later analysis.[^33] But the product itself was secondary. 
+
+The real experiment was in the _process_. 
+
+Could I build this application almost entirely by "talking" to an AI agent? And could I do it by embracing simplicity, building a fast, responsive frontend with vanilla HTML and JavaScript, deliberately avoiding the "noise" and complexity of modern web frameworks?[^34]
+
+
+This article is the story of that journey. 
+
+It’s a detailed breakdown of the powerful workflow that emerged—a pattern I’ve come to call "Intent-Driven Development."
+ I’m going to share the complete prompt history, the technical roadblocks, and the strategic decisions that shaped the final product. My goal is to provide a replicable, real-world blueprint for anyone looking to harness AI as a true partner in the craft of building software that is both useful and a joy to use.[^26]
 
 ## Part 1: The Architect's Blueprint - Setting the Stage for the AI
 
@@ -34,7 +48,7 @@ The most effective AI-assisted development begins not with a prompt to write cod
 My very first prompt wasn't about functions or classes; it was about defining the project's soul:
 
 <div class="notice--info">
-<h4>🎯 Architect Prompt</h4>
+<strong>🎯 Architect Prompt</strong><br>
 <code>{"text":"Create a markdown file for this project. pokerHandCapture. A web app where you can record a game session only using LLM agents. This is available as a gem/mcp server as well..."}</code>
 </div>
 
@@ -45,7 +59,7 @@ _tool_ designed for an AI-native ecosystem.
 With the vision set, the next step was to define the technical guardrails.
 
 <div class="notice--primary">
-<h4>⚙️ Tech Stack Prompt</h4>
+<strong>⚙️ Tech Stack Prompt</strong><br>
 <code>{"text":"Let's init this project using a javaScript based tooling to keep the project maintainable by other teammates. For database we would be linking to firebase. We also have gemeni APIs Keys to interact with a LLM agent."}</code>
 </div>
 
@@ -58,27 +72,43 @@ With the architectural blueprint in place, the process shifted from high-level p
 The sequence of prompts clearly illustrates this dynamic. I began by defining the high-level API contract, thinking about it from the perspective of an agent that would eventually consume it.
 
 <div class="notice--success">
-<h4>🔧 API Planning Prompt</h4>
+<strong>🔧 API Planning Prompt</strong><br>
 <code>{"text":"Let's build and expose the APIs and the MCP server together... Target set of actions to be exposed: * Update current Session Name... * Update current Profile Information... * Add new Data Recording..."}</code>
 </div>
 
 This prompt didn't ask for implementation details. It defined the "what"—the set of capabilities the server should offer. Once this was established, I could zoom in and delegate a specific, scoped-down task to the AI driver.
 
-`{"text":"Let's implement the controller we will use for /api/session. This controller would do the needful to interpret the req to do the needfull"}`
+<div class="notice--info">
+<strong>⚙️ Controller Implementation</strong><br>
+<code>{"text":"Let's implement the controller we will use for /api/session. This controller would do the needful to interpret the req to do the needfull"}</code>
+</div>
 
 And then, breaking it down further, delegating the data layer implementation for that specific controller:
 
-`{"text":"sessionModule functions implementation using firestore for session management."}`
+<div class="notice--primary">
+<strong>🗄️ Data Layer Implementation</strong><br>
+<code>{"text":"sessionModule functions implementation using firestore for session management."}</code>
+</div>
 
 This process of deconstruction is vital. Breaking a large, complex task into smaller, manageable steps makes it easier for the AI to deliver quality outputs and for the human to review and validate them.[^2]
 
 This phase was also characterized by a tight iterative loop, a cornerstone of effective AI-assisted development.[^3] I didn't expect perfection on the first pass. Instead, I prompted for a feature, reviewed the output, and immediately followed up with refinements. For instance, after the initial session logic was generated, I clarified the business rules with a subsequent prompt:
 
-`{"text":"A few updates to how the session management flows: * A user is added to the session. * A user is only part of a single session at a given moment..."}`
+<div class="notice--success">
+<strong>🔄 Business Rules Clarification</strong><br>
+<code>{"text":"A few updates to how the session management flows: * A user is added to the session. * A user is only part of a single session at a given moment..."}</code>
+</div>
 
 This "Build, Review, Improve—Repeat" cycle was the engine of progress. It allowed for rapid, incremental development while ensuring the evolving codebase stayed aligned with my intent.
 
-A critical step in this verification process was enforcing quality through testing. The prompt `"Let's create unit tests for each of the functions in session.js..."` was not an afterthought. It served multiple purposes. First, it validated that the AI-generated code worked as expected. Second, it created living documentation for the API's behavior. And third, it provided a safety net for future changes.[^1] By using explicit tests, I was guiding the AI toward producing predictable, style-compliant, and robust code.[^2]
+A critical step in this verification process was enforcing quality through testing.
+
+<div class="notice--primary">
+<strong>🧪 Testing Strategy</strong><br>
+<code>{"text":"Let's create unit tests for each of the functions in session.js..."}</code>
+</div>
+
+This prompt was not an afterthought. It served multiple purposes. First, it validated that the AI-generated code worked as expected. Second, it created living documentation for the API's behavior. And third, it provided a safety net for future changes.[^1] By using explicit tests, I was guiding the AI toward producing predictable, style-compliant, and robust code.[^2]
 
 The backend that emerged from this process wasn't just a set of REST endpoints; it was a manifest of capabilities, a collection of tools ready to be wielded by an AI agent. This agent-centric view, born from the initial decision to build an MCP server, shaped the entire backend architecture.
 
@@ -102,14 +132,14 @@ No development story is complete without a journey through the gauntlet of debug
 It started with the dreaded, non-specific error that every developer knows:
 
 <div class="notice--warning">
-<h4>🐛 Problem Report</h4>
+<strong>🐛 Problem Report</strong><br>
 <code>{"text":"I am getting 500 for all API calls..."}</code>
 </div>
 
 The AI is not a mind reader. My first step wasn't to ask "fix it," but to follow a classic, human-driven debugging strategy: increase visibility.
 
 <div class="notice--info">
-<h4>🔍 Debugging Strategy</h4>
+<strong>🔍 Debugging Strategy</strong><br>
 <code>{"text":"Let's add logs to better understand the flow and look for the fixes"}</code>
 </div>
 
@@ -118,7 +148,7 @@ This is a crucial point in the human-AI collaboration. The human's role is to di
 The logs quickly pinpointed the root cause, a subtle but critical parsing error that became a major pivot point for the project's architecture.
 
 <div class="notice--danger">
-<h4>💡 Breakthrough Moment</h4>
+<strong>💡 Breakthrough Moment</strong><br>
 <code>{"text":"The transcript logs: 'Voice input: Current stack 10,000.' The newStack size when parsing is going only as 10. Can we improve the parsing logic. We can use Gemini API to parse the transcript to get the required payload and action."}</code>
 </div>
 
@@ -137,7 +167,7 @@ Of course, building without a framework doesn't mean building without challenges
 The journey began with a simple request to create the UI:
 
 <div class="notice--primary">
-<h4>🎨 Frontend Initiation</h4>
+<strong>🎨 Frontend Initiation</strong><br>
 <code>{"text":"Let's start also creating a small HTML (web app) that would be used by the users to interact with this platform. The app should be super simple..."}</code>
 </div>
 
@@ -146,14 +176,14 @@ The initial implementation quickly ran into a wall when it came time to visualiz
 It started with a configuration error:
 
 <div class="notice--warning">
-<h4>⚠️ Chart.js Configuration Error</h4>
+<strong>⚠️ Chart.js Configuration Error</strong><br>
 <code>{"text":"For chart.js to work in index.html, we need to provide it with a date adapter. It is throwing error: 'Check that a complete date adapter is provided.'"}</code>
 </div>
 
 This was followed by another locale error. These errors pointed to a fundamental requirement of using time-series data in Chart.js: it needs an external date library and a corresponding adapter to correctly interpret and format dates.[^13] But even after adding the adapter, the core problem remained. The data coming from Firestore was in a format that Chart.js couldn't natively understand.
 
 <div class="notice--info">
-<h4>🔧 Data Format Investigation</h4>
+<strong>🔧 Data Format Investigation</strong><br>
 <code>{"text":"In html is not able to parse the date properly from the firestore record to plot it on chart. Here is a sample object of the entry: {\"timestamp\": {\"_seconds\": 1753891529, \"_nanoseconds\": 586000000}}..."}</code>
 </div>
 
@@ -172,11 +202,17 @@ This detailed, multi-step process is a perfect example of where a human develope
 
 The friction didn't stop with data formatting. The next series of prompts focused on ensuring the visual integrity of the chart, a task that requires a keen eye for detail.
 
-`{"text":"The data we are fetching to power the charts is not filtering out the entries marked as deleted 'isRemoved'. Also if a record is ammended. We do not plot the older value in the chart."}`
+<div class="notice--warning">
+<strong>📊 Data Filtering Issue</strong><br>
+<code>{"text":"The data we are fetching to power the charts is not filtering out the entries marked as deleted 'isRemoved'. Also if a record is amended. We do not plot the older value in the chart."}</code>
+</div>
 
 And a follow-up to handle edge cases:
 
-`{"text":"Need to also ensure that null values or missing key is also considered as false"}`
+<div class="notice--info">
+<strong>🔧 Edge Case Handling</strong><br>
+<code>{"text":"Need to also ensure that null values or missing key is also considered as false"}</code>
+</div>
 
 These prompts show the meticulous refinement process needed to build a polished user experience. The AI can generate the initial chart, but the human is the one who notices that deleted items are still being plotted or that amended records are creating duplicates. The developer's role here shifts from architect to a meticulous quality assurance engineer and data-wrangler, ensuring the final output is not just functional, but correct and intuitive for the end-user.
 
