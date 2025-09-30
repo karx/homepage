@@ -329,6 +329,8 @@ Seamless cloud storage with:
 
 *This project represents more than just a poker tracking app—it's a blueprint for the future of human-AI collaboration in software development. The complete source code and documentation are available on [GitHub](https://github.com/karx/kaaroHands).*
 
+**[View Project Details →](/projects/kaaroHands/)**
+
 ## References
 
 [^1]: AI-Assisted Software Development: The Ultimate Practical Guide, accessed on August 5, 2025, [https://devoxsoftware.com/blog/ai-assisted-software-development-the-ultimate-practical-guide/](https://devoxsoftware.com/blog/ai-assisted-software-development-the-ultimate-practical-guide/)
