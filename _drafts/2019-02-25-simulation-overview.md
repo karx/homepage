@@ -1,9 +1,9 @@
 ---
 layout: single
-title: The Simulation - An overview
+title: "The Simulation - An overview"
+date: 2019-02-25
 tags:
-- Abstract
-
+  - Abstract
 ---
 # The Simulation
 
@@ -25,7 +25,7 @@ Motivation - This is what we call driving force. Current society has been using 
 
 Social Interactions - These are the "interactions" of two compute systems. There are many known way to this. Talking is one of the best way to interact as the density of information flow is incredibly high. If we also add visual data to this, the interaction becomes much richer, but sometimes makes it harder for participants to focus on everything, thus causing leakage in the flow of information.
 
-Computing - The way the information is processed. The abstraction of Computes is beyond the scope of this text. This is most fundamental. The first class citizen of this simulation. The architecture is to maximize the potential of these computes.
+Computing - The way the information is processed. The abstraction of Computes is beyond the scope of this text. This is the most fundamental. The first class citizen of this simulation. The architecture is to maximize the potential of these computes.
 
 Visualizations - The way we comprehend the current state of the system, could be visually, through other reporting mechanism, anything, that divulges information about the system.
 
@@ -43,10 +43,10 @@ The goal of "The simulation" as the name suggest, is to have a perfect replica/s
 This was the first real attempt at creating an unit of this simulation.
 These Karta devices are defined as any device with compute capabilities + Network capabilities.
 
-Karta devices have individually a very pure purpose, event driven (also have the capability of fabricating their own computes) The inital draft also wanted these devices to reproduce automatically, a version similar to themself, but that as you guessed was not engineered because of implementaion capabilites.
+Karta devices have individually a very pure purpose, event driven (also have the capability of fabricating their own computes). The initial draft also wanted these devices to reproduce automatically, a version similar to themselves, but that as you guessed was not engineered because of implementation capabilities.
 
 Though, for all practical purposes, this version of Simulation device is stable. A group or hive of them, does in turn create an impressive system with amazingly broad spectrum of capabilities.
-But extreamly primitive. And no way to replicate makes it useless.
+But extremely primitive. And no way to replicate makes it useless.
 
 ## Visualizations
 

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "From Intent to App: A Deep Dive into My AI-Driven Development Workflow"
-date: 2024-08-30
+date: 2025-09-30
 tags:
   - AI
   - Development
