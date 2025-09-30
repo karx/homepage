@@ -12,9 +12,12 @@ tags:
 excerpt: "Building a poker hand tracking app entirely through AI collaboration - a detailed journey through Intent-Driven Development and the future of agent-native applications."
 header:
   teaser: /assets/images/poker-hands/main-interface.jpeg
+
 ---
 
 # From Intent to App: A Deep Dive into My AI-Driven Development Workflow
+
+![Poker Hand Capture App Interface](/assets/images/poker-hands/main-interface.jpeg)
 
 For any poker player who takes the game seriously, the journey is one of continuous learning. It’s a game of incomplete information, where long-term success is built not on single hands, but on a foundation of solid decisions. The desire to improve is constant, and that improvement begins with measurement. How do you know if you’re making better decisions? How do you spot the patterns in your play, find your leaks, and build the self-awareness to stay confident through the inevitable swings of variance?[^29] This is where technology can be a game-changer. The joy of poker isn't just in winning; it's in the intellectual challenge, the psychological battle, and the deep satisfaction of mastering a complex skill.[^31]
 
@@ -30,7 +33,10 @@ The most effective AI-assisted development begins not with a prompt to write cod
 
 My very first prompt wasn't about functions or classes; it was about defining the project's soul:
 
-`{"text":"Create a markdown file for this project. pokerHandCapture. A web app where you can record a game session only using LLM agents. This is available as a gem/mcp server as well..."}`
+<div class="notice--info">
+<h4>🎯 Architect Prompt</h4>
+<code>{"text":"Create a markdown file for this project. pokerHandCapture. A web app where you can record a game session only using LLM agents. This is available as a gem/mcp server as well..."}</code>
+</div>
 
 This initial command served two critical functions. First, it established the project's vision and scope in a README file. This act of documentation is foundational. It forces clarity of thought and provides a single source of truth that both human and AI can refer back to.[^3] Second, and more subtly, it planted the seeds of a crucial, forward-thinking architectural decision. The phrase "available as a gem/mcp server as well" was not a throwaway line. It was a declaration of strategic intent that would become the project's North Star, signaling that we weren't just building a standalone web app, but a reusable, interoperable
 
@@ -38,7 +44,10 @@ _tool_ designed for an AI-native ecosystem.
 
 With the vision set, the next step was to define the technical guardrails.
 
-`{"text":"Let's init this project using a javaScript based tooling to keep the project maintainable by other teammates. For database we would be linking to firebase. We also have gemeni APIs Keys to interact with a LLM agent."}`
+<div class="notice--primary">
+<h4>⚙️ Tech Stack Prompt</h4>
+<code>{"text":"Let's init this project using a javaScript based tooling to keep the project maintainable by other teammates. For database we would be linking to firebase. We also have gemeni APIs Keys to interact with a LLM agent."}</code>
+</div>
 
 This prompt is a classic example of providing clear, targeted instructions.[^3] By specifying the stack—JavaScript, Firebase for the database, and Google's Gemini for LLM interactions—I was constraining the universe of possible solutions. This prevents the AI from making arbitrary choices and ensures the generated code aligns with the project's technical requirements. Crucially, this prompt intentionally omits any mention of a frontend framework like React or Vue. For a simple, single-page application focused on a core task, the overhead of a large framework felt unnecessary. The goal was to build a lightweight and fast interface directly with HTML and vanilla JavaScript, ensuring full control and a deeper connection to the web's fundamental technologies.[^34]
 
@@ -48,7 +57,10 @@ With the architectural blueprint in place, the process shifted from high-level p
 
 The sequence of prompts clearly illustrates this dynamic. I began by defining the high-level API contract, thinking about it from the perspective of an agent that would eventually consume it.
 
-`{"text":"Let's build and expose the APIs and the MCP server together... Target set of actions to be exposed: * Update current Session Name... * Update current Profile Information... * Add new Data Recordning..."}`
+<div class="notice--success">
+<h4>🔧 API Planning Prompt</h4>
+<code>{"text":"Let's build and expose the APIs and the MCP server together... Target set of actions to be exposed: * Update current Session Name... * Update current Profile Information... * Add new Data Recording..."}</code>
+</div>
 
 This prompt didn't ask for implementation details. It defined the "what"—the set of capabilities the server should offer. Once this was established, I could zoom in and delegate a specific, scoped-down task to the AI driver.
 
@@ -89,17 +101,26 @@ No development story is complete without a journey through the gauntlet of debug
 
 It started with the dreaded, non-specific error that every developer knows:
 
-`{"text":"I am getting 500 for all API calls..."}`
+<div class="notice--warning">
+<h4>🐛 Problem Report</h4>
+<code>{"text":"I am getting 500 for all API calls..."}</code>
+</div>
 
 The AI is not a mind reader. My first step wasn't to ask "fix it," but to follow a classic, human-driven debugging strategy: increase visibility.
 
-`{"text":"Let's add logs to better understand the flow and look for the fixes"}`
+<div class="notice--info">
+<h4>🔍 Debugging Strategy</h4>
+<code>{"text":"Let's add logs to better understand the flow and look for the fixes"}</code>
+</div>
 
 This is a crucial point in the human-AI collaboration. The human's role is to diagnose the problem domain ("I have a bug and I can't see what's happening") and propose a strategy ("let's add logging"). The AI's role is to execute that strategy.
 
 The logs quickly pinpointed the root cause, a subtle but critical parsing error that became a major pivot point for the project's architecture.
 
-`{"text":"The transcript logs: 'Voice input: Current stack 10,000.' The newStack size when parsing is going only as 10. Can we improve the parsing logic. We can use Gemeni API to parse the transcript to get the required payload and action."}`
+<div class="notice--danger">
+<h4>💡 Breakthrough Moment</h4>
+<code>{"text":"The transcript logs: 'Voice input: Current stack 10,000.' The newStack size when parsing is going only as 10. Can we improve the parsing logic. We can use Gemini API to parse the transcript to get the required payload and action."}</code>
+</div>
 
 This prompt reveals so much about the nature of AI-assisted development. The initial implementation, likely a simple regex or string split, was brittle. It failed on a common real-world input containing a comma. My response wasn't to ask the AI to write a more complex regex. Instead, I made a strategic decision to offload the entire problem of natural language understanding to a specialized tool: the Gemini LLM. This was essential to preserving the joy of using the app; a poker player needs to be able to speak naturally without worrying about formatting.[^29]
 
@@ -115,15 +136,26 @@ Of course, building without a framework doesn't mean building without challenges
 
 The journey began with a simple request to create the UI:
 
-`{"text":"Let's start also creating a small HTML (web app) that would be used by the users to interact with this platform. The app should be super simple..."}`
+<div class="notice--primary">
+<h4>🎨 Frontend Initiation</h4>
+<code>{"text":"Let's start also creating a small HTML (web app) that would be used by the users to interact with this platform. The app should be super simple..."}</code>
+</div>
 
 The initial implementation quickly ran into a wall when it came time to visualize the data. This led to a cascade of prompts that tell a classic story of frontend data wrangling.
 
-It started with a configuration error: `{"text":"For chart.js to work in index.html, we need to provide it with a date adapter. It is throwing error: 'Check that a complete date adapter is provided.' "}`. This was followed by another: `{"text":"We are now seeing error saying 'locale must contain localize property'}"`.
+It started with a configuration error:
 
-These errors pointed to a fundamental requirement of using time-series data in Chart.js: it needs an external date library and a corresponding adapter to correctly interpret and format dates.[^13] But even after adding the adapter, the core problem remained. The data coming from Firestore was in a format that Chart.js couldn't natively understand.
+<div class="notice--warning">
+<h4>⚠️ Chart.js Configuration Error</h4>
+<code>{"text":"For chart.js to work in index.html, we need to provide it with a date adapter. It is throwing error: 'Check that a complete date adapter is provided.'"}</code>
+</div>
 
-`{"text":"In html is not able to parse the date properly from the firestore record to plot it on chart. Here is a sample object of the entry: {\"timestamp\": {\"_seconds\": 1753891529, \"_nanoseconds\": 586000000}}..."}`
+This was followed by another locale error. These errors pointed to a fundamental requirement of using time-series data in Chart.js: it needs an external date library and a corresponding adapter to correctly interpret and format dates.[^13] But even after adding the adapter, the core problem remained. The data coming from Firestore was in a format that Chart.js couldn't natively understand.
+
+<div class="notice--info">
+<h4>🔧 Data Format Investigation</h4>
+<code>{"text":"In html is not able to parse the date properly from the firestore record to plot it on chart. Here is a sample object of the entry: {\"timestamp\": {\"_seconds\": 1753891529, \"_nanoseconds\": 586000000}}..."}</code>
+</div>
 
 This is the crux of the issue. The Firestore `Timestamp` object is a proprietary format, not a standard JavaScript `Date` object.[^15] To make this work, a multi-step data transformation was required on the client side:
 
