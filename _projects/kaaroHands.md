@@ -126,7 +126,7 @@ Other AI agents can discover and use these capabilities programmatically, enabli
 
 This project showcases "Intent-Driven Development" - a revolutionary approach to AI-assisted software engineering. Read the complete story of how this application was built through structured human-AI collaboration:
 
-**[Read the Full Development Story →](/2025/09/30/poker-hands-ai-development/)**
+**[Read the Full Development Story →](/poker-hands-ai-development/)**
 
 The blog post covers:
 - The 5-phase Intent-Driven Development cycle
