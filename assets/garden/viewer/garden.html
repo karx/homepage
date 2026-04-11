@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garden — Kaaro's Notes</title>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three":         "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Vault-note tag pills in detail panel */
+    .dp-tag-pill {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 3px;
+      font-size: 0.7em;
+      background: #1a2a1a;
+      border: 1px solid #2a4a2a;
+      color: #6fcf6f;
+      margin-right: 3px;
+    }
+    .dp-vault .dp-source-badge[data-src="vault"] {
+      color: #6fcf6f;
+      border-color: #2a4a2a;
+    }
+    .dp-vault-cta {
+      margin: 10px 0 4px;
+      text-align: center;
+    }
+    .dp-read-link {
+      display: inline-block;
+      padding: 5px 16px;
+      border: 1px solid #6fcf6f;
+      color: #6fcf6f;
+      text-decoration: none;
+      font-size: 0.8em;
+      letter-spacing: 0.05em;
+      border-radius: 2px;
+    }
+    .dp-read-link:hover { background: #1a2a1a; }
+  </style>
+</head>
+
+<body>
+  <div class="shell">
+
+    <!-- ── Top bar ──────────────────────────────────────────────────────── -->
+    <div class="top-bar" role="banner">
+      <nav id="breadcrumb" class="breadcrumb" role="navigation" aria-label="Exploration history" aria-live="polite">
+        <span class="bc-empty" aria-label="No note selected — explore the garden">explore the garden…</span>
+      </nav>
+      <button class="log-toggle" id="log-toggle" aria-label="Toggle debug log" aria-expanded="false" aria-controls="log-bar">◎</button>
+    </div>
+
+    <!-- ── Middle: canvas + detail panel ────────────────────────────────── -->
+    <main class="middle" id="main-content">
+
+      <div class="canvas-wrap" id="theScene" role="application" aria-label="3D knowledge graph of garden notes — click nodes to inspect, drag to rotate">
+        <!-- Key stats strip -->
+        <div id="stats-strip" class="stats-strip hidden" role="status" aria-label="Garden statistics" aria-live="polite"></div>
+      </div>
+
+      <!-- Detail panel -->
+      <aside class="detail-panel" id="detail-panel" role="complementary" aria-label="Note detail panel" aria-live="polite"></aside>
+
+    </main>
+
+    <!-- ── Command bar ───────────────────────────────────────────────────── -->
+    <div class="input-bar" role="search">
+      <label for="main-input" class="cmd-prompt" aria-label="Search prompt">›</label>
+      <input
+        id="main-input"
+        type="search"
+        placeholder="note title, #tag, or tag:streaming"
+        autocomplete="off"
+        spellcheck="false"
+        aria-label="Search garden notes or filter by tag"
+        enterkeyhint="search"
+      >
+      <button id="save-btn"     aria-label="Save current session (F2)" title="Save session">F2 SAVE</button>
+      <button id="sessions-btn" aria-label="Open saved sessions (F8)" title="Saved sessions">F8 SSNS</button>
+    </div>
+
+    <!-- ── Keyboard hints ───────────────────────────────────────────────── -->
+    <div class="fnkey-bar" id="fnkey-bar" role="status" aria-label="Available keyboard shortcuts" aria-live="polite">
+      <span class="fnk"><em>CLICK</em> DETAIL</span>
+      <span class="fnk"><em>DRAG</em> ROTATE</span>
+      <span class="fnk"><em>SCROLL</em> ZOOM</span>
+      <span class="fnk"><em>#tag</em> ISOLATE CLUSTER</span>
+      <span class="fnk fnk-right"><em>◎</em> LOG</span>
+    </div>
+
+  </div>
+
+  <!-- ── Sessions drawer ──────────────────────────────────────────────── -->
+  <div id="sessions-wrap" class="sessions-wrap" role="dialog" aria-modal="true" aria-label="Saved garden sessions" aria-hidden="true">
+    <div class="sessions-header">
+      <span id="sessions-title">Saved Sessions</span>
+      <button id="sessions-close" aria-label="Close sessions panel">✕</button>
+    </div>
+    <div id="sessions-drawer" class="sessions-drawer" role="list" aria-labelledby="sessions-title"></div>
+  </div>
+
+  <!-- ── Debug log ────────────────────────────────────────────────────── -->
+  <div id="log-bar" class="log-bar hidden" role="log" aria-label="Debug log" aria-live="off">
+    <div id="logger" class="log-inner"></div>
+  </div>
+
+  <script>
+    document.getElementById('sessions-close')?.addEventListener('click', () => {
+      document.getElementById('sessions-wrap')?.classList.remove('open');
+    });
+  </script>
+
+  <script type="module" src="./garden-main.mjs"></script>
+</body>
+</html>

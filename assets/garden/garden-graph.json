@@ -1,0 +1,494 @@
+{
+  "nodes": [
+    {
+      "id": "age-of-empires-ii-de",
+      "type": "vault-note",
+      "label": "Age of Empires II DE",
+      "description": "My progress and notes on Age of Empires II Definitive Edition, including current 1v1 Elo.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/age-of-empires-ii-de/",
+      "wikiLinks": [
+        "elo-system"
+      ]
+    },
+    {
+      "id": "art-of-intent",
+      "type": "vault-note",
+      "label": "Art of Intent",
+      "description": "Technical overview and architecture of 'Art of Intent', an AI-powered word puzzle game exploring the boundaries of prompt engineering.",
+      "tags": [
+        "interface",
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/art-of-intent/",
+      "wikiLinks": []
+    },
+    {
+      "id": "computetheory",
+      "type": "vault-note",
+      "label": "Compute Theory",
+      "description": "Proposing 'compute' as the fundamental observable unit of the universe, and exploring 'moments per second' as a measure of awareness.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/computetheory/",
+      "wikiLinks": []
+    },
+    {
+      "id": "ego-field",
+      "type": "vault-note",
+      "label": "Ego Field",
+      "description": "Exploring the 'area of effect' caused by conscious compute systems.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/ego-field/",
+      "wikiLinks": [
+        "computetheoryreadme"
+      ]
+    },
+    {
+      "id": "elo-system",
+      "type": "vault-note",
+      "label": "ELO Rating System",
+      "description": "A summary of the Elo rating system, its history in chess, and its application in competitive gaming.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/elo-system/",
+      "wikiLinks": []
+    },
+    {
+      "id": "interface-patterns-and-ubiquitous-compute",
+      "type": "vault-note",
+      "label": "Interface Patterns and Ubiquitous Compute",
+      "description": "Exploring the co-evolution of interface metaphors and compute capabilities, and the shift toward post-mobile interaction patterns.",
+      "tags": [
+        "interface",
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/interface-patterns-and-ubiquitous-compute/",
+      "wikiLinks": [
+        "compute-theory"
+      ]
+    },
+    {
+      "id": "moments-per-second---rate-of-understanding",
+      "type": "vault-note",
+      "label": "Rate of Understanding",
+      "description": "Exploring 'moments per second' (⛰️/sec) as a measure of the granularity of conscious operations and the quest for life.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/moments-per-second---rate-of-understanding/",
+      "wikiLinks": [
+        "cultural-knowledge-dispersion",
+        "ego-field",
+        "what-is-life"
+      ]
+    },
+    {
+      "id": "now",
+      "type": "vault-note",
+      "label": "Now",
+      "description": "A snapshot of my current projects, interests, and focus areas as of April 2026.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/now/",
+      "wikiLinks": [
+        "interface-patterns-and-ubiquitous-compute",
+        "art-of-intent",
+        "readme"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "vault-note",
+      "label": "Kartik 'kaaro' Arora",
+      "description": "The core entry point for the knowledge garden — summarizing my work, interests, and current experiments.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/about/",
+      "wikiLinks": [
+        "now"
+      ]
+    },
+    {
+      "id": "webcomponents--history--10w3c",
+      "type": "vault-note",
+      "label": "The World Wide Web Consortium (W3C)",
+      "description": "The founding of the W3C to ensure long-term web standard compatibility and growth across the industry.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Sat Oct 01 1994 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--10w3c/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--11netscape",
+      "type": "vault-note",
+      "label": "Netscape Navigator > Browser Wars",
+      "description": "The launch of Netscape Navigator and the beginning of the intense 'Browser Wars' that accelerated web innovation.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Thu Oct 13 1994 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--11netscape/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--12html2",
+      "type": "vault-note",
+      "label": "HTML 2.0 Standard (IETF RFC 1866)",
+      "description": "HTML 2.0 was the first formal specification of HTML, providing a stable foundation for the rapidly expanding web.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Fri Nov 24 1995 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--12html2/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--1proposal",
+      "type": "vault-note",
+      "label": "Information Management: A Proposal",
+      "description": "The original 1989 proposal by Tim Berners-Lee at CERN that laid the groundwork for the World Wide Web as a 'universal linked information system'.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Sun Mar 12 1989 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--1proposal/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--2firstwebbrowser",
+      "type": "vault-note",
+      "label": "The Web’s First (And Second) Browser",
+      "description": "The story of WorldWideWeb (the first graphical browser/editor) and the Line Mode Browser, which made the web accessible to everyone.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Tue Dec 25 1990 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--2firstwebbrowser/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--3alist",
+      "type": "vault-note",
+      "label": "WWW Virtual Library | First index of content",
+      "description": "The World Wide Web Virtual Library was the first index of content on the web, started by Tim Berners-Lee in 1991.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Thu Aug 01 1991 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--3alist/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--4thefirstpage",
+      "type": "vault-note",
+      "label": "The World Wide Web project",
+      "description": "The first website, published by Tim Berners-Lee to demonstrate the purpose and potential of a universal hypermedia initiative.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Tue Aug 06 1991 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--4thefirstpage/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--5hypertext",
+      "type": "vault-note",
+      "label": "Hypertext",
+      "description": "Tracing the history of hypertext from Vannevar Bush's Memex and Douglas Engelbart's 'Mother of All Demos' to the World Wide Web.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Tue Oct 29 1991 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--5hypertext/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--6theinit",
+      "type": "vault-note",
+      "label": "Protocols | URL",
+      "description": "An exploration of the foundational technologies of the web: Domain Names, DNS, and the Uniform Resource Locator (URL).",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Wed Jan 01 1992 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--6theinit/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--7mosaic",
+      "type": "vault-note",
+      "label": "NCSA Mosaic",
+      "description": "The release of NCSA Mosaic, the browser that brought graphics and widespread popularity to the early World Wide Web.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Sat Jan 23 1993 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--7mosaic/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--8public",
+      "type": "vault-note",
+      "label": "CERN puts the Web in the public domain",
+      "description": "The historic 1993 declaration by CERN that ensured the World Wide Web remained an open, royalty-free standard for everyone.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Fri Apr 30 1993 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--8public/",
+      "wikiLinks": []
+    },
+    {
+      "id": "webcomponents--history--9htmlspec",
+      "type": "vault-note",
+      "label": "HTML+ specification",
+      "description": "The proposal for HTML+, introducing advanced features like tables, forms, and figures to the web's foundational markup language.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": "Mon Nov 08 1993 05:30:00 GMT+0530 (India Standard Time)",
+      "noteUrl": "/notes/webcomponents--history--9htmlspec/",
+      "wikiLinks": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "age-of-empires-ii-de",
+      "to": "elo-system",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "moments-per-second---rate-of-understanding",
+      "to": "ego-field",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "now",
+      "to": "interface-patterns-and-ubiquitous-compute",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "now",
+      "to": "art-of-intent",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "about",
+      "to": "now",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    }
+  ],
+  "clusters": {
+    "reference": {
+      "color": "#80cbc4"
+    },
+    "interface": {
+      "color": "#fff176"
+    },
+    "reflection": {
+      "color": "#b0bec5"
+    }
+  },
+  "index": [
+    {
+      "id": "age-of-empires-ii-de",
+      "title": "Age of Empires II DE",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "art-of-intent",
+      "title": "Art of Intent",
+      "tags": [
+        "interface",
+        "reference"
+      ]
+    },
+    {
+      "id": "computetheory",
+      "title": "Compute Theory",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "ego-field",
+      "title": "Ego Field",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "elo-system",
+      "title": "ELO Rating System",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "interface-patterns-and-ubiquitous-compute",
+      "title": "Interface Patterns and Ubiquitous Compute",
+      "tags": [
+        "interface",
+        "reflection"
+      ]
+    },
+    {
+      "id": "moments-per-second---rate-of-understanding",
+      "title": "Rate of Understanding",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "now",
+      "title": "Now",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "about",
+      "title": "Kartik 'kaaro' Arora",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "webcomponents--history--10w3c",
+      "title": "The World Wide Web Consortium (W3C)",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--11netscape",
+      "title": "Netscape Navigator > Browser Wars",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--12html2",
+      "title": "HTML 2.0 Standard (IETF RFC 1866)",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--1proposal",
+      "title": "Information Management: A Proposal",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--2firstwebbrowser",
+      "title": "The Web’s First (And Second) Browser",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--3alist",
+      "title": "WWW Virtual Library | First index of content",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--4thefirstpage",
+      "title": "The World Wide Web project",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--5hypertext",
+      "title": "Hypertext",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--6theinit",
+      "title": "Protocols | URL",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--7mosaic",
+      "title": "NCSA Mosaic",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--8public",
+      "title": "CERN puts the Web in the public domain",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "webcomponents--history--9htmlspec",
+      "title": "HTML+ specification",
+      "tags": [
+        "reference"
+      ]
+    }
+  ]
+}
