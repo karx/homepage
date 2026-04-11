@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nature-First Noida Mood Board</title>
+    <style>
+        body {
+            background: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: white;
+        }
+
+        canvas {
+            border: 1px solid #333;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="natureCanvas" width="1000" height="600"></canvas>
+
+    <script>
+        const canvas = document.getElementById('natureCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const themes = [
+            {
+                name: "Biophilic Sanctuary",
+                desc: "Focus: Innate connection to nature[cite: 47, 48].",
+                colors: ["#2D4C3B", "#A67C52", "#F4F1EA"],
+                elements: ["Vertical Gardens", "Natural Light", "Water Sounds"],
+                x: 50
+            },
+            {
+                name: "Seasonal Sovereignty",
+                desc: "Focus: Agricultural harvest cycles[cite: 32, 120].",
+                colors: ["#E67E22", "#8E44AD", "#27AE60"],
+                elements: ["Farm-to-Fork", "Thermal Balance", "Local Pulses"],
+                x: 360
+            },
+            {
+                name: "Resilient Urban Hub",
+                desc: "Focus: Environmental engineering[cite: 41, 121].",
+                colors: ["#BDC3C7", "#2C3E50", "#3498DB"],
+                elements: ["HEPA Filtration", "Passive Cooling", "Minimalism"],
+                x: 670
+            }
+        ];
+
+        function drawMoodBoard() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Background Grid
+            ctx.strokeStyle = '#333';
+            for (let i = 0; i < canvas.width; i += 50) { ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, 600); ctx.stroke(); }
+            for (let j = 0; j < canvas.height; j += 50) { ctx.beginPath(); ctx.moveTo(0, j); ctx.lineTo(1000, j); ctx.stroke(); }
+
+            themes.forEach((theme) => {
+                // Card Base
+                ctx.fillStyle = "#252525";
+                ctx.fillRect(theme.x, 50, 280, 500);
+
+                // Theme Pattern Header
+                ctx.fillStyle = theme.colors[0];
+                ctx.fillRect(theme.x, 50, 280, 180);
+
+                // Title & Description
+                ctx.fillStyle = "#FFF";
+                ctx.font = "bold 18px Inter";
+                ctx.fillText(theme.name.toUpperCase(), theme.x + 20, 260);
+
+                ctx.font = "12px Inter";
+                ctx.fillStyle = "#AAA";
+                const words = theme.desc.split(" ");
+                let line = "";
+                let yPos = 285;
+                words.forEach(word => {
+                    if (ctx.measureText(line + word).width < 240) { line += word + " "; }
+                    else { ctx.fillText(line, theme.x + 20, yPos); line = word + " "; yPos += 18; }
+                });
+                ctx.fillText(line, theme.x + 20, yPos);
+
+                // Color Swatches
+                theme.colors.forEach((c, idx) => {
+                    ctx.fillStyle = c;
+                    ctx.beginPath();
+                    ctx.arc(theme.x + 40 + (idx * 60), 380, 20, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+
+                // Feature List
+                ctx.font = "13px Inter";
+                ctx.fillStyle = "#DDD";
+                theme.elements.forEach((el, idx) => {
+                    ctx.fillText("• " + el, theme.x + 20, 440 + (idx * 25));
+                });
+            });
+        }
+
+        drawMoodBoard();
+    </script>
+</body>
+
+</html>

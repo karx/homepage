@@ -1,19 +1,42 @@
-<div class="blogs-container">
-    <div class="blogs-header section-header">
-        <h2>Blogs</h2>
-        <p>What are we upto?</p>
+<section class="journal-section">
+    <div class="section-header">
+        <span class="section-tag">Journal</span>
+        <h2>Insights from the Field</h2>
+        <p>Practical guides on Vastu, naturopathy, and biophilic living for the modern urban home.</p>
+        <div class="divider"></div>
     </div>
-    <div class="blogs-content">
-        {% for post in site.posts limit:4 %}
-            {% if post.id == page.id %}
-                {% continue %}
-            {% endif %}
-            {% include archive-single.html type="grid" %}
+    <div class="journal-grid">
+        {% for post in site.posts limit:3 %}
+            {% if post.id == page.id %}{% continue %}{% endif %}
+            <article class="journal-card">
+                {% if post.header.teaser %}
+                <a href="{{ post.url }}" class="journal-card__image-link" tabindex="-1" aria-hidden="true">
+                    <div class="journal-card__image" style="background-image:url('{{ post.header.teaser | relative_url }}')"></div>
+                </a>
+                {% else %}
+                <div class="journal-card__image journal-card__image--placeholder" aria-hidden="true">
+                    {% include icon.html id="lotus" size="32" %}
+                </div>
+                {% endif %}
+                <div class="journal-card__body">
+                    {% if post.categories.first %}
+                    <span class="journal-card__tag">{{ post.categories.first }}</span>
+                    {% endif %}
+                    <h3 class="journal-card__title">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h3>
+                    {% if post.excerpt %}
+                    <p class="journal-card__excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                    {% endif %}
+                    <a href="{{ post.url }}" class="journal-card__link">
+                        Read
+                        {% include icon.html id="arrow-right" size="14" %}
+                    </a>
+                </div>
+            </article>
         {% endfor %}
     </div>
-
-    <div class="blogs-more">
-        <a href="./blogs.html" class="internal-ling">More..</a>
+    <div class="section-footer">
+        <a href="/journal/" class="btn btn--inverse">Visit the Journal</a>
     </div>
-
-</div>
+</section>

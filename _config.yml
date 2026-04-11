@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "urbanprana" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "urbanprana"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Akriya Technologies"
+title                    : "Urban Prana"
 title_separator          : "-"
-name                     : "Akriya Technologies"
-description              : "Embracing Digital Transformation"
-url                      : https://akriya.co.in
+name                     : "Urban Prana"
+description              : "Holistic Urban Living through Vastu Shastra & Naturopathy"
+url                      : https://urbanprana.life
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : karx/homepage
-teaser                   : "/assets/images/Teaser.png"
-logo                     : "/assets/images/Deva-a.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository               : urbanprana/homepage
+teaser                   : "/assets/images/urban-nature-teaser.png"
+logo                     : "/assets/images/urban-prana-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -110,55 +110,37 @@ analytics:
 
 # Site Author
 author:
-  name             : "Akriya Technologies"
-  avatar           : "/assets/images/Deva-a.png"
-  bio              : "Embracing digital transformation"
-  location         : "India"
-  email            : admin@akriya.co.in
+  name             : "Urban Prana"
+  avatar           : "/assets/images/urban-prana-logo.png"
+  bio              : "Holistic Urban Living through Vastu Shastra & Naturopathy"
+  location         : "Noida, India"
+  email            : hello@urbanprana.life
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:admin@akriya.co.in
+      url: mailto:hello@urbanprana.life
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://akriya.co.in"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
+      url: "https://urbanprana.life"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/akriyaClick"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/fjvwC3z"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/akriyaIN/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/akriyaIN"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/akriyaClick"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/akriyaIN/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/karx"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/kaaro"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/fjvwC3z"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/akriyaclick"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/akriyaIN"
 
 
 # Reading Files
@@ -219,22 +201,6 @@ kramdown:
 
 
 collections:
-  projects:
-     output: true
-     permalink: /:collection/:path
-     layout: projecto
-  team:
-     output: true
-     permalink: /:collection/:path
-     layout: single
-  labs:
-     output: true
-     permalink: /:collection/:path
-     layout: single
-  poems:
-     output: true
-     permalink: /:collection/:path
-     layout: poem_viz
 
 
 # Sass/SCSS
@@ -326,50 +292,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
       author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: false
-      toc: false
-  # _team
-  - scope:
-      path: ""
-      type: team
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      toc: false
-  # _labs
-  - scope:
-      path: ""
-      type: labs
-    values:
-      layout: single
-      author_profile: false
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      toc: false
-  # _poems
-  - scope:
-      path: ""
-      type: poems
-    values:
-      layout: poem_viz
-      toc: false
 
 
 # Theme Settings
@@ -403,9 +326,3 @@ social_icons_background_color             : "#e6e6e6"
 footer_text_color                         : "#666666"
 
 
-## Javascript
-head_scripts:
-  - path: https://unpkg.com/@google/model-viewer@0.8.1/dist/model-viewer.js
-    is_module: true
-  - path: https://unpkg.com/@google-web-components/google-chart@3.0.0/google-chart.js?module
-    is_module: true

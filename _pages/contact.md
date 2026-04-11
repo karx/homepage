@@ -1,23 +1,34 @@
 ---
-title: "Contact Us"
-excerpt: "Get in touch with us"
-permalink: /contact.html
-toc: true
+title: "Book a Consultation"
+layout: single
+permalink: /contact/
+header:
+  overlay_image: /assets/images/contact-banner.jpg
+  overlay_filter: 0.5
+excerpt: "Connect with Urban Prana for Vastu audits, biophilic design, and naturopathy consultations."
 ---
 
+Ready to transform your home into a healing sanctuary? Our team of Vastu experts and design thinkers is here to help you harmonize your living space.
 
-## Want us to work for you?
-Send a **RFP** at [_info@akriya.co.in_](mailto:info@akriya.co.in)
+## Consultation Services
 
+We offer both on-site (Noida/Delhi NCR) and remote consultations:
 
-## Looking to work with us?
-Send us your resume at [_careers@akriya.co.in_](mailto:careers@akriya.co.in)
+*   **Vastu Audit:** Comprehensive analysis of your home's energy flow and magnetic orientation.
+*   **Non-Renovation Remedies:** Practical, symbolic, and elemental fixes for fixed apartment layouts.
+*   **Biophilic Design Consulting:** Recommendations for plant synergy, water features, and lighting.
+*   **Naturopathy & Lifestyle Planning:** Holistic wellness plans integrated with your living environment.
 
-## Just want to have a chat?
-For general support and discussion, please join the Discord server: [Discord Invite Link](https://discord.gg/fjvwC3z)
+## Contact Information
 
-[![Discord Server](https://discordapp.com/api/guilds/434645547110891520/widget.png?style=banner2)](https://discord.gg/B2cERQ5)
+**Email:** [hello@urbanprana.life](mailto:hello@urbanprana.life)  
+**Location:** Sector 44, Noida, India  
+**Hours:** Monday – Saturday: 10:00 AM – 7:00 PM IST
 
-To check known bugs and see planned changes and features of any of our project, please see the GitHub issues.
+---
 
-Found a bug we don't already have an issue for? Please report it in a new GitHub issue with as much detail as you can!
+### Request an Assessment
+
+For a preliminary Vastu assessment, please provide your apartment floor plan and location via email. Our team will get back to you within 24–48 hours.
+
+> "Arogya (complete health) starts with a balanced space." — Urban Prana

@@ -1,18 +1,78 @@
-
-<div class="intro-container">
-    <div class="left-side">
-        <div class="intro-line-1">
-            <h1>{{page.excerpt}}</h1>
+<section class="intro-section">
+    <div class="intro-inner">
+        <div class="intro-left">
+            <span class="eyebrow">Vastu Shastra &amp; Naturopathy</span>
+            <h1>{{ page.excerpt }}</h1>
+            <p class="intro-lead">
+                Transform how you sleep, work, and heal — through spatial alignment, botanical care, and the timeless principles of Vastu Shastra.
+            </p>
+            <div class="intro-actions">
+                {% for button in page.header.actions %}
+                <a href="{{ button.url }}" class="btn btn--primary btn--large">{{ button.label }}</a>
+                {% endfor %}
+                <a href="/philosophy/" class="btn btn--inverse btn--large">Explore Our Approach</a>
+            </div>
         </div>
-        <div class="intro-line-2">
-            {% for button in page.header.actions %}
-            <a href="{{button.url}}">{{button.label}}</a>
-            {% endfor %}
+
+        <div class="intro-right">
+            <div class="hero-visual" aria-hidden="true">
+                <!-- Outer ring — slow clockwise rotation with cardinal marks -->
+                <div class="hv-ring hv-ring--outer">
+                    <div class="hv-cardinal hv-cardinal--n"></div>
+                    <div class="hv-cardinal hv-cardinal--e"></div>
+                    <div class="hv-cardinal hv-cardinal--s"></div>
+                    <div class="hv-cardinal hv-cardinal--w"></div>
+                </div>
+                <!-- Mid ring — slower counter-rotation -->
+                <div class="hv-ring hv-ring--mid">
+                    <div class="hv-cardinal hv-cardinal--ne"></div>
+                    <div class="hv-cardinal hv-cardinal--se"></div>
+                    <div class="hv-cardinal hv-cardinal--sw"></div>
+                    <div class="hv-cardinal hv-cardinal--nw"></div>
+                </div>
+                <!-- Inner ring — pulses -->
+                <div class="hv-ring hv-ring--inner"></div>
+                <!-- Axis lines -->
+                <div class="hv-axis hv-axis--h"></div>
+                <div class="hv-axis hv-axis--v"></div>
+                <!-- Diagonal lines -->
+                <div class="hv-diag hv-diag--1"></div>
+                <div class="hv-diag hv-diag--2"></div>
+                <!-- Center lotus -->
+                <div class="hv-center">
+                    {% include icon.html id="lotus" size="72" %}
+                </div>
+                <!-- Floating prana dots -->
+                <div class="hv-dot hv-dot--1"></div>
+                <div class="hv-dot hv-dot--2"></div>
+                <div class="hv-dot hv-dot--3"></div>
+                <div class="hv-dot hv-dot--4"></div>
+            </div>
         </div>
     </div>
-    <div class="right-side">
-        <model-viewer src="{{page.model.asset}}" auto-rotate camera-controls background-color="transparent">
-        </model-viewer>
-    </div>
-</div>
 
+    <!-- Trust anchors — grounded at the base of the hero -->
+    <div class="intro-trust">
+        <div class="intro-trust__inner">
+            <span class="intro-trust__item">
+                {% include icon.html id="compass" size="13" %}
+                Vastu &amp; Biophilic Design
+            </span>
+            <span class="intro-trust__sep" aria-hidden="true"></span>
+            <span class="intro-trust__item">
+                {% include icon.html id="leaf" size="13" %}
+                Naturopathy &amp; Wellness
+            </span>
+            <span class="intro-trust__sep" aria-hidden="true"></span>
+            <span class="intro-trust__item">
+                {% include icon.html id="location" size="13" %}
+                Noida, Delhi NCR &amp; Remote
+            </span>
+            <span class="intro-trust__sep" aria-hidden="true"></span>
+            <span class="intro-trust__item">
+                {% include icon.html id="sun" size="13" %}
+                Ancient Wisdom, Modern Living
+            </span>
+        </div>
+    </div>
+</section>

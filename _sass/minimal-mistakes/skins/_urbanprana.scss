@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Urban Prana skin — Modern Naturopathy & Vastu
+   Palette: Forest Green / Warm Gold / Cream / Earth
+   ========================================================================== */
+
+$background-color      : #F8F5EF !default;
+$text-color            : #252525 !default;
+$muted-text-color      : #6B6860 !default;
+$primary-color         : #3A6351 !default;
+$border-color          : #E0DBD0 !default;
+$footer-background-color: #1E2D2A !default;
+$link-color            : #3A6351 !default;
+$masthead-link-color   : #252525 !default;
+$masthead-link-color-hover: #3A6351 !default;
+$navicon-link-color-hover: mix(#fff, #3A6351, 60%) !default;
+
+/* Syntax highlighting (kept neutral for readability) */
+$base00: #F8F5EF !default;
+$base01: #e8e3db !default;
+$base02: #d3cdc3 !default;
+$base03: #9e9a92 !default;
+$base04: #6B6860 !default;
+$base05: #252525 !default;
+$base06: #1a1a1a !default;
+$base07: #0d0d0d !default;
+$base08: #C4622D !default;
+$base09: #C5A55A !default;
+$base0a: #d4c870 !default;
+$base0b: #3A6351 !default;
+$base0c: #7DAA92 !default;
+$base0d: #4a8c6f !default;
+$base0e: #8B6847 !default;
+$base0f: #a05c3a !default;
+
+.page__footer {
+  color: #d9d4cb !important;
+
+  a {
+    color: #7DAA92 !important;
+
+    &:hover {
+      color: #C5A55A !important;
+    }
+  }
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* Masthead */
+.masthead {
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color;
+}
+
+.greedy-nav {
+  background: $background-color;
+
+  a {
+    color: $masthead-link-color;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
+  .visible-links a::before {
+    background: #C5A55A;
+    height: 2px;
+  }
+}

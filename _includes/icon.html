@@ -1,0 +1,28 @@
+{% comment %}
+  Urban Prana SVG Icon Partial
+  Usage: {% include icon.html id="prithvi" size="24" class="element-symbol" label="Earth element" %}
+
+  Parameters:
+    id     (required) — icon ID without the "icon-" prefix (e.g. "prithvi", "leaf", "compass")
+    size   (optional) — pixel size, default 24
+    class  (optional) — additional CSS classes
+    label  (optional) — accessible label; omit for decorative icons (aria-hidden="true")
+{% endcomment %}
+
+{% assign _size  = include.size  | default: "24" %}
+{% assign _class = include.class | default: "" %}
+
+{% if include.label %}
+<svg class="up-icon{% if _class != '' %} {{ _class }}{% endif %}"
+     width="{{ _size }}" height="{{ _size }}"
+     role="img" aria-label="{{ include.label }}">
+  <title>{{ include.label }}</title>
+  <use href="/assets/images/icons.svg#icon-{{ include.id }}"></use>
+</svg>
+{% else %}
+<svg class="up-icon{% if _class != '' %} {{ _class }}{% endif %}"
+     width="{{ _size }}" height="{{ _size }}"
+     aria-hidden="true" focusable="false">
+  <use href="/assets/images/icons.svg#icon-{{ include.id }}"></use>
+</svg>
+{% endif %}

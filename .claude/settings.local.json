@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/himan/.claude/projects/C--Users-himan-kaaro-src-homepage/**)",
+      "Read(//c/Users/himan/.claude/projects/C--Users-himan-kaaro-src-homepage/memory/**)"
+    ]
+  }
+}

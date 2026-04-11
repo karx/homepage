@@ -1,25 +1,40 @@
-<div class="labs-container">
-    <div class="labs-header section-header">
-        <h2>Cooking in labs</h2>
-        <p>Some of our internal projects.</p>
+<section class="labs-section">
+    <div class="section-header">
+        <span class="section-tag">Case Studies</span>
+        <h2>Urban Nature Retreats</h2>
+        <p>Real-world examples of Nature Living in the modern Indian metropolis — spaces where Vastu and biophilic design converge.</p>
+        <div class="divider"></div>
     </div>
-    <div class="labs-content">
-        {% for beta in site.labs | where:"published",false %}
-        <div class="each-beta-item">
-            <div class="item-header">
-                <a href="{{beta.url}}" class="">
-                  <h3>{{beta.title}}</h3>
-                </a>
-                <div class="item-info">
-                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
-                    {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
-                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
-                </div>
-                <p>{{beta.description}}</p>
+    <div class="retreats-grid">
+        <div class="retreat-card">
+            <div class="retreat-badge">
+                <span>Noida · Private Forest</span>
             </div>
-
+            <div class="retreat-body">
+                <h3>Godrej Woods</h3>
+                <p>A private urban forest with 600 trees, emphasising physical wellness, community ecosystem, and green-canopy living.</p>
+                <span class="retreat-feature">Biophilic Design · Community Wellness</span>
+            </div>
         </div>
-        {% endfor %}
+        <div class="retreat-card">
+            <div class="retreat-badge">
+                <span>Noida · Vertical Living</span>
+            </div>
+            <div class="retreat-body">
+                <h3>County 107</h3>
+                <p>Vertical bungalows featuring expansive decks with integrated trees, sky gardens, and IGBC Platinum sustainability.</p>
+                <span class="retreat-feature">Sky Gardens · IGBC Platinum</span>
+            </div>
+        </div>
+        <div class="retreat-card">
+            <div class="retreat-badge">
+                <span>Noida · Five Elements</span>
+            </div>
+            <div class="retreat-body">
+                <h3>Experion Elements</h3>
+                <p>A Pancha Bhuta concept development with low-density planning, element-themed zones, and expansive landscaped greens.</p>
+                <span class="retreat-feature">Vastu Planning · Low Density</span>
+            </div>
+        </div>
     </div>
-
-</div>
+</section>

@@ -1,3 +1,59 @@
-<!-- start custom footer snippets -->
+<div class="up-footer">
+    <div class="up-footer__inner">
 
-<!-- end custom footer snippets -->
+        <div class="up-footer__col up-footer__col--brand">
+            <a href="/" class="up-footer__logo" aria-label="Urban Prana home">
+                {% include icon.html id="lotus" size="32" class="up-footer__lotus" %}
+                <span class="up-footer__brand-name">Urban Prana</span>
+            </a>
+            <p class="up-footer__tagline">Holistic Urban Living through Vastu Shastra &amp; Naturopathy.</p>
+            <ul class="up-footer__social" aria-label="Social media">
+                <li><a href="https://instagram.com/akriyaClick" rel="nofollow noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-fw fa-instagram" aria-hidden="true"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/akriyaIN/" rel="nofollow noopener noreferrer" aria-label="Facebook">
+                    <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i>
+                </a></li>
+                <li><a href="https://twitter.com/akriyaIN" rel="nofollow noopener noreferrer" aria-label="Twitter">
+                    <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+                </a></li>
+            </ul>
+        </div>
+
+        <div class="up-footer__col up-footer__col--nav">
+            <h4 class="up-footer__col-title">Navigate</h4>
+            <ul class="up-footer__nav">
+                <li><a href="/philosophy/">Philosophy</a></li>
+                <li><a href="/vastu/">Vastu &amp; Spaces</a></li>
+                <li><a href="/naturopathy/">Naturopathy</a></li>
+                <li><a href="/cases/">Case Studies</a></li>
+                <li><a href="/journal/">Journal</a></li>
+                <li><a href="/elements/">Five Elements</a></li>
+            </ul>
+        </div>
+
+        <div class="up-footer__col up-footer__col--contact">
+            <h4 class="up-footer__col-title">Get in Touch</h4>
+            <ul class="up-footer__contact-list">
+                <li>
+                    {% include icon.html id="envelope" size="14" %}
+                    <a href="mailto:hello@urbanprana.life">hello@urbanprana.life</a>
+                </li>
+                <li>
+                    {% include icon.html id="location" size="14" %}
+                    Noida, India
+                </li>
+                <li class="up-footer__hours">Mon – Sat &nbsp;·&nbsp; 10am – 7pm IST</li>
+            </ul>
+            <a href="/contact/" class="btn btn--primary up-footer__cta">Book a Session</a>
+        </div>
+
+    </div>
+
+    <div class="up-footer__bar">
+        <span>&copy; {{ site.time | date: '%Y' }} Urban Prana. All rights reserved.</span>
+        <span class="up-footer__bar-links">
+            <a href="/terms/">Privacy &amp; Terms</a>
+        </span>
+    </div>
+</div>

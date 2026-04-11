@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 excerpt: "What are we upto"
-permalink: /blogs.html
+permalink: /journal/
 toc: true
 layout: posts
 # header:
