@@ -1,4 +1,5 @@
 ---
+published: false
 name: Intelligent Pool system
 title: Intelligent Pool system
 categories:

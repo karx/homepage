@@ -1,38 +1,28 @@
 ---
-title: "Welcome to Akriya Technologies"
-excerpt: "Welcome to Akriya Technologies - embracing Digital Transformation"
-<!-- permalink: /home.html -->
+title: "Kartik Arora"
+excerpt: "Builder. Tinkerer. Knowledge graphs."
 toc: false
 author_profile: false
-excerpt: "Make technology work for you."
 layout: landing
-wide: true
 header:
-  overlay_image: "/assets/images/homepage-banner.png"
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Start a project"
-      url: "/start-a-project"
-
-chunks:
-  - title: offerings
+    - label: "See the work"
+      url: "/works/"
+    - label: "Explore the garden"
+      url: "/garden/"
 
 model:
   asset: "/assets/models/akriya-1-2.glb"
-  color: #FFFFFF
+  color: "#FFFFFF"
 
-    
+featured_works:
+  - artOfIntent
+  - adengine
+  - kaaroHands
 ---
 
+Engineer at **PhonePe** — building data platforms for fraud and risk. Graph DB interfaces, data pipelines, AI tooling.
 
-Allow us to _materialize_ your next great idea.
+Previously at **Bing / Satori** curating the Knowledge Graph Engine, then ran **Akriya Technologies** shipping IoT and web products out of Noida.
 
-Based in Noida, India, We at endeavour to build and sustain the standards in this modern world with our proficient skills and undying commitment to deliver the top-notch services and products.
-
-Our team of highly skilled engineers and design thinkers, with everyone being ready to become a friend to your project and you personally 😆.
-[More about us](/core)
-
-We provide, we partner, we prototype. We design and we develop.
-From custom IoT solutions to web plugins, with our curated [Technology Stack](/tech)
-
+I make things: [knowledge graph explorers](/lab/), [3D prints](/lab/), [IoT devices](/works/), [tools for thinking](/garden/).

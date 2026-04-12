@@ -1,7 +1,7 @@
 ---
-title: "Projects"
-permalink: /projects/
+title: "Works"
+permalink: /works/
 layout: projects
 classes: wide
-author_profile: true
+author_profile: false
 ---

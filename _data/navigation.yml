@@ -1,24 +1,12 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Labs"
-    url: /labs/
-  - title: "Projects"
-    url: /projects/
+  - title: "Works"
+    url: /works/
+  - title: "Lab"
+    url: /lab/
+  - title: "Garden"
+    url: /garden/
   - title: "Blog"
-    url: "/blogs"
-  - title: "Team"
-    url: /team/
-  - title: "Contact Us"
-    url: /contact
-  - title: "Core"
-    url: /core.html
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /blogs/
+  - title: "About"
+    url: /about/

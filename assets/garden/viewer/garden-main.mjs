@@ -30,6 +30,10 @@ const GRAPH_URL = params.get('graph') ?? '/assets/garden/garden-graph.json';
 
 const vault = new VaultSource(GRAPH_URL);
 
+// ── UI state ──────────────────────────────────────────────────────────────────
+
+let _isDimmed = false;
+
 // ── Tag cluster centroids ─────────────────────────────────────────────────────
 // Tags become spatial regions. Centroids are placed on a circle in XZ plane.
 
@@ -112,7 +116,7 @@ requestAnimationFrame(async () => {
 // ── Node interactions ─────────────────────────────────────────────────────────
 
 onNodeClick(qid => {
-  clearDim();
+  clearDim(); _isDimmed = false;
   const node = graph.getNode(qid);
   if (!node) return;
   const prev = getCurrentQid();
@@ -122,6 +126,7 @@ onNodeClick(qid => {
   const mesh = getNodeMesh(qid);
   if (mesh) focusOn(mesh.position.toArray(), 12);
   showDetail(node, graph.getEdgesFor(qid), id => graph.getNode(id));
+  _updateFnBar();
 });
 
 document.addEventListener('detail:navigate', e => {
@@ -160,7 +165,7 @@ inputBus.addEventListener('intent', async e => {
 
   // Focus the first match; dim others
   const firstId = results.nodes[0].id;
-  dimAllExcept(results.nodes.map(n => n.id));
+  dimAllExcept(results.nodes.map(n => n.id)); _isDimmed = true; _updateFnBar();
   const node = graph.getNode(firstId);
   if (!node) return;
   setNodeState(firstId, 'focused');

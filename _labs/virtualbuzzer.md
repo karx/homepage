@@ -1,43 +1,17 @@
 ---
-layout: single
-title:  "Virtual JustBuzz - Buzz em"
-description: Virtual JustBuzz for Demo
-header:
-  teaser: "/assets/images/devices/buzzer.jpg"
+title: VirtualBuzzer
+description: A browser-based quiz buzzer — open tabs act as buzzers, a watch view acts as the host display.
+contribute_link: https://github.com/karx/virtual-buzzer
+status: active
 tags:
-  - Ecommerce
-  - Virtual
-  - Demo
   - JavaScript
   - Erlang
+  - Real-time
   - Events
-  
-sidebar:
-  - title: The JustBuzz Watch
-    image: "/assets/images/devices/watch.jpg"
-    image-alt: virtual watch
-    url: http://vb.akriya.co.in/watch
-    text: Buzz when you need
-
-contribute_link: https://github.com/karx/virtual-buzzer
-visit_link: https://akriya.co.in/labs/virtualbuzzer.html
-status: open
-# model:
-#   asset: "/assets/models/esp.glb"
-#   color: #FFFFFF
+header:
+  teaser: "/assets/images/devices/buzzer.jpg"
 ---
-## Virtual JustBuzz
 
-* [Virtual JustBuzz](https://vb.akriya.co.in){:target="_blank"} <- Can/should open multiple to try
-* [Virtual JustBuzz Watch](https://vb.akriya.co.in/watch){:target="_blank"} <- more the merrier
+A zero-install quiz buzzer that runs in any browser. Open multiple tabs — each one becomes a buzzer. A separate watch view shows who buzzed first.
 
-Open as many as you want!
-
-Click on the [JustBuzz image](https://vb.akriya.co.in){:target="_blank"} to Request.
-
-
-### Recommendation
-* Open [Virtual JustBuzz Watch](https://vb.akriya.co.in/watch) in Mobile browser.
-* Ensure `https` protocol.
-* Open alot of em`.
-
+Built for events where you need a buzzer round but don't want physical hardware. The Erlang backend handles the real-time race condition of simultaneous buzz-ins correctly — last-write-wins is wrong for a buzzer, so it tracks first-arrival at the server level.

@@ -70,9 +70,11 @@ layout: default
                 </div>
             </div>
            {% endif %} -->
+        {% if page.features and page.features[0] %}
         <h3>Features</h3>
         {% if page.feature_image_full %}
             <img src="{{page.feature_image}}" alt="" srcset="">
+        {% endif %}
         {% endif %}
         {% if page.features and page.features[0] %}
           <div class="features">

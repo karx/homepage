@@ -1,25 +1,27 @@
 <div class="labs-container">
     <div class="labs-header section-header">
-        <h2>Cooking in labs</h2>
-        <p>Some of our internal projects.</p>
+        <h2>Lab</h2>
+        <p>Experiments, tools, and things I build for myself.</p>
     </div>
     <div class="labs-content">
-        {% for beta in site.labs | where:"published",false %}
+        {% assign active_labs = site.labs | where:"status","active" %}
+        {% for beta in active_labs limit:4 %}
         <div class="each-beta-item">
             <div class="item-header">
                 <a href="{{beta.url}}" class="">
                   <h3>{{beta.title}}</h3>
                 </a>
                 <div class="item-info">
-                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try It </a> {%endif%}
-                    {% if beta.visit_link &&  beta.contribute_link %} / {% endif %}
-                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> contribute </a> {%endif%}
+                    {% if beta.visit_link %} <a href="{{beta.visit_link}}" class="visit_link i-link"> Try it </a> {%endif%}
+                    {% if beta.visit_link and beta.contribute_link %} / {% endif %}
+                    {% if beta.contribute_link %} <a href="{{beta.contribute_link}}" class="contribute-link i-link"> Contribute </a> {%endif%}
                 </div>
                 <p>{{beta.description}}</p>
             </div>
-
         </div>
         {% endfor %}
     </div>
-
+    <div class="labs-more">
+        <a href="/lab/" class="internal-link">All experiments &rarr;</a>
+    </div>
 </div>

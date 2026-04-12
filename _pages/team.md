@@ -6,4 +6,5 @@ collection: team
 entries_layout: grid
 classes: wide
 author_profile: false
+published: false
 ---

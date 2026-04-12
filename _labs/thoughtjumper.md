@@ -1,32 +1,29 @@
 ---
-title: Thought Jumper
-description: a viewer in VR for complete holistic knowledge transfer and seamless content consumption
-contribute_link: https://github.com/devedvanta/pod-content
-visit_link: https://thoughtjumper.akriya.co.in
+title: ThoughtJumper
+description: Knowledge graph tool for navigating and authoring interconnected ideas — built with edvanta.
+visit_link: https://thoughtjumper.com
 status: active
-
+tags:
+  - Knowledge Graph
+  - Semantic Web
+  - Collaboration
+  - JavaScript
 ---
-Thoughtjumper is a thought taking tool to collect, organise, share, collaborate, watch your thoughts.
 
-<iframe src="https://player.vimeo.com/video/711988793?h=46a66c69f4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/711988793">Introduction TJ - What are Thoughts and ThoughtMaps</a> from <a href="https://vimeo.com/user175477148">Thoughtjumper</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+A knowledge navigation tool where ideas are nodes and relationships are edges. You don't read linearly — you jump between connected thoughts, fork others' maps, and build your own.
 
-TJ is semantically structured and helps create thought maps; which can also be actionable sequence of thoughts(against predefined baselines and rules) better known as quests.
+I was involved in the early architecture and the graph rendering layer. The project is now developed and maintained by [edvanta](https://edvanta.com).
 
-Both, thought maps and quests are by design - knowledge graphs.
+## What it is
 
-Thoughtmaps can be *authored, forked, and explored*.
+ThoughtMaps are directed graphs of ideas. Each node is a thought with attached context; edges are typed relationships (leads-to, contradicts, supports). Maps can be:
 
-Thoughtjumper can be used for
-* organising and exploring information
-* telling a story
-* doing an investigation
-* sharing your journey
-* mapping a process
-* collaboratively brainstorm
+- Authored and shared publicly
+- Forked and extended
+- Structured as **quests** — sequences with defined outcomes and branching logic
 
+The semantic layer is what makes it more than a mind-map: each node can carry metadata, and the graph can be queried and filtered.
 
-## Further
-Thought Jumper is now being developed and launched by [edvanta](https://edvanta.com). 
+## What I worked on
 
-Waitlist for the next release is open at [https://thoughtjumper.com](https://thoughtjumper.com).
+The graph rendering engine — navigating large maps without losing orientation. The challenge is spatial: when a map has 50+ nodes, the default force-directed layout produces a tangle. I built a cluster-by-topic layout that groups related nodes spatially before running the force simulation, which gave navigable results at scale.

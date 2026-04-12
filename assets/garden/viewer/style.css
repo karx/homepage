@@ -75,6 +75,7 @@ html, body {
 .canvas-wrap {
   flex: 1; position: relative; overflow: hidden;
   background: #000000; min-width: 0;
+  transition: flex 0.22s ease;
 }
 .canvas-wrap canvas { display: block; width: 100% !important; height: 100% !important; }
 
@@ -469,18 +470,18 @@ html, body {
 }
 
 .report-wrap {
-  flex: 0;
-  width: 0;
+  flex: 0 0 0;
+  min-width: 0;
   overflow: hidden;
   background: #000000;
-  transition: flex 0.22s ease, width 0.22s ease;
+  transition: flex 0.22s ease;
 }
 
 .report-wrap.rp-visible {
-  flex: 1;
-  width: auto;
+  flex: 1 1 auto;
   overflow-y: auto;
   overflow-x: hidden;
+  scrollbar-gutter: stable;
   scrollbar-width: thin;
   scrollbar-color: #1e1e00 transparent;
 }

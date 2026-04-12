@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/himan/kaaro/src/kaaroViewer/**)",
+      "Read(//c/Users/himan/kaaro/src//**)",
+      "Read(//c/Users/himan/src/**)",
+      "Read(//c/Users/himan/**)"
+    ]
+  }
+}

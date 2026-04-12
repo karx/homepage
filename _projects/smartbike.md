@@ -1,4 +1,5 @@
 ---
+published: false
 name: SmartBike
 title: SmartBike
 categories:

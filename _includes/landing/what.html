@@ -1,12 +1,29 @@
 <div class="what-container">
     <div class="what-header section-header">
-        <h2>Empowering Connected Devices</h2>
-        <p>We are a technology startup commited to building, maintaining the `Toolkit` for the `Web 3.0`.</p>
+        <h2>Selected work</h2>
+        <p>A few things I've shipped — hardware, software, and the space between.</p>
     </div>
-    <div class="what-content">
-        <div class="part-1">- Ubiquitous</div>
-        <div class="part-2">- Semantic Web</div>
-        <div class="part-3">- Immersive Graphics</div>
-        <div class="part-3">- AI</div>
+    <div class="what-content featured-works">
+        {% if page.featured_works %}
+            {% for slug in page.featured_works %}
+                {% assign work = site.projects | where_exp: "item", "item.path contains slug" | first %}
+                {% if work %}
+                <div class="each-work-item">
+                    <a href="{{ work.url }}" class="work-link">
+                        <h3>{{ work.title }}</h3>
+                        <p>{{ work.excerpt }}</p>
+                        <span class="work-tags">
+                            {% for tag in work.tags limit:3 %}
+                                <span class="work-tag">{{ tag }}</span>
+                            {% endfor %}
+                        </span>
+                    </a>
+                </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
+    <div class="what-more">
+        <a href="/works/" class="internal-link">All work &rarr;</a>
     </div>
 </div>

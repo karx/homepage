@@ -1,43 +1,37 @@
 ---
-layout: single
-title:  "spot-ME"
-description: acccessibility devices for visually impaired
+title: SpotMe
+description: Pose recognition accessibility tool for the visually impaired — runs in a browser, no install.
+visit_link: https://kaaro.akriya.co.in/Spot-me/
+contribute_link: https://github.com/karx/Spot-me/
+status: active
+tags:
+  - Accessibility
+  - Machine Learning
+  - TensorFlow
+  - JavaScript
+  - Web
 header:
   teaser: "/assets/images/spotme/spot-me-IMG.png"
-tags:
-  - Stream
-  - acccessibility
-  - ML
-  - Tensorflow
-  - Web
-  - Events
-  
 sidebar:
-  - title: Spot-me in Action
+  - title: Live demo
     image: "/assets/images/spotme/spot-me-side.PNG"
-    image-alt: Spot me in action
+    image_alt: SpotMe in action
     text: Live demo screenshot
-
-contribute_link: https://github.com/karx/Spot-me/
-visit_link: https://kaaro.akriya.co.in/Spot-me/
-
-# model:
-#   asset: "/assets/models/esp.glb"
-#   color: #FFFFFF
-status: open
 ---
 
-An acccessibility device for visually impaired, built using pose recognition model (tensorflow).
+A browser-based accessibility tool that uses pose recognition to detect and describe a person's position and gestures — designed for the visually impaired.
 
-![Model Image](/assets/images/spotme/spot-me-IMG.png)
+No install, no app. Point a camera, load the URL.
 
+## How it works
 
-## Try Live 
-* [A - Camera Module](https://kaaro.akriya.co.in/Spot-me/)
-* [B - Mobile/Handheld module](https://kulwinder96.github.io/Spot_me-mobile-/)
+Built on TensorFlow.js and the PoseNet model. The camera feed runs pose detection in the browser at ~15fps. Detected keypoints (shoulders, elbows, hips) are translated into spatial descriptions and surfaced as audio feedback.
 
-## More information
-You can find more information about this project in the dedicated repo: https://github.com/karx/Spot-me/.
+Two modules:
 
-<iframe src="https://drive.google.com/file/d/0BxK0ABULjBYHZEt1cmFkUUpmRk9zSUtBS0lVcGhYWVNSOE9r/preview" width="640" height="480"></iframe>
+- **Camera module** — desktop/laptop with webcam
+- **Mobile module** — handheld, optimised for phone cameras held at arm's length
 
+## What was hard
+
+Latency. PoseNet on a mobile CPU at real-time needs aggressive frame-skipping and confidence thresholding — miss too many frames and the feedback is useless; process every frame and it lags behind reality. Finding the right tradeoff took more iteration than the detection logic itself.

@@ -3,6 +3,7 @@ title: "Core"
 excerpt: "What, how and why!"
 permalink: /core.html
 toc: true
+published: false
 ---
 
 ## What do we do?

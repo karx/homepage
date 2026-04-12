@@ -1,4 +1,5 @@
 ---
+published: false
 name: Industry Safety Device
 title: Industry Safety Device
 categories:

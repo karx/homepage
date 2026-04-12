@@ -16,6 +16,42 @@
       ]
     },
     {
+      "id": "akriya--homedoc",
+      "type": "vault-note",
+      "label": "Akriya: The Web 3.0 Toolkit",
+      "description": "The foundational principles, tools, and projects of Akriya — a technology startup building SDKs for the web and IoT.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/akriya--homedoc/",
+      "wikiLinks": [
+        "smart-bike-iot-sow",
+        "ytkrta",
+        "kartadharam-iot-framework",
+        "myfailedstartup"
+      ]
+    },
+    {
+      "id": "akriya",
+      "type": "vault-note",
+      "label": "Akriya: The Web 3.0 Toolkit",
+      "description": "The foundational principles, tools, and projects of Akriya — a technology startup building SDKs for the web and IoT.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/akriya/",
+      "wikiLinks": [
+        "smart-bike-iot-sow",
+        "ytkrta",
+        "kartadharam-iot-framework",
+        "myfailedstartup"
+      ]
+    },
+    {
       "id": "art-of-intent",
       "type": "vault-note",
       "label": "Art of Intent",
@@ -35,7 +71,8 @@
       "label": "Compute Theory",
       "description": "Proposing 'compute' as the fundamental observable unit of the universe, and exploring 'moments per second' as a measure of awareness.",
       "tags": [
-        "reflection"
+        "reflection",
+        "knowledge-graph"
       ],
       "image": null,
       "date": null,
@@ -54,7 +91,7 @@
       "date": null,
       "noteUrl": "/notes/ego-field/",
       "wikiLinks": [
-        "computetheoryreadme"
+        "compute-theory"
       ]
     },
     {
@@ -68,7 +105,97 @@
       "image": null,
       "date": null,
       "noteUrl": "/notes/elo-system/",
+      "wikiLinks": [
+        "age-of-empires-ii-de"
+      ]
+    },
+    {
+      "id": "episode-1---844k",
+      "type": "vault-note",
+      "label": "SAGA: 844k (Episode 1)",
+      "description": "The first episode of a speculative fiction series exploring 'Sewa' (service) and community architecture in a cyberpunk world.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/episode-1---844k/",
       "wikiLinks": []
+    },
+    {
+      "id": "esp",
+      "type": "vault-note",
+      "label": "ESP: Microcontroller Ecosystem",
+      "description": "A comprehensive overview of ESP8266 and ESP32 microcontrollers, programming environments (Arduino, MicroPython, Espruino), and OTA management.",
+      "tags": [
+        "reference",
+        "iot"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/esp/",
+      "wikiLinks": [
+        "kartadharam",
+        "esprunio"
+      ]
+    },
+    {
+      "id": "esprunio",
+      "type": "vault-note",
+      "label": "Espruino: JS on ESP32",
+      "description": "An introductory session on using the Espruino JavaScript SDK and firmware to run Node.js-style code on ESP32 microcontrollers.",
+      "tags": [
+        "reference",
+        "iot"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/esprunio/",
+      "wikiLinks": []
+    },
+    {
+      "id": "fighub",
+      "type": "vault-note",
+      "label": "FigHub: Versioning for Design",
+      "description": "A versioning system for design files that uses embeddings to track design evolution and detect likeness across iterations. Hackathon Winner.",
+      "tags": [
+        "interface",
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/fighub/",
+      "wikiLinks": []
+    },
+    {
+      "id": "gltf",
+      "type": "vault-note",
+      "label": "glTF: The 3D Web Format",
+      "description": "A summary of the glTF specification for efficient 3D asset transmission and its role in the modern 3D web ecosystem.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/gltf/",
+      "wikiLinks": []
+    },
+    {
+      "id": "hacking-starry-night---an-ai-co-pilot",
+      "type": "vault-note",
+      "label": "Hacking Starry Night: An AI Co-pilot",
+      "description": "A deep dive into building a computer vision co-pilot to solve a 2,000-piece Van Gogh puzzle, exploring the intersection of human intuition and machine pattern matching.",
+      "tags": [
+        "reflection",
+        "interface"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/hacking-starry-night---an-ai-co-pilot/",
+      "wikiLinks": [
+        "pasted-image-20260211125423png",
+        "pasted-image-20260211144815png"
+      ]
     },
     {
       "id": "interface-patterns-and-ubiquitous-compute",
@@ -83,7 +210,128 @@
       "date": null,
       "noteUrl": "/notes/interface-patterns-and-ubiquitous-compute/",
       "wikiLinks": [
-        "compute-theory"
+        "compute-theory",
+        "iotncr---automation-experiments",
+        "hacking-starry-night---an-ai-co-pilot",
+        "palette-a-micro-ux-agent"
+      ]
+    },
+    {
+      "id": "iotncr---automation-experiments",
+      "type": "vault-note",
+      "label": "IoTNcr: Automation Experiments",
+      "description": "A short reflection on using iPhone Shortcuts for IoT group automation and content discovery.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/iotncr---automation-experiments/",
+      "wikiLinks": []
+    },
+    {
+      "id": "jules-prompt-for-design-review",
+      "type": "vault-note",
+      "label": "Palette: A micro-UX Agent",
+      "description": "A prompt-engineered persona focused on identifying and implementing micro-UX improvements for accessibility and delight.",
+      "tags": [
+        "interface"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/jules-prompt-for-design-review/",
+      "wikiLinks": []
+    },
+    {
+      "id": "kaaro--building",
+      "type": "vault-note",
+      "label": "The Building Game: A Web Adaptation",
+      "description": "Adapting SethBling's Minecraft Building Game into a web-based experience using Firebase as a central state machine.",
+      "tags": [
+        "interface",
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/kaaro--building/",
+      "wikiLinks": []
+    },
+    {
+      "id": "kaaro--towrite",
+      "type": "vault-note",
+      "label": "toWrite: Artifact Pipeline",
+      "description": "A list of purely written artifacts — blogs, poems, RFCs, and documentation — currently in the queue.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/kaaro--towrite/",
+      "wikiLinks": []
+    },
+    {
+      "id": "kaarocatalogue",
+      "type": "vault-note",
+      "label": "kaaroCatalogue",
+      "description": "A project focused on building and maintaining curated personal lists and indexes, transforming unstructured platform data into high-signal cultural archives.",
+      "tags": [
+        "reference",
+        "knowledge-graph"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/kaarocatalogue/",
+      "wikiLinks": [
+        "the-global-standup-comedy-index",
+        "indian-kavi-index"
+      ]
+    },
+    {
+      "id": "kartadharam",
+      "type": "vault-note",
+      "label": "KartaDharam: IoT Framework",
+      "description": "A comprehensive framework and toolchain for deploying, running, and debugging logic on embedded systems (ESP32), serving as the technical specification for the 'Karta Device'.",
+      "tags": [
+        "reference",
+        "iot"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/kartadharam/",
+      "wikiLinks": [
+        "esprunio"
+      ]
+    },
+    {
+      "id": "minecraft",
+      "type": "vault-note",
+      "label": "Minecraft Engineering",
+      "description": "Notes on vanilla survival, datapacks, and the technical challenge of documenting Redstone logic.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/minecraft/",
+      "wikiLinks": [
+        "simulation",
+        "the-building-game-a-web-adaptation",
+        "minecraftredstone-documentation"
+      ]
+    },
+    {
+      "id": "minecraft--redstone-documentation",
+      "type": "vault-note",
+      "label": "Redstone Documentation Patterns",
+      "description": "How the Minecraft community documents complex Redstone designs using Lua and Schematics.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/minecraft--redstone-documentation/",
+      "wikiLinks": [
+        "redstone-documentation-2024-07-16-011227excalidraw"
       ]
     },
     {
@@ -104,6 +352,19 @@
       ]
     },
     {
+      "id": "myfailedstartup",
+      "type": "vault-note",
+      "label": "MyFailedStartup",
+      "description": "A project dedicated to celebrating and learning from professional failures, moving beyond the traditional success narrative.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/myfailedstartup/",
+      "wikiLinks": []
+    },
+    {
       "id": "now",
       "type": "vault-note",
       "label": "Now",
@@ -117,7 +378,26 @@
       "wikiLinks": [
         "interface-patterns-and-ubiquitous-compute",
         "art-of-intent",
+        "hacking-starry-night---an-ai-co-pilot",
+        "tobuild",
+        "towrite",
         "readme"
+      ]
+    },
+    {
+      "id": "prompthub",
+      "type": "vault-note",
+      "label": "PromptHub",
+      "description": "A collection of AI prompts and interaction patterns, part of the broader history of digital communication.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/prompthub/",
+      "wikiLinks": [
+        "jules-prompt-for-design-review",
+        "webhistory"
       ]
     },
     {
@@ -132,7 +412,97 @@
       "date": null,
       "noteUrl": "/notes/about/",
       "wikiLinks": [
-        "now"
+        "now",
+        "compute-theory",
+        "esp",
+        "kaarocatalogue",
+        "art-of-intent",
+        "interface-patterns-and-ubiquitous-compute",
+        "hacking-starry-night---an-ai-co-pilot",
+        "digital-gardener-meta-skill",
+        "fighub",
+        "kaaro"
+      ]
+    },
+    {
+      "id": "session-learnings---digital-gardening",
+      "type": "vault-note",
+      "label": "Gardening Log: Session 01",
+      "description": "Key strategies and insights from the first digital gardening session: from establishing the PARA-lite structure to achieving Isolation Zero.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/session-learnings---digital-gardening/",
+      "wikiLinks": [
+        "digital-gardener-meta-skill"
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "vault-note",
+      "label": "The Simulation: A Conceptual Framework",
+      "description": "A high-level framework for categorizing personal projects and technical efforts under the banner of 'The Simulation', focusing on compute, social interaction, and visualization.",
+      "tags": [
+        "reflection",
+        "knowledge-graph"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/simulation/",
+      "wikiLinks": [
+        "compute-theory",
+        "kartadharam"
+      ]
+    },
+    {
+      "id": "steam---sunday",
+      "type": "vault-note",
+      "label": "Sunday Stream Routine",
+      "description": "A snapshot of a Sunday routine: AoE 2, Wardley Mapping, and exploring the Obsidian/ExcaliBrain ecosystem.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/steam---sunday/",
+      "wikiLinks": [
+        "age-of-empires-ii-de",
+        "digital-gardener-meta-skill"
+      ]
+    },
+    {
+      "id": "the-global-standup-comedy-index",
+      "type": "vault-note",
+      "label": "The Global Standup Comedy Index",
+      "description": "An architectural framework and execution strategy for cataloging the global standup comedy circuit using YouTube as a primary data source.",
+      "tags": [
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/the-global-standup-comedy-index/",
+      "wikiLinks": [
+        "kaarocatalogue"
+      ]
+    },
+    {
+      "id": "tobuild",
+      "type": "vault-note",
+      "label": "toBuild: Project Roadmap",
+      "description": "A tracking list for software, hardware, and physical prototypes currently in development.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/tobuild/",
+      "wikiLinks": [
+        "the-building-game-a-web-adaptation",
+        "hacking-starry-night---an-ai-co-pilot",
+        "kartadharam-iot-framework",
+        "kaarocatalogue"
       ]
     },
     {
@@ -141,12 +511,15 @@
       "label": "The World Wide Web Consortium (W3C)",
       "description": "The founding of the W3C to ensure long-term web standard compatibility and growth across the industry.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Sat Oct 01 1994 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--10w3c/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "11netscape"
+      ]
     },
     {
       "id": "webcomponents--history--11netscape",
@@ -154,12 +527,15 @@
       "label": "Netscape Navigator > Browser Wars",
       "description": "The launch of Netscape Navigator and the beginning of the intense 'Browser Wars' that accelerated web innovation.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Thu Oct 13 1994 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--11netscape/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "12html2"
+      ]
     },
     {
       "id": "webcomponents--history--12html2",
@@ -167,6 +543,7 @@
       "label": "HTML 2.0 Standard (IETF RFC 1866)",
       "description": "HTML 2.0 was the first formal specification of HTML, providing a stable foundation for the rapidly expanding web.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
@@ -180,12 +557,15 @@
       "label": "Information Management: A Proposal",
       "description": "The original 1989 proposal by Tim Berners-Lee at CERN that laid the groundwork for the World Wide Web as a 'universal linked information system'.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Sun Mar 12 1989 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--1proposal/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "2firstwebbrowser"
+      ]
     },
     {
       "id": "webcomponents--history--2firstwebbrowser",
@@ -193,12 +573,15 @@
       "label": "The Web’s First (And Second) Browser",
       "description": "The story of WorldWideWeb (the first graphical browser/editor) and the Line Mode Browser, which made the web accessible to everyone.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Tue Dec 25 1990 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--2firstwebbrowser/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "3alist"
+      ]
     },
     {
       "id": "webcomponents--history--3alist",
@@ -206,12 +589,15 @@
       "label": "WWW Virtual Library | First index of content",
       "description": "The World Wide Web Virtual Library was the first index of content on the web, started by Tim Berners-Lee in 1991.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Thu Aug 01 1991 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--3alist/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "4thefirstpage"
+      ]
     },
     {
       "id": "webcomponents--history--4thefirstpage",
@@ -219,12 +605,15 @@
       "label": "The World Wide Web project",
       "description": "The first website, published by Tim Berners-Lee to demonstrate the purpose and potential of a universal hypermedia initiative.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Tue Aug 06 1991 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--4thefirstpage/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "5hypertext"
+      ]
     },
     {
       "id": "webcomponents--history--5hypertext",
@@ -232,12 +621,15 @@
       "label": "Hypertext",
       "description": "Tracing the history of hypertext from Vannevar Bush's Memex and Douglas Engelbart's 'Mother of All Demos' to the World Wide Web.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Tue Oct 29 1991 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--5hypertext/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "6theinit"
+      ]
     },
     {
       "id": "webcomponents--history--6theinit",
@@ -245,12 +637,15 @@
       "label": "Protocols | URL",
       "description": "An exploration of the foundational technologies of the web: Domain Names, DNS, and the Uniform Resource Locator (URL).",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Wed Jan 01 1992 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--6theinit/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "7mosaic"
+      ]
     },
     {
       "id": "webcomponents--history--7mosaic",
@@ -258,12 +653,15 @@
       "label": "NCSA Mosaic",
       "description": "The release of NCSA Mosaic, the browser that brought graphics and widespread popularity to the early World Wide Web.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Sat Jan 23 1993 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--7mosaic/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "8public"
+      ]
     },
     {
       "id": "webcomponents--history--8public",
@@ -271,12 +669,15 @@
       "label": "CERN puts the Web in the public domain",
       "description": "The historic 1993 declaration by CERN that ensured the World Wide Web remained an open, royalty-free standard for everyone.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Fri Apr 30 1993 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--8public/",
-      "wikiLinks": []
+      "wikiLinks": [
+        "9htmlspec"
+      ]
     },
     {
       "id": "webcomponents--history--9htmlspec",
@@ -284,12 +685,135 @@
       "label": "HTML+ specification",
       "description": "The proposal for HTML+, introducing advanced features like tables, forms, and figures to the web's foundational markup language.",
       "tags": [
+        "interface",
         "reference"
       ],
       "image": null,
       "date": "Mon Nov 08 1993 05:30:00 GMT+0530 (India Standard Time)",
       "noteUrl": "/notes/webcomponents--history--9htmlspec/",
+      "wikiLinks": [
+        "10w3c"
+      ]
+    },
+    {
+      "id": "webgraph",
+      "type": "vault-note",
+      "label": "WebGraph: My Journey with Structured Data",
+      "description": "Reflections on working with Bing's Satori, Neo4j, and the importance of moving from 'walls of text' to traversable knowledge graphs.",
+      "tags": [
+        "knowledge-graph",
+        "reflection"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/webgraph/",
+      "wikiLinks": [
+        "wikidata-the-open-knowledge-graph"
+      ]
+    },
+    {
+      "id": "webhistory",
+      "type": "vault-note",
+      "label": "A History of the World Wide Web",
+      "description": "A chronological timeline of the web's evolution, from Tim Berners-Lee's original 1989 proposal to the standardization of HTML 2.0.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/webhistory/",
+      "wikiLinks": [
+        "information-management-a-proposal",
+        "the-webs-first-browser",
+        "www-virtual-library",
+        "the-world-wide-web-project",
+        "hypertext",
+        "protocols",
+        "ncsa-mosaic",
+        "cern-puts-the-web-in-the-public-domain",
+        "html-specification",
+        "the-world-wide-web-consortium-w3c",
+        "netscape-navigator--browser-wars",
+        "html-20-standard-ietf-rfc-1866",
+        "web-components"
+      ]
+    },
+    {
+      "id": "what-is-life",
+      "type": "vault-note",
+      "label": "What is Life?",
+      "description": "A reference to Erwin Schrödinger's 'What Is Life?', a foundational text exploring the physical aspect of the living cell.",
+      "tags": [
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/what-is-life/",
       "wikiLinks": []
+    },
+    {
+      "id": "wikidata--pydelhi",
+      "type": "vault-note",
+      "label": "Talk: Wikidata at PyDelhi",
+      "description": "Outline and prerequisites for a talk on Wikidata and the Semantic Web, presented at the PyDelhi community meetup.",
+      "tags": [
+        "knowledge-graph",
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/wikidata--pydelhi/",
+      "wikiLinks": []
+    },
+    {
+      "id": "wikidata",
+      "type": "vault-note",
+      "label": "Wikidata: The Open Knowledge Graph",
+      "description": "An introduction to Wikidata, RDF triples, and the power of querying the world's largest open knowledge graph using SPARQL.",
+      "tags": [
+        "knowledge-graph",
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/wikidata/",
+      "wikiLinks": [
+        "webgraph-my-journey-with-structured-data",
+        "wikidata-advocacy-in-india",
+        "talk-wikidata-at-pydelhi"
+      ]
+    },
+    {
+      "id": "wikidata--wikidataindia",
+      "type": "vault-note",
+      "label": "Wikidata Advocacy in India",
+      "description": "A collection of resources and efforts for Wikidata advocacy and skill-sharing within the Indian open data community.",
+      "tags": [
+        "knowledge-graph",
+        "reference"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/wikidata--wikidataindia/",
+      "wikiLinks": []
+    },
+    {
+      "id": "ytkrta",
+      "type": "vault-note",
+      "label": "YTKrta: IoT Merchandise",
+      "description": "A project exploring IoT-enabled custom merchandise for streamers to accelerate community engagement through real-time physical notifications.",
+      "tags": [
+        "interface",
+        "reference",
+        "iot",
+        "maker"
+      ],
+      "image": null,
+      "date": null,
+      "noteUrl": "/notes/ytkrta/",
+      "wikiLinks": [
+        "akriya"
+      ]
     }
   ],
   "edges": [
@@ -301,8 +825,99 @@
       "weight": 1
     },
     {
+      "from": "akriya--homedoc",
+      "to": "ytkrta",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "akriya--homedoc",
+      "to": "myfailedstartup",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "akriya",
+      "to": "ytkrta",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "akriya",
+      "to": "myfailedstartup",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "elo-system",
+      "to": "age-of-empires-ii-de",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "esp",
+      "to": "kartadharam",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "esp",
+      "to": "esprunio",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "interface-patterns-and-ubiquitous-compute",
+      "to": "iotncr---automation-experiments",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "interface-patterns-and-ubiquitous-compute",
+      "to": "hacking-starry-night---an-ai-co-pilot",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "kaarocatalogue",
+      "to": "the-global-standup-comedy-index",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "kartadharam",
+      "to": "esprunio",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "minecraft",
+      "to": "simulation",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
       "from": "moments-per-second---rate-of-understanding",
       "to": "ego-field",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "moments-per-second---rate-of-understanding",
+      "to": "what-is-life",
       "relLabel": "wikilink",
       "directed": true,
       "weight": 1
@@ -322,8 +937,120 @@
       "weight": 1
     },
     {
+      "from": "now",
+      "to": "hacking-starry-night---an-ai-co-pilot",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "now",
+      "to": "tobuild",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "prompthub",
+      "to": "jules-prompt-for-design-review",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "prompthub",
+      "to": "webhistory",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
       "from": "about",
       "to": "now",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "about",
+      "to": "esp",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "about",
+      "to": "kaarocatalogue",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "about",
+      "to": "art-of-intent",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "about",
+      "to": "interface-patterns-and-ubiquitous-compute",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "about",
+      "to": "hacking-starry-night---an-ai-co-pilot",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "about",
+      "to": "fighub",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "simulation",
+      "to": "kartadharam",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "steam---sunday",
+      "to": "age-of-empires-ii-de",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "the-global-standup-comedy-index",
+      "to": "kaarocatalogue",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "tobuild",
+      "to": "hacking-starry-night---an-ai-co-pilot",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "tobuild",
+      "to": "kaarocatalogue",
+      "relLabel": "wikilink",
+      "directed": true,
+      "weight": 1
+    },
+    {
+      "from": "ytkrta",
+      "to": "akriya",
       "relLabel": "wikilink",
       "directed": true,
       "weight": 1
@@ -338,12 +1065,29 @@
     },
     "reflection": {
       "color": "#b0bec5"
+    },
+    "knowledge-graph": {
+      "color": "#ce93d8"
     }
   },
   "index": [
     {
       "id": "age-of-empires-ii-de",
       "title": "Age of Empires II DE",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "akriya--homedoc",
+      "title": "Akriya: The Web 3.0 Toolkit",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "akriya",
+      "title": "Akriya: The Web 3.0 Toolkit",
       "tags": [
         "reference"
       ]
@@ -360,7 +1104,8 @@
       "id": "computetheory",
       "title": "Compute Theory",
       "tags": [
-        "reflection"
+        "reflection",
+        "knowledge-graph"
       ]
     },
     {
@@ -378,6 +1123,52 @@
       ]
     },
     {
+      "id": "episode-1---844k",
+      "title": "SAGA: 844k (Episode 1)",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "esp",
+      "title": "ESP: Microcontroller Ecosystem",
+      "tags": [
+        "reference",
+        "iot"
+      ]
+    },
+    {
+      "id": "esprunio",
+      "title": "Espruino: JS on ESP32",
+      "tags": [
+        "reference",
+        "iot"
+      ]
+    },
+    {
+      "id": "fighub",
+      "title": "FigHub: Versioning for Design",
+      "tags": [
+        "interface",
+        "reference"
+      ]
+    },
+    {
+      "id": "gltf",
+      "title": "glTF: The 3D Web Format",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "hacking-starry-night---an-ai-co-pilot",
+      "title": "Hacking Starry Night: An AI Co-pilot",
+      "tags": [
+        "reflection",
+        "interface"
+      ]
+    },
+    {
       "id": "interface-patterns-and-ubiquitous-compute",
       "title": "Interface Patterns and Ubiquitous Compute",
       "tags": [
@@ -386,8 +1177,74 @@
       ]
     },
     {
+      "id": "iotncr---automation-experiments",
+      "title": "IoTNcr: Automation Experiments",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "jules-prompt-for-design-review",
+      "title": "Palette: A micro-UX Agent",
+      "tags": [
+        "interface"
+      ]
+    },
+    {
+      "id": "kaaro--building",
+      "title": "The Building Game: A Web Adaptation",
+      "tags": [
+        "interface",
+        "reference"
+      ]
+    },
+    {
+      "id": "kaaro--towrite",
+      "title": "toWrite: Artifact Pipeline",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "kaarocatalogue",
+      "title": "kaaroCatalogue",
+      "tags": [
+        "reference",
+        "knowledge-graph"
+      ]
+    },
+    {
+      "id": "kartadharam",
+      "title": "KartaDharam: IoT Framework",
+      "tags": [
+        "reference",
+        "iot"
+      ]
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft Engineering",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "minecraft--redstone-documentation",
+      "title": "Redstone Documentation Patterns",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
       "id": "moments-per-second---rate-of-understanding",
       "title": "Rate of Understanding",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "myfailedstartup",
+      "title": "MyFailedStartup",
       "tags": [
         "reflection"
       ]
@@ -400,6 +1257,13 @@
       ]
     },
     {
+      "id": "prompthub",
+      "title": "PromptHub",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
       "id": "about",
       "title": "Kartik 'kaaro' Arora",
       "tags": [
@@ -407,9 +1271,46 @@
       ]
     },
     {
+      "id": "session-learnings---digital-gardening",
+      "title": "Gardening Log: Session 01",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "simulation",
+      "title": "The Simulation: A Conceptual Framework",
+      "tags": [
+        "reflection",
+        "knowledge-graph"
+      ]
+    },
+    {
+      "id": "steam---sunday",
+      "title": "Sunday Stream Routine",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "the-global-standup-comedy-index",
+      "title": "The Global Standup Comedy Index",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "id": "tobuild",
+      "title": "toBuild: Project Roadmap",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
       "id": "webcomponents--history--10w3c",
       "title": "The World Wide Web Consortium (W3C)",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -417,6 +1318,7 @@
       "id": "webcomponents--history--11netscape",
       "title": "Netscape Navigator > Browser Wars",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -424,6 +1326,7 @@
       "id": "webcomponents--history--12html2",
       "title": "HTML 2.0 Standard (IETF RFC 1866)",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -431,6 +1334,7 @@
       "id": "webcomponents--history--1proposal",
       "title": "Information Management: A Proposal",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -438,6 +1342,7 @@
       "id": "webcomponents--history--2firstwebbrowser",
       "title": "The Web’s First (And Second) Browser",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -445,6 +1350,7 @@
       "id": "webcomponents--history--3alist",
       "title": "WWW Virtual Library | First index of content",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -452,6 +1358,7 @@
       "id": "webcomponents--history--4thefirstpage",
       "title": "The World Wide Web project",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -459,6 +1366,7 @@
       "id": "webcomponents--history--5hypertext",
       "title": "Hypertext",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -466,6 +1374,7 @@
       "id": "webcomponents--history--6theinit",
       "title": "Protocols | URL",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -473,6 +1382,7 @@
       "id": "webcomponents--history--7mosaic",
       "title": "NCSA Mosaic",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -480,6 +1390,7 @@
       "id": "webcomponents--history--8public",
       "title": "CERN puts the Web in the public domain",
       "tags": [
+        "interface",
         "reference"
       ]
     },
@@ -487,7 +1398,64 @@
       "id": "webcomponents--history--9htmlspec",
       "title": "HTML+ specification",
       "tags": [
+        "interface",
         "reference"
+      ]
+    },
+    {
+      "id": "webgraph",
+      "title": "WebGraph: My Journey with Structured Data",
+      "tags": [
+        "knowledge-graph",
+        "reflection"
+      ]
+    },
+    {
+      "id": "webhistory",
+      "title": "A History of the World Wide Web",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "what-is-life",
+      "title": "What is Life?",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "id": "wikidata--pydelhi",
+      "title": "Talk: Wikidata at PyDelhi",
+      "tags": [
+        "knowledge-graph",
+        "reference"
+      ]
+    },
+    {
+      "id": "wikidata",
+      "title": "Wikidata: The Open Knowledge Graph",
+      "tags": [
+        "knowledge-graph",
+        "reference"
+      ]
+    },
+    {
+      "id": "wikidata--wikidataindia",
+      "title": "Wikidata Advocacy in India",
+      "tags": [
+        "knowledge-graph",
+        "reference"
+      ]
+    },
+    {
+      "id": "ytkrta",
+      "title": "YTKrta: IoT Merchandise",
+      "tags": [
+        "interface",
+        "reference",
+        "iot",
+        "maker"
       ]
     }
   ]

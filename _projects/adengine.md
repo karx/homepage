@@ -1,73 +1,50 @@
 ---
-name: AdEngine
 title: AdEngine
-categories:
-  - Project
-  - Client
-status: Ongoing
+categories: [Project, Client]
+status: Handed over
 type: System
 layout: projecto
-excerpt: To enable and enhance targeted advertising on TVs.
+excerpt: Targeted advertising on TVs via HDMI passthrough and live HTML overlay — no hardware replacement required.
 features:
-    - title: Local content management
-    - title: Realtime stream processing for markers
-    - title: Uplinking with AdEnging cloud services
-    - title: Local sensor controller
-    
+  - title: HDMI-to-CSI-2 passthrough
+  - title: HTML ad overlay compositor
+  - title: Realtime stream marker processing
+  - title: Local content management
+  - title: Cloud uplink + offline cache
+  - title: ESP32 sensor controller
 feature_image: /assets/images/AdEngine/feature.png
-header: 
-    overlay_image: /assets/images/AdEngine/header.jpg
-    teaser: /assets/images/AdEngine/header.jpg
-    overlay_filter: 0.7
-
-tags:
-  - Arduino
-  - ESP32
-  - RTS
-  - TV
-
-
-sidebar:
-  - title: "Initial Commit"
-    text: "Product Requirement finalization "
-    date: "6th Jan` 2020"
-  - title: "Prototype testing"
-    text: "v1 Testing"
-    date: "6th Jan` 2020"
-  - title: "Status Meet"
-    text: " Mid Status Update"
-    date: "12th Jan` 2020"
-    url: https://github.com/karx/karx.github.io/tree/master/AdEngine/status-1
-  - title: "Demo day"
-    text: " Prototype demo"
-    date: "29th Feb` 2020"
-  - title: "Handover sprint"
-    text: " project handover flow"
-    date: "April 2020"
-    
-
-     
-# gallery:
-#   - url: "/assets/images/AgriWatch/agriwatchscreens/humidity.jpg"
-#     image_path: "/assets/images/AgriWatch/agriwatchscreens/humidity.jpg"
-#     alt: "dashboard page screenshot with humidity graph"
-#   - url: "/assets/images/AgriWatch/agriwatchscreens/soil moisture.jpg"
-#     image_path: "/assets/images/AgriWatch/agriwatchscreens/soil moisture.jpg"
-#     alt: "dashboard page screenshot with soil moisture graph"
-#   - url: "/assets/images/AgriWatch/agriwatchscreens/sunlight.jpg"
-#     image_path: "/assets/images/AgriWatch/agriwatchscreens/sunlight.jpg"
-#     alt: "dashboard page screenshot with sunlight graph"
-  
-
+header:
+  overlay_image: /assets/images/AdEngine/header.jpg
+  overlay_filter: 0.7
+tags: [Raspberry Pi, ESP32, Arduino, Python, HDMI, RTS]
 ---
 
-The AdEngine POC is using an HDMI to CSI-2 bridge and piggybanking on Camera-In of a Raspberry Pi. The output is built with pass-through video + overlay which is editable HTML.
+A TV advertising injection system that required zero modification to existing display hardware.
 
-![CSI Bridge to Pi](https://camo.githubusercontent.com/b668f265a14e3a426f21c4d092fe18ab7e6067c3/68747470733a2f2f616b726979612e636f2e696e2f6173736574732f696d616765732f48444d492d435349322d50692e706e67)
+## The problem
 
+The client ran a network of TV screens across commercial locations. Replacing them with smart displays was cost-prohibitive. They needed a way to inject localized, scheduled ads into existing TV signal pipelines — without touching the displays or breaking the source signal.
 
+## What I built
 
+An HDMI-to-CSI-2 bridge board that piggybacks on the Raspberry Pi's camera input. The Pi captures the incoming HDMI signal, composites an HTML overlay on top, and passes the combined output back to the display.
 
-<!-- 
-{% include gallery caption="Screencaptures from **dashboard**." %} -->
+The overlay is rendered as standard HTML — ad creative is managed through a web interface, no firmware required. An ESP32 handles proximity and dwell-time sensing to trigger marker events. The stream processor swaps ad slots based on those events, and a cloud uplink syncs the content schedule. When the connection drops, the system serves from local cache.
 
+```
+HDMI source → CSI-2 bridge → RPi compositor
+                                    ↓
+                            HTML overlay renderer
+                                    ↓
+                            HDMI output to TV
+                                    ↑
+                            ESP32 sensor events
+```
+
+## What was hard
+
+The CSI-2 bridge is finicky hardware. Getting clean passthrough with overlay latency below perceptible threshold took the bulk of prototyping time. The second hard thing: the handover sprint. I had to document the system clearly enough for a non-technical ops team to run and troubleshoot it day-to-day.
+
+## Status
+
+Prototype complete. Handed over to client, April 2020.
