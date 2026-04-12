@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "urbanprana" # "air", "aqua", "contrast", "dark", "di
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Urban Prana"
+title                    : "Holistic path to better living"
 title_separator          : "-"
-name                     : "Urban Prana"
-description              : "Holistic Urban Living through Vastu Shastra & Naturopathy"
+name                     : "Holistic path to better living"
+description              : "Holistic path to better living — by Himani Arora"
 url                      : https://urbanprana.life
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : urbanprana/homepage
@@ -110,9 +110,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Urban Prana"
+  name             : "Himani Arora"
   avatar           : "/assets/images/urban-prana-logo.png"
-  bio              : "Holistic Urban Living through Vastu Shastra & Naturopathy"
+  bio              : "Holistic path to better living"
   location         : "Noida, India"
   email            : hello@urbanprana.life
   links:

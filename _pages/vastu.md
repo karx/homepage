@@ -8,7 +8,7 @@ header:
 excerpt: "Reclaiming balance through magnetic orientation and non-renovation remedies."
 ---
 
-Urban living presents unique challenges: fixed apartment layouts, structural beams, and limited natural light. **Urban Prana** specializes in adapting the ancient science of Vastu Shastra to modern high-rise dwellings without the need for structural renovations.
+Urban living presents unique challenges: fixed apartment layouts, structural beams, and limited natural light. **Himani Arora** specializes in adapting the ancient science of Vastu Shastra to modern high-rise dwellings without the need for structural renovations.
 
 ## The Neurology of Space: Sleep & Orientation
 

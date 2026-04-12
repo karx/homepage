@@ -8,7 +8,7 @@ header:
 excerpt: "Ancient frameworks for the modern city dweller — where Vastu Shastra, Naturopathy, and Biophilic Design converge."
 ---
 
-Urban Prana is built on a single conviction: the spaces we inhabit shape us as profoundly as our habits and diet. The modern city dweller faces an environment that is, by default, misaligned — magnetically, elementally, and botanically. We exist to correct that.
+Himani Arora is built on a single conviction: the spaces we inhabit shape us as profoundly as our habits and diet. The modern city dweller faces an environment that is, by default, misaligned — magnetically, elementally, and botanically. We exist to correct that.
 
 Our practice draws from three interlocking disciplines, each ancient in origin and validated by modern science.
 
@@ -28,7 +28,7 @@ We apply Vastu as a diagnostic tool for modern apartments, always through **non-
 
 At the root of both Vastu and Ayurveda sit the **Pancha Mahabhutas**: Prithvi (Earth), Jal (Water), Agni (Fire), Vayu (Air), and Akasha (Space). These are not metaphors — they are a classification system for the energetic properties of every zone in your home and every system in your body.
 
-Balancing these elements spatially, botanically, and dietetically is the central work of Urban Prana.
+Balancing these elements spatially, botanically, and dietetically is the central work of Himani Arora.
 
 [Explore the Five Elements](/elements/){: .btn .btn--primary}
 
@@ -52,7 +52,7 @@ We integrate these patterns into every Vastu consultation as a practical, eviden
 
 ---
 
-> "A dwelling is not a container. It is a living system — and like all living systems, it thrives or decays depending on how well it is aligned with the forces that surround it." — Urban Prana
+> "A dwelling is not a container. It is a living system — and like all living systems, it thrives or decays depending on how well it is aligned with the forces that surround it." — Himani Arora
 
 ---
 

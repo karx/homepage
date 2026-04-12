@@ -12,7 +12,7 @@ tags:
 excerpt: "How vertical bungalows and forest-themed living are bringing the profound benefits of Shinrin-yoku (forest bathing) to the urban skyline."
 ---
 
-Urban dwellers spend over 90% of their time indoors, often in "depleted" environments lacking natural light and fresh air. At **Urban Prana**, we’re pioneering the integration of **Shinrin-yoku** (forest bathing) into modern architecture, turning the high-rise era into a time of restorative living.
+Urban dwellers spend over 90% of their time indoors, often in "depleted" environments lacking natural light and fresh air. At **Himani Arora**, we’re pioneering the integration of **Shinrin-yoku** (forest bathing) into modern architecture, turning the high-rise era into a time of restorative living.
 
 ## The Power of Phytoncides: Airborne Immunity
 
@@ -45,4 +45,4 @@ By turning our homes into vertical sanctuaries, we aren't just building structur
 
 ---
 
-> "The sound and sight of nature allows for deep psychological restoration in an increasingly frantic world." — Urban Prana Philosophy
+> "The sound and sight of nature allows for deep psychological restoration in an increasingly frantic world." — Himani Arora

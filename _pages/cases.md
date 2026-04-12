@@ -61,6 +61,6 @@ A project dedicated to **100% Vastu-compliant units**, using Mivan construction 
 
 ---
 
-> "The built environment is either medicine or poison. There is no neutral." — Urban Prana
+> "The built environment is either medicine or poison. There is no neutral." — Himani Arora
 
 [Book a Consultation](/contact/){: .btn .btn--primary}

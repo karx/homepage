@@ -12,7 +12,7 @@ tags:
 excerpt: "Exploring the intersection of nutritional sovereignty, environmental health, and the psychological architecture of modern urban life."
 ---
 
-In an era characterized by rising healthcare costs and the prevalence of chronic conditions, the necessity of examining the connection between the mind, the body, and the environment has never been more urgent. At **Urban Prana**, we operate within the **biopsychosocial model**, recognizing that human health is shaped by the continuous interaction of biological factors, psychological dynamics, and overarching social conditions.
+In an era characterized by rising healthcare costs and the prevalence of chronic conditions, the necessity of examining the connection between the mind, the body, and the environment has never been more urgent. At **Himani Arora**, we operate within the **biopsychosocial model**, recognizing that human health is shaped by the continuous interaction of biological factors, psychological dynamics, and overarching social conditions.
 
 ## Nutritional Sovereignty: Beyond Individual Consumption
 

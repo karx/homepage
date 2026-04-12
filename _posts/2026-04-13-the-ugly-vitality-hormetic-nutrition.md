@@ -12,7 +12,7 @@ tags:
 excerpt: "Re-evaluating the 'ugly harvest' through the lens of hormesis—how plant stress creates the very antioxidants our urban bodies crave."
 ---
 
-In the sterile aisles of modern supermarkets, we’ve been conditioned to seek out aesthetic perfection: symmetrical apples, spotless spinach, and perfectly straight carrots. But at **Urban Prana**, we’re championing the **"Ugly Harvest."**
+In the sterile aisles of modern supermarkets, we’ve been conditioned to seek out aesthetic perfection: symmetrical apples, spotless spinach, and perfectly straight carrots. But at **Himani Arora**, we’re championing the **"Ugly Harvest."**
 
 Scientific research into the **Hormetic Effect** reveals a profound truth: the stress a plant undergoes—from pests, UV exposure, or limited water—is the primary driver of its nutritional value.
 
@@ -41,4 +41,4 @@ The next time you visit an organic market in the NCR, don't look for the "pretti
 
 ---
 
-> "Health is not merely the absence of disease, but the presence of vitality derived from a resilient ecosystem." — Urban Prana Philosophy
+> "Health is not merely the absence of disease, but the presence of vitality derived from a resilient ecosystem." — Himani Arora

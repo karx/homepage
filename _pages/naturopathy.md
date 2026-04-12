@@ -35,4 +35,4 @@ Our approach to Naturopathy within the built environment focuses on:
 
 ---
 
-> "Integrating nature into our dwellings is essential for cognitive function and emotional resilience." — Urban Prana Philosophy
+> "Integrating nature into our dwellings is essential for cognitive function and emotional resilience." — Himani Arora
